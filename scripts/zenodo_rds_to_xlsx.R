@@ -132,6 +132,25 @@ sheet_safe <- function(x) {
   substr(x, 1, 31)
 }
 
+make_unique <- function(x) {
+  out <- character(length(x))
+  seen <- list()
+  for (i in seq_along(x)) {
+    base <- sheet_safe(x[[i]])
+    cand <- base
+    k <- 1L
+    while (!is.null(seen[[cand]])) {
+      k <- k + 1L
+      suffix <- paste0("_", k)
+      cand <- substr(base, 1, max(1, 31 - nchar(suffix)))
+      cand <- paste0(cand, suffix)
+    }
+    seen[[cand]] <- TRUE
+    out[[i]] <- cand
+  }
+  out
+}
+
 
 
 write_workbook_for_df_list <- function(df_list, out_file, sheet_names) {
@@ -199,24 +218,7 @@ if (length(obj) > 0 && all(vapply(obj, is.data.frame, logical(1)))) {
   done <- FALSE
 }
 
-make_unique <- function(x) {
-  out <- character(length(x))
-  seen <- list()
-  for (i in seq_along(x)) {
-    base <- sheet_safe(x[[i]])
-    cand <- base
-    k <- 1L
-    while (!is.null(seen[[cand]])) {
-      k <- k + 1L
-      suffix <- paste0("_", k)
-      cand <- substr(base, 1, max(1, 31 - nchar(suffix)))
-      cand <- paste0(cand, suffix)
-    }
-    seen[[cand]] <- TRUE
-    out[[i]] <- cand
-  }
-  out
-}
+
 
 walk_nested <- function(x, base_dir, path_parts = character()) {
   if (!is.list(x)) return(invisible(NULL))
