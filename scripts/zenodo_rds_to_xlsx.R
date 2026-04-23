@@ -34,7 +34,11 @@ safe_name <- function(x, max_len = 80) {
   ifelse(nchar(x) > max_len, substr(x, 1, max_len), x)
 }
 
-ensure_dir <- function(path) dir.create(path, showWarnings = FALSE, recursive = TRUE)
+ensure_dir <- function(path) {
+  if (!is.null(path) && nzchar(path) && !is.na(path)) {
+    dir.create(path, showWarnings = FALSE, recursive = TRUE)
+  }
+}
 
 zenodo_headers <- function() {
   h <- c(`User-Agent` = ua)
