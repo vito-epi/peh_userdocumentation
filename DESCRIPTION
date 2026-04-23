@@ -1,0 +1,10 @@
+Package: peh_userdocumentation
+Type: Project
+Title: PEH Data Platform User Documentation
+Version: 0.0.0
+Imports:
+    httr,
+    jsonlite,
+    openxlsx
+Encoding: UTF-8
+License: CC0

@@ -18,15 +18,21 @@ jobs:
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
 
-      - name: Install R packages
-        run: |
-          Rscript -e 'install.packages(c("openxlsx","httr","jsonlite"), repos="https://cloud.r-project.org")'
+      - name: Install R dependencies (and system requirements)
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: |
+            any::openxlsx
+            any::httr
+            any::jsonlite
 
       - name: Build Excel downloads from Zenodo
         env:
           ZENODO_DOI: 10.5281/zenodo.19682162
-          # Optional:
+          # optional:
           # ZENODO_RDS_KEY: your_file_name.rds
           # ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
         run: |
@@ -41,3 +47,4 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
