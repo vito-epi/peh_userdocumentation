@@ -238,4 +238,31 @@ lines <- c(
 )
 writeLines(lines, index_path)
 
+
+
+# ALSO create an index.html inside the DOI folder
+xlsx_doi <- list.files(doi_dir, pattern = "\\.xlsx$", full.names = FALSE)
+xlsx_doi <- sort(xlsx_doi)
+
+doi_index_path <- file.path(doi_dir, "index.html")
+
+doi_lines <- c(
+  "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
+  sprintf("<h1>Downloads for %s</h1>", doi),
+  "<p>Click a file to download it.</p>",
+  "<ul>",
+  if (length(xlsx_doi) == 0) "<li><em>No .xlsx files found in this folder.</em></li>" else
+    vapply(xlsx_doi, function(f) {
+      # links are relative to the DOI folder
+      sprintf("<li><a href='%s'>%s</a></li>", f, f)
+    }, character(1)),
+  "</ul>",
+  "</body></html>"
+)
+
+writeLines(doi_lines, doi_index_path)
+
 message("Done. Wrote Excel workbooks under: ", normalizePath(doi_dir, winslash = "/", mustWork = FALSE))
+
+
+
