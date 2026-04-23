@@ -39,7 +39,8 @@ zenodo_get <- function(url) {
 
 # 1) Resolve DOI -> Zenodo record (latest/versioned DOI both work; use quotes around DOI) [5](https://github.com/zenodo/zenodo/issues/2358)[4](https://help.zenodo.org/guides/search/)
 message("Searching Zenodo record for DOI: ", doi)
-q <- URLencode(sprintf('doi:"%s"', doi), reserved = TRUE)
+query <- sprintf('(doi:"%s" OR conceptdoi:"%s")', doi, doi)
+q <- URLencode(query, reserved = TRUE)
 search_url <- sprintf("https://zenodo.org/api/records/?q=%s&size=1", q)
 js <- fromJSON(zenodo_get(search_url), simplifyVector = FALSE)
 
