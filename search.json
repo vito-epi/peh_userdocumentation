@@ -1,0 +1,208 @@
+[
+  {
+    "objectID": "user-guide/overview.html",
+    "href": "user-guide/overview.html",
+    "title": "User guide – Overview",
+    "section": "",
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "crumbs": [
+      "User guide",
+      "User guide – Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/overview.html#purpose-of-the-user-guide",
+    "href": "user-guide/overview.html#purpose-of-the-user-guide",
+    "title": "User guide – Overview",
+    "section": "",
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "crumbs": [
+      "User guide",
+      "User guide – Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/overview.html#conceptual-workflow",
+    "href": "user-guide/overview.html#conceptual-workflow",
+    "title": "User guide – Overview",
+    "section": "Conceptual workflow",
+    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement.",
+    "crumbs": [
+      "User guide",
+      "User guide – Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/overview.html#inputs",
+    "href": "user-guide/overview.html#inputs",
+    "title": "User guide – Overview",
+    "section": "Inputs",
+    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected.",
+    "crumbs": [
+      "User guide",
+      "User guide – Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/overview.html#outputs",
+    "href": "user-guide/overview.html#outputs",
+    "title": "User guide – Overview",
+    "section": "Outputs",
+    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation.",
+    "crumbs": [
+      "User guide",
+      "User guide – Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/overview.html#limitations-and-responsibilities",
+    "href": "user-guide/overview.html#limitations-and-responsibilities",
+    "title": "User guide – Overview",
+    "section": "Limitations and responsibilities",
+    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "crumbs": [
+      "User guide",
+      "User guide – Overview"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "",
+    "text": "The PEH Data Platform supports the preparation, inspection and harmonisation of data related to Population Environmental Health (PEH) studies.\nThe platform is designed to: - support structured data submission - improve consistency with agreed codebooks and templates - increase transparency in data processing steps\nIt is intended for researchers and data managers, not for software developers.\n\n\n\n\n\n\nNote\n\n\n\nThis website provides user guidance only.\nThe PEH Data Platform does not store personal data via this documentation site."
+  },
+  {
+    "objectID": "index.html#what-is-the-peh-data-platform",
+    "href": "index.html#what-is-the-peh-data-platform",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "",
+    "text": "The PEH Data Platform supports the preparation, inspection and harmonisation of data related to Population Environmental Health (PEH) studies.\nThe platform is designed to: - support structured data submission - improve consistency with agreed codebooks and templates - increase transparency in data processing steps\nIt is intended for researchers and data managers, not for software developers.\n\n\n\n\n\n\nNote\n\n\n\nThis website provides user guidance only.\nThe PEH Data Platform does not store personal data via this documentation site."
+  },
+  {
+    "objectID": "index.html#who-is-this-guidance-for",
+    "href": "index.html#who-is-this-guidance-for",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "Who is this guidance for?",
+    "text": "Who is this guidance for?\n\nPartners contributing data to PEH‑related studies or platforms\n\nResearchers working with standardised questionnaires or templates\n\nData managers responsible for data quality and documentation\n\nNo programming knowledge is required to use the platform."
+  },
+  {
+    "objectID": "index.html#what-you-will-find-here",
+    "href": "index.html#what-you-will-find-here",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "What you will find here",
+    "text": "What you will find here\n\nGetting started – what you need before first use\n\nUser guide – detailed explanations of inputs, workflows and outputs\n\nLimitations and governance – assumptions, scope and responsibilities\n\nUse the navigation to explore the documentation."
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "Citation",
+    "text": "Citation\nIf you use the PEH Data Platform in your work, please cite:\n\nPEH Data Platform. Version X.Y.\nOrganization, Year.\nDOI: https://doi.org/xxxxx"
+  },
+  {
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
+  },
+  {
+    "objectID": "getting-started.html#purpose-of-this-page",
+    "href": "getting-started.html#purpose-of-this-page",
+    "title": "Getting started",
+    "section": "",
+    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
+  },
+  {
+    "objectID": "getting-started.html#before-you-begin",
+    "href": "getting-started.html#before-you-begin",
+    "title": "Getting started",
+    "section": "Before you begin",
+    "text": "Before you begin\nTo use the PEH Data Platform, you typically need:\n\nAccess to the platform (web-based or local deployment)\nInput data structured according to the relevant PEH specifications\nThe corresponding codebook or metadata template\n\nNo installation or programming is required."
+  },
+  {
+    "objectID": "getting-started.html#typical-use",
+    "href": "getting-started.html#typical-use",
+    "title": "Getting started",
+    "section": "Typical use",
+    "text": "Typical use\nIn most cases, users will:\n\nPrepare their data following the agreed template\n\nLoad the data into the PEH Data Platform\n\nInspect structure, variables and value domains\n\nExport results or reports for further review\n\nEach of these steps is explained in more detail in the User guide."
+  },
+  {
+    "objectID": "getting-started.html#important-boundaries",
+    "href": "getting-started.html#important-boundaries",
+    "title": "Getting started",
+    "section": "Important boundaries",
+    "text": "Important boundaries\n\n\n\n\n\n\nWarning\n\n\n\nThe PEH Data Platform: - does not correct or impute data - does not replace study-specific validation procedures - does not assess scientific validity of the data\n\n\nUsers remain responsible for the correctness and interpretation of their data."
+  },
+  {
+    "objectID": "getting-started.html#next-steps",
+    "href": "getting-started.html#next-steps",
+    "title": "Getting started",
+    "section": "Next steps",
+    "text": "Next steps\nContinue with the User guide for a detailed explanation of inputs, outputs and limitations."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html",
+    "href": "user-guide/data-requirements.html",
+    "title": "Data requirements",
+    "section": "",
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#purpose-of-this-page",
+    "href": "user-guide/data-requirements.html#purpose-of-this-page",
+    "title": "Data requirements",
+    "section": "",
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#general-principles",
+    "href": "user-guide/data-requirements.html#general-principles",
+    "title": "Data requirements",
+    "section": "General principles",
+    "text": "General principles\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined templates\nfollow agreed codebooks\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation, but does not enforce or modify data."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#templates",
+    "href": "user-guide/data-requirements.html#templates",
+    "title": "Data requirements",
+    "section": "Templates",
+    "text": "Templates\n\nWhat is a template?\nA template defines: - the expected structure of the dataset - variable names - basic formatting rules (e.g. one variable per column)\nTemplates are typically provided by the project or coordinating body.\n\n\nTemplate expectations\nInput data should: - match the template structure - contain all required variables - use consistent naming and formatting\nMissing variables or additional, non‑specified variables are reported by the platform."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#codebooks",
+    "href": "user-guide/data-requirements.html#codebooks",
+    "title": "Data requirements",
+    "section": "Codebooks",
+    "text": "Codebooks\n\nRole of codebooks\nCodebooks describe the meaning and coding of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable\nThey form the reference against which input data are inspected.\n\n\nAllowed values\nWhere allowed values are specified: - the platform checks whether data values fall within the defined domain - deviations are flagged, not corrected\n\n\n\n\n\n\nNote\n\n\n\nThe platform does not harmonise or recode values automatically."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#relationship-between-templates-and-codebooks",
+    "href": "user-guide/data-requirements.html#relationship-between-templates-and-codebooks",
+    "title": "Data requirements",
+    "section": "Relationship between templates and codebooks",
+    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#handling-deviations",
+    "href": "user-guide/data-requirements.html#handling-deviations",
+    "title": "Data requirements",
+    "section": "Handling deviations",
+    "text": "Handling deviations\nThe following situations may occur:\n\nmissing required variables\nadditional variables not defined in the codebook\nvalues outside the allowed domain\n\nIn all cases: - deviations are reported or summarised - data are not altered - responsibility remains with the data provider"
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#responsibilities-of-data-providers",
+    "href": "user-guide/data-requirements.html#responsibilities-of-data-providers",
+    "title": "Data requirements",
+    "section": "Responsibilities of data providers",
+    "text": "Responsibilities of data providers\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for: - correctness of their data - alignment with project specifications - ethical and regulatory compliance\n\n\nThe platform is a supporting tool, not a validation authority."
+  },
+  {
+    "objectID": "user-guide/data-requirements.html#where-to-find-specifications",
+    "href": "user-guide/data-requirements.html#where-to-find-specifications",
+    "title": "Data requirements",
+    "section": "Where to find specifications",
+    "text": "Where to find specifications\nProject‑specific templates, codebooks and metadata specifications are typically provided: - via the project repository - as supplementary documentation - or through dedicated data coordination teams\nAlways ensure you are using the correct and most recent version of the specifications."
+  }
+]
