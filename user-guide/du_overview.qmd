@@ -1,0 +1,63 @@
+---
+title: "Overview"
+---
+
+## Who is this section for?
+
+This section is intended for **data users**, i.e. individuals or organisations who:
+
+- request access to PEH data
+- analyse or interpret PEH data
+- reuse PEH data for research, policy support or reporting
+
+It does **not** describe how data should be prepared or submitted.
+
+---
+
+## Purpose of the PEH Data Platform for data users
+
+For data users, the PEH Data Platform supports:
+
+- understanding which data are available
+- clarifying conditions and constraints for data access
+- providing structured information to support data requests
+
+The platform does **not** grant access automatically.
+
+---
+
+## Typical role of a data user
+
+A data user typically:
+
+1. Identifies a research or policy question  
+2. Determines whether relevant PEH data may exist  
+3. Submits a data request through the appropriate procedure  
+4. Uses the data in line with agreed conditions  
+
+Each step may involve review by data owners or governance bodies.
+
+---
+
+## What this section covers
+
+In this section you will find guidance on:
+
+- how data requests are formulated
+- what information is typically required
+- responsibilities associated with using PEH data
+
+---
+
+## Important note on responsibilities
+
+::: callout-important
+Data users remain fully responsible for:
+
+- ethical approval where required
+- compliance with data protection regulations
+- correct interpretation and use of the data
+:::
+
+The PEH Data Platform provides guidance and support, but does not replace formal governance procedures.
+``

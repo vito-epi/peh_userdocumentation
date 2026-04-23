@@ -1,5 +1,5 @@
 ---
-title: "User guide – Overview"
+title: "Overview"
 ---
 
 ## Purpose of the user guide

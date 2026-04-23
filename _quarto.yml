@@ -19,11 +19,17 @@ website:
       - icon: github
         href: https://github.com/<org>/<repo>
 
-  sidebar:
-    - title: "User guide"
-      contents:
-        - user-guide/overview.qmd
-        - user-guide/data-requirements.qmd
+sidebar:
+  - title: "Data Providers"
+    contents:
+      - user-guide/overview.qmd
+      - user-guide/data-requirements.qmd
+
+  - title: "Data Users"
+    contents:
+      - user-guide/data-users-overview.qmd
+      - user-guide/data-requests.qmd
+
         # later uitbreiden:
         # - user-guide/workflows.qmd
         # 
