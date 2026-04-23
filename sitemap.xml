@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/index.html</loc>
-    <lastmod>2026-04-23T15:31:01.469Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/du_data-requests.html</loc>
-    <lastmod>2026-04-23T15:18:31.985Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/dp_data-requirements.html</loc>
-    <lastmod>2026-04-23T14:39:03.926Z</lastmod>
-  </url>
-  <url>
     <loc>https://vito-epi.github.io/peh_userdocumentation/getting-started.html</loc>
-    <lastmod>2026-04-23T14:39:03.918Z</lastmod>
+    <lastmod>2026-04-23T17:12:32.484Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/index.html</loc>
+    <lastmod>2026-04-23T17:12:32.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/dataproviders/data-requirements.html</loc>
+    <lastmod>2026-04-23T17:12:32.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/datausers/data-requests.html</loc>
+    <lastmod>2026-04-23T17:12:32.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/datausers/overview.html</loc>
+    <lastmod>2026-04-23T17:12:32.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/dataproviders/overview.html</loc>
+    <lastmod>2026-04-23T17:12:32.485Z</lastmod>
   </url>
   <url>
     <loc>https://vito-epi.github.io/peh_userdocumentation/index.html</loc>
-    <lastmod>2026-04-23T14:39:03.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/dp_overview.html</loc>
-    <lastmod>2026-04-23T15:09:05.656Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/du_overview.html</loc>
-    <lastmod>2026-04-23T15:18:45.368Z</lastmod>
+    <lastmod>2026-04-23T17:12:32.484Z</lastmod>
   </url>
 </urlset>
