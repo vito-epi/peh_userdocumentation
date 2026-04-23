@@ -21,14 +21,13 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("openxlsx","zen4R","httr"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("openxlsx","httr","jsonlite"), repos="https://cloud.r-project.org")'
 
       - name: Build Excel downloads from Zenodo
         env:
           ZENODO_DOI: 10.5281/zenodo.19682162
-          # Optional (only if multiple .rds files exist in the record):
+          # Optional:
           # ZENODO_RDS_KEY: your_file_name.rds
-          # Optional token for higher rate limits:
           # ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
         run: |
           Rscript scripts/zenodo_rds_to_xlsx.R
