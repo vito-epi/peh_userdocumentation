@@ -147,62 +147,98 @@
     "href": "user-guide/data-requirements.html",
     "title": "Data requirements",
     "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform."
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#purpose-of-this-page",
     "href": "user-guide/data-requirements.html#purpose-of-this-page",
     "title": "Data requirements",
     "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform."
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#general-principles",
     "href": "user-guide/data-requirements.html#general-principles",
     "title": "Data requirements",
     "section": "General principles",
-    "text": "General principles\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined templates\nfollow agreed codebooks\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation, but does not enforce or modify data."
+    "text": "General principles\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined templates\nfollow agreed codebooks\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation, but does not enforce or modify data.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#templates",
     "href": "user-guide/data-requirements.html#templates",
     "title": "Data requirements",
     "section": "Templates",
-    "text": "Templates\n\nWhat is a template?\nA template defines: - the expected structure of the dataset - variable names - basic formatting rules (e.g. one variable per column)\nTemplates are typically provided by the project or coordinating body.\n\n\nTemplate expectations\nInput data should: - match the template structure - contain all required variables - use consistent naming and formatting\nMissing variables or additional, non‑specified variables are reported by the platform."
+    "text": "Templates\n\nWhat is a template?\nA template defines: - the expected structure of the dataset - variable names - basic formatting rules (e.g. one variable per column)\nTemplates are typically provided by the project or coordinating body.\n\n\nTemplate expectations\nInput data should: - match the template structure - contain all required variables - use consistent naming and formatting\nMissing variables or additional, non‑specified variables are reported by the platform.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#codebooks",
     "href": "user-guide/data-requirements.html#codebooks",
     "title": "Data requirements",
     "section": "Codebooks",
-    "text": "Codebooks\n\nRole of codebooks\nCodebooks describe the meaning and coding of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable\nThey form the reference against which input data are inspected.\n\n\nAllowed values\nWhere allowed values are specified: - the platform checks whether data values fall within the defined domain - deviations are flagged, not corrected\n\n\n\n\n\n\nNote\n\n\n\nThe platform does not harmonise or recode values automatically."
+    "text": "Codebooks\n\nRole of codebooks\nCodebooks describe the meaning and coding of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable\nThey form the reference against which input data are inspected.\n\n\nAllowed values\nWhere allowed values are specified: - the platform checks whether data values fall within the defined domain - deviations are flagged, not corrected\n\n\n\n\n\n\nNote\n\n\n\nThe platform does not harmonise or recode values automatically.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#relationship-between-templates-and-codebooks",
     "href": "user-guide/data-requirements.html#relationship-between-templates-and-codebooks",
     "title": "Data requirements",
     "section": "Relationship between templates and codebooks",
-    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both."
+    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#handling-deviations",
     "href": "user-guide/data-requirements.html#handling-deviations",
     "title": "Data requirements",
     "section": "Handling deviations",
-    "text": "Handling deviations\nThe following situations may occur:\n\nmissing required variables\nadditional variables not defined in the codebook\nvalues outside the allowed domain\n\nIn all cases: - deviations are reported or summarised - data are not altered - responsibility remains with the data provider"
+    "text": "Handling deviations\nThe following situations may occur:\n\nmissing required variables\nadditional variables not defined in the codebook\nvalues outside the allowed domain\n\nIn all cases: - deviations are reported or summarised - data are not altered - responsibility remains with the data provider",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#responsibilities-of-data-providers",
     "href": "user-guide/data-requirements.html#responsibilities-of-data-providers",
     "title": "Data requirements",
     "section": "Responsibilities of data providers",
-    "text": "Responsibilities of data providers\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for: - correctness of their data - alignment with project specifications - ethical and regulatory compliance\n\n\nThe platform is a supporting tool, not a validation authority."
+    "text": "Responsibilities of data providers\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for: - correctness of their data - alignment with project specifications - ethical and regulatory compliance\n\n\nThe platform is a supporting tool, not a validation authority.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/data-requirements.html#where-to-find-specifications",
     "href": "user-guide/data-requirements.html#where-to-find-specifications",
     "title": "Data requirements",
     "section": "Where to find specifications",
-    "text": "Where to find specifications\nProject‑specific templates, codebooks and metadata specifications are typically provided: - via the project repository - as supplementary documentation - or through dedicated data coordination teams\nAlways ensure you are using the correct and most recent version of the specifications."
+    "text": "Where to find specifications\nProject‑specific templates, codebooks and metadata specifications are typically provided: - via the project repository - as supplementary documentation - or through dedicated data coordination teams\nAlways ensure you are using the correct and most recent version of the specifications.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   }
 ]
