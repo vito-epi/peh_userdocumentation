@@ -40,12 +40,15 @@ Incomplete requests may delay evaluation.
 ---
 
 
-## Download Excel templates
+## Download Excel Annexes
 
-The Excel exports are generated automatically from the Zenodo RDS record:
-https://doi.org/10.5281/zenodo.19682162
+The Excel exports are generated automatically from the Zenodo:
+<!-- RDS record: -->
+<!-- https://doi.org/10.5281/zenodo.19682162 -->
 
-- [Browse downloads](/downloads/10.5281_zenodo.19682162/)
+- [Studies](/downloads/10.5281/zenodo.19682386)
+- [Codebooks](/downloads/10.5281_zenodo.19682162/)
+
 
 ---
 
