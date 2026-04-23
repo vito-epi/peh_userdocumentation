@@ -35,9 +35,17 @@ safe_name <- function(x, max_len = 80) {
 }
 
 ensure_dir <- function(path) {
-  if (!is.null(path) && nzchar(path) && !is.na(path)) {
-    dir.create(path, showWarnings = FALSE, recursive = TRUE)
-  }
+  # handle NULL / length-0 / vectors
+  if (is.null(path) || length(path) == 0) return(invisible(FALSE))
+  
+  # take first element and coerce to character
+  path <- as.character(path[[1]])
+  
+  # guard against NA or empty
+  if (is.na(path) || path == "") return(invisible(FALSE))
+  
+  dir.create(path, showWarnings = FALSE, recursive = TRUE)
+  invisible(TRUE)
 }
 
 zenodo_headers <- function() {
