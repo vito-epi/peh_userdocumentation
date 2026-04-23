@@ -23,9 +23,10 @@ website:
     - title: "User guide"
       contents:
         - user-guide/overview.qmd
+        - user-guide/data-requirements.qmd
         # later uitbreiden:
         # - user-guide/workflows.qmd
-        # - user-guide/data-requirements.qmd
+        # 
         # - user-guide/faq.qmd
 
 format:
