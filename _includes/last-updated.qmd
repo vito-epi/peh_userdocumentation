@@ -5,7 +5,7 @@
 <hr>
 
 <p style="font-size:0.9em;color:#666;">
-Last updated: {{< meta date-modified >}}
+Last updated: {{< page-date >}}
 All downloadable content was retrieved from Zenodo at the time of publication.
 
 </p>
