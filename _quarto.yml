@@ -4,7 +4,7 @@ project:
 website:
   title: "PEH Data Platform – User Guidance"
   site-url: https://vito-epi.github.io/peh_userdocumentation/
-  repo-url: https://github.com/<org>/<repo>
+  repo-url: https://github.com/vito-epi/peh_userdocumentation
   repo-actions: [edit, issue]
 
   navbar:
@@ -17,23 +17,18 @@ website:
         text: User guide
     right:
       - icon: github
-        href: https://github.com/<org>/<repo>
+        href: https://github.com/vito-epi/peh_userdocumentation
 
-sidebar:
-  - title: "Data Providers"
-    contents:
-      - user-guide/dp_overview.qmd
-      - user-guide/dp_data-requirements.qmd
+  sidebar:
+    - title: "Data Providers"
+      contents:
+        - user-guide/dp_overview.qmd
+        - user-guide/dp_data-requirements.qmd
 
-  - title: "Data Users"
-    contents:
-      - user-guide/du_overview.qmd
-      - user-guide/du_data-requests.qmd
-
-        # later uitbreiden:
-        # - user-guide/workflows.qmd
-        # 
-        # - user-guide/faq.qmd
+    - title: "Data Users"
+      contents:
+        - user-guide/du_overview.qmd
+        - user-guide/du_data-requests.qmd
 
 format:
   html:
@@ -42,3 +37,4 @@ format:
     toc-depth: 3
     number-sections: false
     code-copy: true
+
