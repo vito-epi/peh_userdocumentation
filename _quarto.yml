@@ -14,22 +14,22 @@ website:
       - href: getting-started.qmd
         text: Getting started
       - href: user-guide/index.qmd
-       # text: User guide
+        text: User guide
     right:
       - icon: github
         href: https://github.com/vito-epi/peh_userdocumentation
 
-sidebar:
-  - title: "Data Providers"
-    contents:
-      - user-guide/index.qmd
-      - user-guide/dp_overview.qmd
-      - user-guide/dp_data-requirements.qmd
+  sidebar:
+    - title: "Data Providers"
+      contents:
+        - user-guide/index.qmd
+        - user-guide/dp_overview.qmd
+        - user-guide/dp_data-requirements.qmd
 
-  - title: "Data Users"
-    contents:
-      - user-guide/du_overview.qmd
-      - user-guide/du_data-requests.qmd
+    - title: "Data Users"
+      contents:
+        - user-guide/du_overview.qmd
+        - user-guide/du_data-requests.qmd
 
 
 format:
