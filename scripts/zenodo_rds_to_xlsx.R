@@ -7,11 +7,20 @@ suppressPackageStartupMessages({
   library(openxlsx)
 })
 
+# scripts/zenodo_rds_to_xlsx.R
+# Zenodo DOI -> record via REST API -> download .rds -> nested lists -> data.frames -> Excel files
+
+suppressPackageStartupMessages({
+  library(httr)
+  library(jsonlite)
+  library(openxlsx)
+})
+
 doi <- Sys.getenv("ZENODO_DOI", "10.5281/zenodo.19682162")
 rds_key_preferred <- Sys.getenv("ZENODO_RDS_KEY", "")   # optional exact filename in Zenodo record
 zenodo_token <- Sys.getenv("ZENODO_API_KEY", "")        # optional for higher rate limits
 
-ua <- "PEH-DocSite/1.0 (https://vito-epi.github.io/peh_userdocumentation/)"  # good practice UA [6](https://ror.readme.io/docs/zenodo)
+ua <- "PEH-DocSite/1.0 (https://vito-epi.github.io/peh_userdocumentation/)"
 
 `%||%` <- function(a, b) if (!is.null(a)) a else b
 
@@ -27,29 +36,11 @@ safe_name <- function(x, max_len = 80) {
 
 ensure_dir <- function(path) dir.create(path, showWarnings = FALSE, recursive = TRUE)
 
-zenodo_get <- function(url) {
-  resp <- GET(
-    url,
-    user_agent(ua),
-    if (nzchar(zenodo_token)) add_headers(Authorization = paste("Bearer", zenodo_token)) else NULL
-  )
-  stop_for_status(resp)
-  content(resp, as = "text", encoding = "UTF-8")
-}
-
-# 1) Resolve DOI -> Zenodo record (latest/versioned DOI both work; use quotes around DOI) [5](https://github.com/zenodo/zenodo/issues/2358)[4](https://help.zenodo.org/guides/search/)
-# --- Robust DOI -> Zenodo record resolver ---
-
-# --- essentials for HTTP calls ---
-ua <- "PEH-DocSite/1.0 (https://vito-epi.github.io/peh_userdocumentation/)"  # user-agent
-zenodo_token <- Sys.getenv("ZENODO_API_KEY", "")  # optional
-
 zenodo_headers <- function() {
   h <- c(`User-Agent` = ua)
   if (nzchar(zenodo_token)) h <- c(h, Authorization = paste("Bearer", zenodo_token))
   h
 }
-
 
 get_json <- function(url, query = NULL) {
   resp <- httr::RETRY(
@@ -62,8 +53,7 @@ get_json <- function(url, query = NULL) {
   jsonlite::fromJSON(httr::content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)
 }
 
-
-# 1) Try Zenodo search using pids.doi.identifier (field used in Zenodo search guidance) [1](https://zenodo.org/help/search)
+# --- Robust DOI -> Zenodo record resolver ---
 query1 <- sprintf('pids.doi.identifier:"%s"', doi)
 js <- get_json("https://zenodo.org/api/records", query = list(q = query1, size = 1))
 
