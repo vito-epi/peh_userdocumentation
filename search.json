@@ -4,126 +4,189 @@
     "href": "user-guide/index.html",
     "title": "User guide",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role."
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
+    "crumbs": [
+      "User guide"
+    ]
   },
   {
     "objectID": "user-guide/index.html#who-is-this-guidance-for",
     "href": "user-guide/index.html#who-is-this-guidance-for",
     "title": "User guide",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role."
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
+    "crumbs": [
+      "User guide"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html",
     "href": "user-guide/du_data-requests.html",
     "title": "Data requests",
     "section": "",
-    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks"
+    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html#purpose-of-this-page",
     "href": "user-guide/du_data-requests.html#purpose-of-this-page",
     "title": "Data requests",
     "section": "",
-    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks"
+    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html#when-is-a-data-request-required",
     "href": "user-guide/du_data-requests.html#when-is-a-data-request-required",
     "title": "Data requests",
     "section": "When is a data request required?",
-    "text": "When is a data request required?\nIn most cases, a formal data request is required before:\n\naccessing non-public PEH data\nreceiving datasets containing personal or sensitive information\nreusing data beyond the original study purpose\n\nPublicly available summary data may be subject to different conditions."
+    "text": "When is a data request required?\nIn most cases, a formal data request is required before:\n\naccessing non-public PEH data\nreceiving datasets containing personal or sensitive information\nreusing data beyond the original study purpose\n\nPublicly available summary data may be subject to different conditions.",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html#typical-information-included-in-a-data-request",
     "href": "user-guide/du_data-requests.html#typical-information-included-in-a-data-request",
     "title": "Data requests",
     "section": "Typical information included in a data request",
-    "text": "Typical information included in a data request\nA data request usually includes:\n\nthe purpose of data use\na description of the research or policy question\nrequested variables or data components\nintended analyses or outputs\ninformation on data protection and storage\n\nIncomplete requests may delay evaluation."
+    "text": "Typical information included in a data request\nA data request usually includes:\n\nthe purpose of data use\na description of the research or policy question\nrequested variables or data components\nintended analyses or outputs\ninformation on data protection and storage\n\nIncomplete requests may delay evaluation.",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html#review-and-decision-making",
     "href": "user-guide/du_data-requests.html#review-and-decision-making",
     "title": "Data requests",
     "section": "Review and decision-making",
-    "text": "Review and decision-making\nData requests are typically:\n\nreviewed by the data owner or custodian\nassessed for legal, ethical and scientific suitability\napproved, conditionally approved, or rejected\n\nThe PEH Data Platform does not make these decisions."
+    "text": "Review and decision-making\nData requests are typically:\n\nreviewed by the data owner or custodian\nassessed for legal, ethical and scientific suitability\napproved, conditionally approved, or rejected\n\nThe PEH Data Platform does not make these decisions.",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html#conditions-of-data-use",
     "href": "user-guide/du_data-requests.html#conditions-of-data-use",
     "title": "Data requests",
     "section": "Conditions of data use",
-    "text": "Conditions of data use\nIf access is granted, data use is usually subject to conditions, such as:\n\nuse limited to a specific purpose or time period\nrestrictions on data sharing with third parties\nreporting or acknowledgement requirements\n\nViolation of conditions may lead to withdrawal of access."
+    "text": "Conditions of data use\nIf access is granted, data use is usually subject to conditions, such as:\n\nuse limited to a specific purpose or time period\nrestrictions on data sharing with third parties\nreporting or acknowledgement requirements\n\nViolation of conditions may lead to withdrawal of access.",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/du_data-requests.html#final-responsibility",
     "href": "user-guide/du_data-requests.html#final-responsibility",
     "title": "Data requests",
     "section": "Final responsibility",
-    "text": "Final responsibility\n\n\n\n\n\n\nWarning\n\n\n\nApproval of a data request does not transfer responsibility for data use.\nData users remain responsible for: - lawful processing of data - compliance with agreed conditions - appropriate publication and dissemination practices\n\n\n``"
+    "text": "Final responsibility\n\n\n\n\n\n\nWarning\n\n\n\nApproval of a data request does not transfer responsibility for data use.\nData users remain responsible for: - lawful processing of data - compliance with agreed conditions - appropriate publication and dissemination practices\n\n\n``",
+    "crumbs": [
+      "Data requests"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html",
     "href": "user-guide/dp_data-requirements.html",
     "title": "Data requirements",
     "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform."
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#purpose-of-this-page",
     "href": "user-guide/dp_data-requirements.html#purpose-of-this-page",
     "title": "Data requirements",
     "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform."
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#general-principles",
     "href": "user-guide/dp_data-requirements.html#general-principles",
     "title": "Data requirements",
     "section": "General principles",
-    "text": "General principles\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined templates\nfollow agreed codebooks\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation, but does not enforce or modify data."
+    "text": "General principles\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined templates\nfollow agreed codebooks\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation, but does not enforce or modify data.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#templates",
     "href": "user-guide/dp_data-requirements.html#templates",
     "title": "Data requirements",
     "section": "Templates",
-    "text": "Templates\n\nWhat is a template?\nA template defines: - the expected structure of the dataset - variable names - basic formatting rules (e.g. one variable per column)\nTemplates are typically provided by the project or coordinating body.\n\n\nTemplate expectations\nInput data should: - match the template structure - contain all required variables - use consistent naming and formatting\nMissing variables or additional, non‑specified variables are reported by the platform."
+    "text": "Templates\n\nWhat is a template?\nA template defines: - the expected structure of the dataset - variable names - basic formatting rules (e.g. one variable per column)\nTemplates are typically provided by the project or coordinating body.\n\n\nTemplate expectations\nInput data should: - match the template structure - contain all required variables - use consistent naming and formatting\nMissing variables or additional, non‑specified variables are reported by the platform.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#codebooks",
     "href": "user-guide/dp_data-requirements.html#codebooks",
     "title": "Data requirements",
     "section": "Codebooks",
-    "text": "Codebooks\n\nRole of codebooks\nCodebooks describe the meaning and coding of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable\nThey form the reference against which input data are inspected.\n\n\nAllowed values\nWhere allowed values are specified: - the platform checks whether data values fall within the defined domain - deviations are flagged, not corrected\n\n\n\n\n\n\nNote\n\n\n\nThe platform does not harmonise or recode values automatically."
+    "text": "Codebooks\n\nRole of codebooks\nCodebooks describe the meaning and coding of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable\nThey form the reference against which input data are inspected.\n\n\nAllowed values\nWhere allowed values are specified: - the platform checks whether data values fall within the defined domain - deviations are flagged, not corrected\n\n\n\n\n\n\nNote\n\n\n\nThe platform does not harmonise or recode values automatically.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#relationship-between-templates-and-codebooks",
     "href": "user-guide/dp_data-requirements.html#relationship-between-templates-and-codebooks",
     "title": "Data requirements",
     "section": "Relationship between templates and codebooks",
-    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both."
+    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#handling-deviations",
     "href": "user-guide/dp_data-requirements.html#handling-deviations",
     "title": "Data requirements",
     "section": "Handling deviations",
-    "text": "Handling deviations\nThe following situations may occur:\n\nmissing required variables\nadditional variables not defined in the codebook\nvalues outside the allowed domain\n\nIn all cases: - deviations are reported or summarised - data are not altered - responsibility remains with the data provider"
+    "text": "Handling deviations\nThe following situations may occur:\n\nmissing required variables\nadditional variables not defined in the codebook\nvalues outside the allowed domain\n\nIn all cases: - deviations are reported or summarised - data are not altered - responsibility remains with the data provider",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#responsibilities-of-data-providers",
     "href": "user-guide/dp_data-requirements.html#responsibilities-of-data-providers",
     "title": "Data requirements",
     "section": "Responsibilities of data providers",
-    "text": "Responsibilities of data providers\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for: - correctness of their data - alignment with project specifications - ethical and regulatory compliance\n\n\nThe platform is a supporting tool, not a validation authority."
+    "text": "Responsibilities of data providers\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for: - correctness of their data - alignment with project specifications - ethical and regulatory compliance\n\n\nThe platform is a supporting tool, not a validation authority.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "user-guide/dp_data-requirements.html#where-to-find-specifications",
     "href": "user-guide/dp_data-requirements.html#where-to-find-specifications",
     "title": "Data requirements",
     "section": "Where to find specifications",
-    "text": "Where to find specifications\nProject‑specific templates, codebooks and metadata specifications are typically provided: - via the project repository - as supplementary documentation - or through dedicated data coordination teams\nAlways ensure you are using the correct and most recent version of the specifications."
+    "text": "Where to find specifications\nProject‑specific templates, codebooks and metadata specifications are typically provided: - via the project repository - as supplementary documentation - or through dedicated data coordination teams\nAlways ensure you are using the correct and most recent version of the specifications.",
+    "crumbs": [
+      "User guide",
+      "Data requirements"
+    ]
   },
   {
     "objectID": "getting-started.html",
@@ -207,83 +270,125 @@
     "href": "user-guide/dp_overview.html",
     "title": "Overview",
     "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations"
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/dp_overview.html#purpose-of-the-user-guide",
     "href": "user-guide/dp_overview.html#purpose-of-the-user-guide",
     "title": "Overview",
     "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations"
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/dp_overview.html#conceptual-workflow",
     "href": "user-guide/dp_overview.html#conceptual-workflow",
     "title": "Overview",
     "section": "Conceptual workflow",
-    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement."
+    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement.",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/dp_overview.html#inputs",
     "href": "user-guide/dp_overview.html#inputs",
     "title": "Overview",
     "section": "Inputs",
-    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected."
+    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected.",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/dp_overview.html#outputs",
     "href": "user-guide/dp_overview.html#outputs",
     "title": "Overview",
     "section": "Outputs",
-    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation."
+    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation.",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/dp_overview.html#limitations-and-responsibilities",
     "href": "user-guide/dp_overview.html#limitations-and-responsibilities",
     "title": "Overview",
     "section": "Limitations and responsibilities",
-    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider."
+    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/du_overview.html",
     "href": "user-guide/du_overview.html",
     "title": "Overview",
     "section": "",
-    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted."
+    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/du_overview.html#who-is-this-section-for",
     "href": "user-guide/du_overview.html#who-is-this-section-for",
     "title": "Overview",
     "section": "",
-    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted."
+    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/du_overview.html#purpose-of-the-peh-data-platform-for-data-users",
     "href": "user-guide/du_overview.html#purpose-of-the-peh-data-platform-for-data-users",
     "title": "Overview",
     "section": "Purpose of the PEH Data Platform for data users",
-    "text": "Purpose of the PEH Data Platform for data users\nFor data users, the PEH Data Platform supports:\n\nunderstanding which data are available\nclarifying conditions and constraints for data access\nproviding structured information to support data requests\n\nThe platform does not grant access automatically."
+    "text": "Purpose of the PEH Data Platform for data users\nFor data users, the PEH Data Platform supports:\n\nunderstanding which data are available\nclarifying conditions and constraints for data access\nproviding structured information to support data requests\n\nThe platform does not grant access automatically.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/du_overview.html#typical-role-of-a-data-user",
     "href": "user-guide/du_overview.html#typical-role-of-a-data-user",
     "title": "Overview",
     "section": "Typical role of a data user",
-    "text": "Typical role of a data user\nA data user typically:\n\nIdentifies a research or policy question\n\nDetermines whether relevant PEH data may exist\n\nSubmits a data request through the appropriate procedure\n\nUses the data in line with agreed conditions\n\nEach step may involve review by data owners or governance bodies."
+    "text": "Typical role of a data user\nA data user typically:\n\nIdentifies a research or policy question\n\nDetermines whether relevant PEH data may exist\n\nSubmits a data request through the appropriate procedure\n\nUses the data in line with agreed conditions\n\nEach step may involve review by data owners or governance bodies.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/du_overview.html#what-this-section-covers",
     "href": "user-guide/du_overview.html#what-this-section-covers",
     "title": "Overview",
     "section": "What this section covers",
-    "text": "What this section covers\nIn this section you will find guidance on:\n\nhow data requests are formulated\nwhat information is typically required\nresponsibilities associated with using PEH data"
+    "text": "What this section covers\nIn this section you will find guidance on:\n\nhow data requests are formulated\nwhat information is typically required\nresponsibilities associated with using PEH data",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "user-guide/du_overview.html#important-note-on-responsibilities",
     "href": "user-guide/du_overview.html#important-note-on-responsibilities",
     "title": "Overview",
     "section": "Important note on responsibilities",
-    "text": "Important note on responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nData users remain fully responsible for:\n\nethical approval where required\ncompliance with data protection regulations\ncorrect interpretation and use of the data\n\n\n\nThe PEH Data Platform provides guidance and support, but does not replace formal governance procedures. ``"
+    "text": "Important note on responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nData users remain fully responsible for:\n\nethical approval where required\ncompliance with data protection regulations\ncorrect interpretation and use of the data\n\n\n\nThe PEH Data Platform provides guidance and support, but does not replace formal governance procedures. ``",
+    "crumbs": [
+      "Overview"
+    ]
   }
 ]
