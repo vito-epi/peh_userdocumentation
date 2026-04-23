@@ -1,0 +1,51 @@
+---
+title: "Getting started"
+---
+
+## Purpose of this page
+
+This page explains what you need in order to start using the **PEH Data Platform** and what the platform is (and is not) intended to do.
+
+---
+
+## Before you begin
+
+To use the PEH Data Platform, you typically need:
+
+- Access to the platform (web-based or local deployment)
+- Input data structured according to the relevant PEH specifications
+- The corresponding codebook or metadata template
+
+No installation or programming is required.
+
+---
+
+## Typical use
+
+In most cases, users will:
+
+1. Prepare their data following the agreed template  
+2. Load the data into the PEH Data Platform  
+3. Inspect structure, variables and value domains  
+4. Export results or reports for further review  
+
+Each of these steps is explained in more detail in the **User guide**.
+
+---
+
+## Important boundaries
+
+::: callout-warning
+The PEH Data Platform:
+- does not correct or impute data
+- does not replace study-specific validation procedures
+- does not assess scientific validity of the data
+:::
+
+Users remain responsible for the correctness and interpretation of their data.
+
+---
+
+## Next steps
+
+Continue with the **User guide** for a detailed explanation of inputs, outputs and limitations.

@@ -1,0 +1,49 @@
+---
+title: "PEH Data Platform – User Guidance"
+---
+
+## What is the PEH Data Platform?
+
+The **PEH Data Platform** supports the preparation, inspection and harmonisation of data related to **Population Environmental Health (PEH)** studies.
+
+The platform is designed to:
+- support structured data submission
+- improve consistency with agreed codebooks and templates
+- increase transparency in data processing steps
+
+It is intended for **researchers and data managers**, not for software developers.
+
+::: callout-note
+This website provides **user guidance only**.  
+The PEH Data Platform does **not store personal data** via this documentation site.
+:::
+
+---
+
+## Who is this guidance for?
+
+- Partners contributing data to PEH‑related studies or platforms  
+- Researchers working with standardised questionnaires or templates  
+- Data managers responsible for data quality and documentation  
+
+No programming knowledge is required to use the platform.
+
+---
+
+## What you will find here
+
+- **Getting started** – what you need before first use  
+- **User guide** – detailed explanations of inputs, workflows and outputs  
+- **Limitations and governance** – assumptions, scope and responsibilities  
+
+Use the navigation to explore the documentation.
+
+---
+
+## Citation
+
+If you use the PEH Data Platform in your work, please cite:
+
+> *PEH Data Platform*. Version X.Y.  
+> Organization, Year.  
+> DOI: `https://doi.org/xxxxx`

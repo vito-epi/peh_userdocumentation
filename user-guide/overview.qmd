@@ -1,0 +1,65 @@
+---
+title: "User guide – Overview"
+---
+
+## Purpose of the user guide
+
+This user guide describes how to use the **PEH Data Platform** in a correct and responsible way.
+
+It focuses on:
+- required input structures
+- supported checks and inspections
+- interpretation of outputs
+- known limitations
+
+---
+
+## Conceptual workflow
+
+Use of the PEH Data Platform typically follows these steps:
+
+1. Data are prepared according to an agreed PEH template or codebook  
+2. Data are loaded into the platform for inspection  
+3. Structure, variables and value domains are reviewed  
+4. Outputs are used to support further data curation or reporting  
+
+The platform supports the process, but does not replace expert judgement.
+
+---
+
+## Inputs
+
+Input data are expected to be:
+
+- Structured in tabular form
+- Aligned with predefined variable names
+- Coded using specified allowed values where applicable
+
+Deviation from the specification is reported, not automatically corrected.
+
+---
+
+## Outputs
+
+Depending on the configuration, the platform may provide:
+
+- Structured overview tables
+- Summaries of variables and value domains
+- Diagnostic messages or warnings
+
+Outputs should always be reviewed in the context of the original data and documentation.
+
+---
+
+## Limitations and responsibilities
+
+::: callout-important
+The PEH Data Platform is a **supporting tool**.
+
+It does **not**:
+- guarantee regulatory or ethical compliance
+- detect conceptual errors in study design
+- replace formal data submission checks
+:::
+
+Responsibility for data quality remains with the data provider.

@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "PEH Data Platform – User Guidance"
+  site-url: https://<org>.github.io/<repo>/
+  repo-url: https://github.com/<org>/<repo>
+  repo-actions: [edit, issue]
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: getting-started.qmd
+        text: Getting started
+      - href: user-guide/overview.qmd
+        text: User guide
+    right:
+      - icon: github
+        href: https://github.com/<org>/<repo>
+
+  sidebar:
+    - title: "User guide"
+      contents:
+        - user-guide/overview.qmd
+        # later uitbreiden:
+        # - user-guide/workflows.qmd
+        # - user-guide/data-requirements.qmd
+        # - user-guide/faq.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-copy: true
