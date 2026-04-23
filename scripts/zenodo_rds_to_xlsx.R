@@ -115,6 +115,14 @@ writeBin(content(bin, as = "raw"), tmp)
 obj <- readRDS(tmp)
 if (!is.list(obj)) stop("Top-level object in RDS is not a list; cannot apply requested folder structure.")
 
+# ---- Output folder ----
+doi_dir <- file.path("downloads", safe_name(doi, 120))
+ensure_dir(doi_dir)
+
+
+                             
+
+
 # ---- Excel helpers ----
 
 sheet_safe <- function(x) {
@@ -122,6 +130,40 @@ sheet_safe <- function(x) {
   x <- gsub("\\[|\\]", "_", x)
   x <- ifelse(is.na(x) | x == "", "Sheet", x)
   substr(x, 1, 31)
+}
+
+# ==========================================================
+# CASE 0: RDS itself is already a list of data.frames
+# (your second DOI structure)
+# ==========================================================
+if (length(obj) > 0 && all(vapply(obj, is.data.frame, logical(1)))) {
+  
+  message("RDS is a top-level list of data.frames")
+  
+  df_names <- names(obj)
+  df_names <- ifelse(
+    is.na(df_names) | df_names == "",
+    sprintf("item_%03d", seq_along(obj)),
+    df_names
+  )
+  
+  out_file <- unique_file_path(
+    folder   = doi_dir,
+    base_name = "data",
+    ext      = ".xlsx"
+  )
+  
+  write_workbook_for_df_list(
+    df_list     = obj,
+    out_file    = out_file,
+    sheet_names = df_names
+  )
+  
+  # Skip all further nesting logic
+  done <- TRUE
+  
+} else {
+  done <- FALSE
 }
 
 make_unique <- function(x) {
@@ -207,40 +249,20 @@ walk_nested <- function(x, base_dir, path_parts = character()) {
   invisible(NULL)
 }
 
-# ---- Output folder ----
-doi_dir <- file.path("downloads", safe_name(doi, 120))
-ensure_dir(doi_dir)
+
 
 # Top-level: create 3 separate workbooks (adults/children/teenagers etc.) directly in doi_dir
-top_names <- names(obj)
-if (is.null(top_names)) top_names <- rep("", length(obj))
-
-for (i in seq_along(obj)) {
-  current <- obj[[i]]
-  top_nm <- top_names[[i]]
-  top_use <- if (!is.na(top_nm) && nzchar(top_nm)) top_nm else sprintf("list_%03d", i)
-  top_use <- safe_name(top_use, max_len = 80)
+if (!done) {
   
-  # ✅ CASE 1:
-  # Top level is ALREADY a list of data.frames  (your 2nd DOI case)
-  if (is.list(current) && length(current) > 0 &&
-      all(vapply(current, is.data.frame, logical(1)))) {
+  top_names <- names(obj)
+  if (is.null(top_names)) top_names <- rep("", length(obj))
+  
+  for (i in seq_along(obj)) {
+    current <- obj[[i]]
+    top_nm <- top_names[[i]]
+    top_use <- if (!is.na(top_nm) && nzchar(top_nm)) top_nm else sprintf("list_%03d", i)
+    top_use <- safe_name(top_use, max_len = 80)
     
-    message("Top-level list of data.frames detected for: ", top_use)
-    
-    df_names <- names(current)
-    df_names <- ifelse(
-      is.na(df_names) | df_names == "",
-      sprintf("item_%03d", seq_along(current)),
-      df_names
-    )
-    
-    out_file <- unique_file_path(doi_dir, top_use, ext = ".xlsx")
-    write_workbook_for_df_list(current, out_file, df_names)
-    
-  } else {
-    # ✅ CASE 2:
-    # Nested structure (your 1st DOI case)
     walk_nested(current, base_dir = doi_dir, path_parts = c(top_use))
   }
 }
