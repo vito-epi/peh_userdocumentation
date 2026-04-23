@@ -27,7 +27,7 @@ website:
     contents:
       - section: "Data Providers"
         contents:
-          - user-guide/dataproviders/index.qmd
+          - user-guide/index.qmd
           - user-guide/dataproviders/overview.qmd
           - user-guide/dataproviders/data-requirements.qmd
 
