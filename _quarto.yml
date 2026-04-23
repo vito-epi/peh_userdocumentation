@@ -19,7 +19,7 @@ website:
       - href: user-guide/index.qmd
         text: User guide
       - href: pehdata_shiny.qmd
-        text: PEH Data
+        text: PEH Data Explorer
     right:
       - icon: github
         href: https://github.com/vito-epi/peh_userdocumentation
