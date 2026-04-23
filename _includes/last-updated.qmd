@@ -1,0 +1,10 @@
+---
+
+---
+
+<hr>
+
+<p style="font-size:0.9em;color:#666;">
+Last updated: {{< meta document-last-modified >}}  
+All downloadable content was retrieved from Zenodo at the time of publication.
+</p>
