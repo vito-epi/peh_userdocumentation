@@ -46,6 +46,6 @@ format:
     toc-depth: 3
     number-sections: false
     code-copy: true
-    date-modified: true
+    # date-modified: true
     # include-after-body: _includes/last-updated.qmd
 
