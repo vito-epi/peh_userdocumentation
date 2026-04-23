@@ -29,14 +29,11 @@ jobs:
             any::httr
             any::jsonlite
 
-      - name: Build Excel downloads from Zenodo
+      - name: Build Excel downloads from Zenodo (all DOIs)
         env:
-          ZENODO_DOI: 10.5281/zenodo.19682162
-          # optional:
-          # ZENODO_RDS_KEY: your_file_name.rds
-          # ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
+         # ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
         run: |
-          Rscript scripts/zenodo_rds_to_xlsx.R
+          Rscript scripts/build_all_downloads.R
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2

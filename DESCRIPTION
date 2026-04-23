@@ -5,6 +5,7 @@ Version: 0.0.0
 Imports:
     httr,
     jsonlite,
-    openxlsx
+    openxlsx,
+    yaml
 Encoding: UTF-8
 License: CC0
