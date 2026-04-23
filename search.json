@@ -35,25 +35,257 @@
     "text": "Citation\nIf you use the PEH Data Platform in your work, please cite:\n\nPEH Data Platform. Version X.Y.\nOrganization, Year.\nDOI: https://doi.org/xxxxx"
   },
   {
-    "objectID": "user-guide/index.html",
-    "href": "user-guide/index.html",
-    "title": "User guide",
+    "objectID": "pehdata_shiny.html",
+    "href": "pehdata_shiny.html",
+    "title": "PEH Data Explorer",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
+    "text": "The interactive explorer below allows you to browse PEH codebooks and studies. The application runs on a separate Shiny server and is embedded here for convenience.\n\n&lt;p&gt;&lt;/iframe&lt;/p&gt;\n&lt;div id=\"quarto-navigation-envelope\" class=\"hidden\"&gt;\n&lt;p&gt;&lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl\"&gt;PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXItdGl0bGU=\"&gt;PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2luZGV4Lmh0bWxVc2VyLWd1aWRl\"&gt;User guide&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMQ==\"&gt;Data Providers&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGFwcm92aWRlcnMvb3ZlcnZpZXcuaHRtbE92ZXJ2aWV3\"&gt;Overview&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGFwcm92aWRlcnMvZGF0YS1yZXF1aXJlbWVudHMuaHRtbERhdGEtcmVxdWlyZW1lbnRz\"&gt;Data requirements&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMg==\"&gt;Data Users&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGF1c2Vycy9vdmVydmlldy5odG1sT3ZlcnZpZXc=\"&gt;Overview&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGF1c2Vycy9kYXRhLXJlcXVlc3RzLmh0bWxEYXRhLXJlcXVlc3Rz\"&gt;Data requests&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6SG9tZQ==\"&gt;Home&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=\"&gt;/index.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6R2V0dGluZyBzdGFydGVk\"&gt;Getting started&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L2dldHRpbmctc3RhcnRlZC5odG1s\"&gt;/getting-started.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6VXNlciBndWlkZQ==\"&gt;User guide&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3VzZXItZ3VpZGUvaW5kZXguaHRtbA==\"&gt;/user-guide/index.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6UEVIIERhdGE=\"&gt;PEH Data&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3BlaGRhdGFfc2hpbnkuaHRtbA==\"&gt;/pehdata_shiny.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9naXRodWIuY29tL3ZpdG8tZXBpL3BlaF91c2VyZG9jdW1lbnRhdGlvbg==\"&gt;https://github.com/vito-epi/peh_userdocumentation&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div id=\"quarto-meta-markdown\" class=\"hidden\"&gt;\n&lt;p&gt;&lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW1ldGF0aXRsZQ==\"&gt;PEH Data Explorer – PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=\"&gt;PEH Data Explorer – PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW9nY2FyZHRpdGxl\"&gt;PEH Data Explorer – PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW1ldGFzaXRlbmFtZQ==\"&gt;PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==\"&gt;Interactive exploration of PEH Data: Studies and codebooks&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW9nY2FyZGRkZXNj\"&gt;Interactive exploration of PEH Data: Studies and codebooks&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;/section&gt;\n\n&lt;/main&gt; &lt;!-- /main --&gt;\n&lt;script id = \"quarto-html-after-body\" type=\"application/javascript\"&gt;\n  window.document.addEventListener(\"DOMContentLoaded\", function (event) {\n    const icon = \"\";\n    const anchorJS = new window.AnchorJS();\n    anchorJS.options = {\n      placement: 'right',\n      icon: icon\n    };\n    anchorJS.add('.anchored');\n    const isCodeAnnotation = (el) =&gt; {\n      for (const clz of el.classList) {\n        if (clz.startsWith('code-annotation-')) {                     \n          return true;\n        }\n      }\n      return false;\n    }\n    const onCopySuccess = function(e) {\n      // button target\n      const button = e.trigger;\n      // don't keep focus\n      button.blur();\n      // flash \"checked\"\n      button.classList.add('code-copy-button-checked');\n      var currentTitle = button.getAttribute(\"title\");\n      button.setAttribute(\"title\", \"Copied!\");\n      let tooltip;\n      if (window.bootstrap) {\n        button.setAttribute(\"data-bs-toggle\", \"tooltip\");\n        button.setAttribute(\"data-bs-placement\", \"left\");\n        button.setAttribute(\"data-bs-title\", \"Copied!\");\n        tooltip = new bootstrap.Tooltip(button, \n          { trigger: \"manual\", \n            customClass: \"code-copy-button-tooltip\",\n            offset: [0, -8]});\n        tooltip.show();    \n      }\n      setTimeout(function() {\n        if (tooltip) {\n          tooltip.hide();\n          button.removeAttribute(\"data-bs-title\");\n          button.removeAttribute(\"data-bs-toggle\");\n          button.removeAttribute(\"data-bs-placement\");\n        }\n        button.setAttribute(\"title\", currentTitle);\n        button.classList.remove('code-copy-button-checked');\n      }, 1000);\n      // clear code selection\n      e.clearSelection();\n    }\n    const getTextToCopy = function(trigger) {\n      const outerScaffold = trigger.parentElement.cloneNode(true);\n      const codeEl = outerScaffold.querySelector('code');\n      for (const childEl of codeEl.children) {\n        if (isCodeAnnotation(childEl)) {\n          childEl.remove();\n        }\n      }\n      return codeEl.innerText;\n    }\n    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {\n      text: getTextToCopy\n    });\n    clipboard.on('success', onCopySuccess);\n    if (window.document.getElementById('quarto-embedded-source-code-modal')) {\n      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {\n        text: getTextToCopy,\n        container: window.document.getElementById('quarto-embedded-source-code-modal')\n      });\n      clipboardModal.on('success', onCopySuccess);\n    }\n      var localhostRegex = new RegExp(/^(?:http|https):\\/\\/localhost\\:?[0-9]*\\//);\n      var mailtoRegex = new RegExp(/^mailto:/);\n        var filterRegex = new RegExp(\"https:\\/\\/vito-epi\\.github\\.io\\/peh_userdocumentation\\/\");\n      var isInternal = (href) =&gt; {\n          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);\n      }\n      // Inspect non-navigation links and adorn them if external\n     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');\n      for (var i=0; i&lt;links.length; i++) {\n        const link = links[i];\n        if (!isInternal(link.href)) {\n          // undo the damage that might have been done by quarto-nav.js in the case of\n          // links that we want to consider external\n          if (link.dataset.originalHref !== undefined) {\n            link.href = link.dataset.originalHref;\n          }\n        }\n      }\n    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {\n      const config = {\n        allowHTML: true,\n        maxWidth: 500,\n        delay: 100,\n        arrow: false,\n        appendTo: function(el) {\n            return el.parentElement;\n        },\n        interactive: true,\n        interactiveBorder: 10,\n        theme: 'quarto',\n        placement: 'bottom-start',\n      };\n      if (contentFn) {\n        config.content = contentFn;\n      }\n      if (onTriggerFn) {\n        config.onTrigger = onTriggerFn;\n      }\n      if (onUntriggerFn) {\n        config.onUntrigger = onUntriggerFn;\n      }\n      window.tippy(el, config); \n    }\n    const noterefs = window.document.querySelectorAll('a[role=\"doc-noteref\"]');\n    for (var i=0; i&lt;noterefs.length; i++) {\n      const ref = noterefs[i];\n      tippyHover(ref, function() {\n        // use id or data attribute instead here\n        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');\n        try { href = new URL(href).hash; } catch {}\n        const id = href.replace(/^#\\/?/, \"\");\n        const note = window.document.getElementById(id);\n        if (note) {\n          return note.innerHTML;\n        } else {\n          return \"\";\n        }\n      });\n    }\n    const xrefs = window.document.querySelectorAll('a.quarto-xref');\n    const processXRef = (id, note) =&gt; {\n      // Strip column container classes\n      const stripColumnClz = (el) =&gt; {\n        el.classList.remove(\"page-full\", \"page-columns\");\n        if (el.children) {\n          for (const child of el.children) {\n            stripColumnClz(child);\n          }\n        }\n      }\n      stripColumnClz(note)\n      if (id === null || id.startsWith('sec-')) {\n        // Special case sections, only their first couple elements\n        const container = document.createElement(\"div\");\n        if (note.children && note.children.length &gt; 2) {\n          container.appendChild(note.children[0].cloneNode(true));\n          for (let i = 1; i &lt; note.children.length; i++) {\n            const child = note.children[i];\n            if (child.tagName === \"P\" && child.innerText === \"\") {\n              continue;\n            } else {\n              container.appendChild(child.cloneNode(true));\n              break;\n            }\n          }\n          if (window.Quarto?.typesetMath) {\n            window.Quarto.typesetMath(container);\n          }\n          return container.innerHTML\n        } else {\n          if (window.Quarto?.typesetMath) {\n            window.Quarto.typesetMath(note);\n          }\n          return note.innerHTML;\n        }\n      } else {\n        // Remove any anchor links if they are present\n        const anchorLink = note.querySelector('a.anchorjs-link');\n        if (anchorLink) {\n          anchorLink.remove();\n        }\n        if (window.Quarto?.typesetMath) {\n          window.Quarto.typesetMath(note);\n        }\n        if (note.classList.contains(\"callout\")) {\n          return note.outerHTML;\n        } else {\n          return note.innerHTML;\n        }\n      }\n    }\n    for (var i=0; i&lt;xrefs.length; i++) {\n      const xref = xrefs[i];\n      tippyHover(xref, undefined, function(instance) {\n        instance.disable();\n        let url = xref.getAttribute('href');\n        let hash = undefined; \n        if (url.startsWith('#')) {\n          hash = url;\n        } else {\n          try { hash = new URL(url).hash; } catch {}\n        }\n        if (hash) {\n          const id = hash.replace(/^#\\/?/, \"\");\n          const note = window.document.getElementById(id);\n          if (note !== null) {\n            try {\n              const html = processXRef(id, note.cloneNode(true));\n              instance.setContent(html);\n            } finally {\n              instance.enable();\n              instance.show();\n            }\n          } else {\n            // See if we can fetch this\n            fetch(url.split('#')[0])\n            .then(res =&gt; res.text())\n            .then(html =&gt; {\n              const parser = new DOMParser();\n              const htmlDoc = parser.parseFromString(html, \"text/html\");\n              const note = htmlDoc.getElementById(id);\n              if (note !== null) {\n                const html = processXRef(id, note);\n                instance.setContent(html);\n              } \n            }).finally(() =&gt; {\n              instance.enable();\n              instance.show();\n            });\n          }\n        } else {\n          // See if we can fetch a full url (with no hash to target)\n          // This is a special case and we should probably do some content thinning / targeting\n          fetch(url)\n          .then(res =&gt; res.text())\n          .then(html =&gt; {\n            const parser = new DOMParser();\n            const htmlDoc = parser.parseFromString(html, \"text/html\");\n            const note = htmlDoc.querySelector('main.content');\n            if (note !== null) {\n              // This should only happen for chapter cross references\n              // (since there is no id in the URL)\n              // remove the first header\n              if (note.children.length &gt; 0 && note.children[0].tagName === \"HEADER\") {\n                note.children[0].remove();\n              }\n              const html = processXRef(null, note);\n              instance.setContent(html);\n            } \n          }).finally(() =&gt; {\n            instance.enable();\n            instance.show();\n          });\n        }\n      }, function(instance) {\n      });\n    }\n        let selectedAnnoteEl;\n        const selectorForAnnotation = ( cell, annotation) =&gt; {\n          let cellAttr = 'data-code-cell=\"' + cell + '\"';\n          let lineAttr = 'data-code-annotation=\"' +  annotation + '\"';\n          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';\n          return selector;\n        }\n        const selectCodeLines = (annoteEl) =&gt; {\n          const doc = window.document;\n          const targetCell = annoteEl.getAttribute(\"data-target-cell\");\n          const targetAnnotation = annoteEl.getAttribute(\"data-target-annotation\");\n          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));\n          const lines = annoteSpan.getAttribute(\"data-code-lines\").split(\",\");\n          const lineIds = lines.map((line) =&gt; {\n            return targetCell + \"-\" + line;\n          })\n          let top = null;\n          let height = null;\n          let parent = null;\n          if (lineIds.length &gt; 0) {\n              //compute the position of the single el (top and bottom and make a div)\n              const el = window.document.getElementById(lineIds[0]);\n              top = el.offsetTop;\n              height = el.offsetHeight;\n              parent = el.parentElement.parentElement;\n            if (lineIds.length &gt; 1) {\n              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);\n              const bottom = lastEl.offsetTop + lastEl.offsetHeight;\n              height = bottom - top;\n            }\n            if (top !== null && height !== null && parent !== null) {\n              // cook up a div (if necessary) and position it \n              let div = window.document.getElementById(\"code-annotation-line-highlight\");\n              if (div === null) {\n                div = window.document.createElement(\"div\");\n                div.setAttribute(\"id\", \"code-annotation-line-highlight\");\n                div.style.position = 'absolute';\n                parent.appendChild(div);\n              }\n              div.style.top = top - 2 + \"px\";\n              div.style.height = height + 4 + \"px\";\n              div.style.left = 0;\n              let gutterDiv = window.document.getElementById(\"code-annotation-line-highlight-gutter\");\n              if (gutterDiv === null) {\n                gutterDiv = window.document.createElement(\"div\");\n                gutterDiv.setAttribute(\"id\", \"code-annotation-line-highlight-gutter\");\n                gutterDiv.style.position = 'absolute';\n                const codeCell = window.document.getElementById(targetCell);\n                const gutter = codeCell.querySelector('.code-annotation-gutter');\n                gutter.appendChild(gutterDiv);\n              }\n              gutterDiv.style.top = top - 2 + \"px\";\n              gutterDiv.style.height = height + 4 + \"px\";\n            }\n            selectedAnnoteEl = annoteEl;\n          }\n        };\n        const unselectCodeLines = () =&gt; {\n          const elementsIds = [\"code-annotation-line-highlight\", \"code-annotation-line-highlight-gutter\"];\n          elementsIds.forEach((elId) =&gt; {\n            const div = window.document.getElementById(elId);\n            if (div) {\n              div.remove();\n            }\n          });\n          selectedAnnoteEl = undefined;\n        };\n          // Handle positioning of the toggle\n      window.addEventListener(\n        \"resize\",\n        throttle(() =&gt; {\n          elRect = undefined;\n          if (selectedAnnoteEl) {\n            selectCodeLines(selectedAnnoteEl);\n          }\n        }, 10)\n      );\n      function throttle(fn, ms) {\n      let throttle = false;\n      let timer;\n        return (...args) =&gt; {\n          if(!throttle) { // first call gets through\n              fn.apply(this, args);\n              throttle = true;\n          } else { // all the others get throttled\n              if(timer) clearTimeout(timer); // cancel #2\n              timer = setTimeout(() =&gt; {\n                fn.apply(this, args);\n                timer = throttle = false;\n              }, ms);\n          }\n        };\n      }\n        // Attach click handler to the DT\n        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');\n        for (const annoteDlNode of annoteDls) {\n          annoteDlNode.addEventListener('click', (event) =&gt; {\n            const clickedEl = event.target;\n            if (clickedEl !== selectedAnnoteEl) {\n              unselectCodeLines();\n              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');\n              if (activeEl) {\n                activeEl.classList.remove('code-annotation-active');\n              }\n              selectCodeLines(clickedEl);\n              clickedEl.classList.add('code-annotation-active');\n            } else {\n              // Unselect the line\n              unselectCodeLines();\n              clickedEl.classList.remove('code-annotation-active');\n            }\n          });\n        }\n    const findCites = (el) =&gt; {\n      const parentEl = el.parentElement;\n      if (parentEl) {\n        const cites = parentEl.dataset.cites;\n        if (cites) {\n          return {\n            el,\n            cites: cites.split(' ')\n          };\n        } else {\n          return findCites(el.parentElement)\n        }\n      } else {\n        return undefined;\n      }\n    };\n    var bibliorefs = window.document.querySelectorAll('a[role=\"doc-biblioref\"]');\n    for (var i=0; i&lt;bibliorefs.length; i++) {\n      const ref = bibliorefs[i];\n      const citeInfo = findCites(ref);\n      if (citeInfo) {\n        tippyHover(citeInfo.el, function() {\n          var popup = window.document.createElement('div');\n          citeInfo.cites.forEach(function(cite) {\n            var citeDiv = window.document.createElement('div');\n            citeDiv.classList.add('hanging-indent');\n            citeDiv.classList.add('csl-entry');\n            var biblioDiv = window.document.getElementById('ref-' + cite);\n            if (biblioDiv) {\n              citeDiv.innerHTML = biblioDiv.innerHTML;\n            }\n            popup.appendChild(citeDiv);\n          });\n          return popup.innerHTML;\n        });\n      }\n    }\n  });\n  &lt;/script&gt;\n&lt;/div&gt; &lt;!-- /content --&gt;\n\n&lt;/body&gt;\n\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "pehdata_shiny.html#interactive-peh-data-explorer",
+    "href": "pehdata_shiny.html#interactive-peh-data-explorer",
+    "title": "PEH Data Explorer",
+    "section": "",
+    "text": "The interactive explorer below allows you to browse PEH codebooks and studies. The application runs on a separate Shiny server and is embedded here for convenience.\n\n&lt;p&gt;&lt;/iframe&lt;/p&gt;\n&lt;div id=\"quarto-navigation-envelope\" class=\"hidden\"&gt;\n&lt;p&gt;&lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl\"&gt;PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXItdGl0bGU=\"&gt;PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2luZGV4Lmh0bWxVc2VyLWd1aWRl\"&gt;User guide&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMQ==\"&gt;Data Providers&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGFwcm92aWRlcnMvb3ZlcnZpZXcuaHRtbE92ZXJ2aWV3\"&gt;Overview&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGFwcm92aWRlcnMvZGF0YS1yZXF1aXJlbWVudHMuaHRtbERhdGEtcmVxdWlyZW1lbnRz\"&gt;Data requirements&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMg==\"&gt;Data Users&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGF1c2Vycy9vdmVydmlldy5odG1sT3ZlcnZpZXc=\"&gt;Overview&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi91c2VyLWd1aWRlL2RhdGF1c2Vycy9kYXRhLXJlcXVlc3RzLmh0bWxEYXRhLXJlcXVlc3Rz\"&gt;Data requests&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6SG9tZQ==\"&gt;Home&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=\"&gt;/index.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6R2V0dGluZyBzdGFydGVk\"&gt;Getting started&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L2dldHRpbmctc3RhcnRlZC5odG1s\"&gt;/getting-started.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6VXNlciBndWlkZQ==\"&gt;User guide&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3VzZXItZ3VpZGUvaW5kZXguaHRtbA==\"&gt;/user-guide/index.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6UEVIIERhdGE=\"&gt;PEH Data&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6L3BlaGRhdGFfc2hpbnkuaHRtbA==\"&gt;/pehdata_shiny.html&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly9naXRodWIuY29tL3ZpdG8tZXBpL3BlaF91c2VyZG9jdW1lbnRhdGlvbg==\"&gt;https://github.com/vito-epi/peh_userdocumentation&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div id=\"quarto-meta-markdown\" class=\"hidden\"&gt;\n&lt;p&gt;&lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW1ldGF0aXRsZQ==\"&gt;PEH Data Explorer – PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=\"&gt;PEH Data Explorer – PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW9nY2FyZHRpdGxl\"&gt;PEH Data Explorer – PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW1ldGFzaXRlbmFtZQ==\"&gt;PEH Data Platform – User Guidance&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==\"&gt;Interactive exploration of PEH Data: Studies and codebooks&lt;/span&gt; &lt;span class=\"hidden quarto-markdown-envelope-contents\" data-render-id=\"cXVhcnRvLW9nY2FyZGRkZXNj\"&gt;Interactive exploration of PEH Data: Studies and codebooks&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;/section&gt;\n\n&lt;/main&gt; &lt;!-- /main --&gt;\n&lt;script id = \"quarto-html-after-body\" type=\"application/javascript\"&gt;\n  window.document.addEventListener(\"DOMContentLoaded\", function (event) {\n    const icon = \"\";\n    const anchorJS = new window.AnchorJS();\n    anchorJS.options = {\n      placement: 'right',\n      icon: icon\n    };\n    anchorJS.add('.anchored');\n    const isCodeAnnotation = (el) =&gt; {\n      for (const clz of el.classList) {\n        if (clz.startsWith('code-annotation-')) {                     \n          return true;\n        }\n      }\n      return false;\n    }\n    const onCopySuccess = function(e) {\n      // button target\n      const button = e.trigger;\n      // don't keep focus\n      button.blur();\n      // flash \"checked\"\n      button.classList.add('code-copy-button-checked');\n      var currentTitle = button.getAttribute(\"title\");\n      button.setAttribute(\"title\", \"Copied!\");\n      let tooltip;\n      if (window.bootstrap) {\n        button.setAttribute(\"data-bs-toggle\", \"tooltip\");\n        button.setAttribute(\"data-bs-placement\", \"left\");\n        button.setAttribute(\"data-bs-title\", \"Copied!\");\n        tooltip = new bootstrap.Tooltip(button, \n          { trigger: \"manual\", \n            customClass: \"code-copy-button-tooltip\",\n            offset: [0, -8]});\n        tooltip.show();    \n      }\n      setTimeout(function() {\n        if (tooltip) {\n          tooltip.hide();\n          button.removeAttribute(\"data-bs-title\");\n          button.removeAttribute(\"data-bs-toggle\");\n          button.removeAttribute(\"data-bs-placement\");\n        }\n        button.setAttribute(\"title\", currentTitle);\n        button.classList.remove('code-copy-button-checked');\n      }, 1000);\n      // clear code selection\n      e.clearSelection();\n    }\n    const getTextToCopy = function(trigger) {\n      const outerScaffold = trigger.parentElement.cloneNode(true);\n      const codeEl = outerScaffold.querySelector('code');\n      for (const childEl of codeEl.children) {\n        if (isCodeAnnotation(childEl)) {\n          childEl.remove();\n        }\n      }\n      return codeEl.innerText;\n    }\n    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {\n      text: getTextToCopy\n    });\n    clipboard.on('success', onCopySuccess);\n    if (window.document.getElementById('quarto-embedded-source-code-modal')) {\n      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {\n        text: getTextToCopy,\n        container: window.document.getElementById('quarto-embedded-source-code-modal')\n      });\n      clipboardModal.on('success', onCopySuccess);\n    }\n      var localhostRegex = new RegExp(/^(?:http|https):\\/\\/localhost\\:?[0-9]*\\//);\n      var mailtoRegex = new RegExp(/^mailto:/);\n        var filterRegex = new RegExp(\"https:\\/\\/vito-epi\\.github\\.io\\/peh_userdocumentation\\/\");\n      var isInternal = (href) =&gt; {\n          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);\n      }\n      // Inspect non-navigation links and adorn them if external\n     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');\n      for (var i=0; i&lt;links.length; i++) {\n        const link = links[i];\n        if (!isInternal(link.href)) {\n          // undo the damage that might have been done by quarto-nav.js in the case of\n          // links that we want to consider external\n          if (link.dataset.originalHref !== undefined) {\n            link.href = link.dataset.originalHref;\n          }\n        }\n      }\n    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {\n      const config = {\n        allowHTML: true,\n        maxWidth: 500,\n        delay: 100,\n        arrow: false,\n        appendTo: function(el) {\n            return el.parentElement;\n        },\n        interactive: true,\n        interactiveBorder: 10,\n        theme: 'quarto',\n        placement: 'bottom-start',\n      };\n      if (contentFn) {\n        config.content = contentFn;\n      }\n      if (onTriggerFn) {\n        config.onTrigger = onTriggerFn;\n      }\n      if (onUntriggerFn) {\n        config.onUntrigger = onUntriggerFn;\n      }\n      window.tippy(el, config); \n    }\n    const noterefs = window.document.querySelectorAll('a[role=\"doc-noteref\"]');\n    for (var i=0; i&lt;noterefs.length; i++) {\n      const ref = noterefs[i];\n      tippyHover(ref, function() {\n        // use id or data attribute instead here\n        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');\n        try { href = new URL(href).hash; } catch {}\n        const id = href.replace(/^#\\/?/, \"\");\n        const note = window.document.getElementById(id);\n        if (note) {\n          return note.innerHTML;\n        } else {\n          return \"\";\n        }\n      });\n    }\n    const xrefs = window.document.querySelectorAll('a.quarto-xref');\n    const processXRef = (id, note) =&gt; {\n      // Strip column container classes\n      const stripColumnClz = (el) =&gt; {\n        el.classList.remove(\"page-full\", \"page-columns\");\n        if (el.children) {\n          for (const child of el.children) {\n            stripColumnClz(child);\n          }\n        }\n      }\n      stripColumnClz(note)\n      if (id === null || id.startsWith('sec-')) {\n        // Special case sections, only their first couple elements\n        const container = document.createElement(\"div\");\n        if (note.children && note.children.length &gt; 2) {\n          container.appendChild(note.children[0].cloneNode(true));\n          for (let i = 1; i &lt; note.children.length; i++) {\n            const child = note.children[i];\n            if (child.tagName === \"P\" && child.innerText === \"\") {\n              continue;\n            } else {\n              container.appendChild(child.cloneNode(true));\n              break;\n            }\n          }\n          if (window.Quarto?.typesetMath) {\n            window.Quarto.typesetMath(container);\n          }\n          return container.innerHTML\n        } else {\n          if (window.Quarto?.typesetMath) {\n            window.Quarto.typesetMath(note);\n          }\n          return note.innerHTML;\n        }\n      } else {\n        // Remove any anchor links if they are present\n        const anchorLink = note.querySelector('a.anchorjs-link');\n        if (anchorLink) {\n          anchorLink.remove();\n        }\n        if (window.Quarto?.typesetMath) {\n          window.Quarto.typesetMath(note);\n        }\n        if (note.classList.contains(\"callout\")) {\n          return note.outerHTML;\n        } else {\n          return note.innerHTML;\n        }\n      }\n    }\n    for (var i=0; i&lt;xrefs.length; i++) {\n      const xref = xrefs[i];\n      tippyHover(xref, undefined, function(instance) {\n        instance.disable();\n        let url = xref.getAttribute('href');\n        let hash = undefined; \n        if (url.startsWith('#')) {\n          hash = url;\n        } else {\n          try { hash = new URL(url).hash; } catch {}\n        }\n        if (hash) {\n          const id = hash.replace(/^#\\/?/, \"\");\n          const note = window.document.getElementById(id);\n          if (note !== null) {\n            try {\n              const html = processXRef(id, note.cloneNode(true));\n              instance.setContent(html);\n            } finally {\n              instance.enable();\n              instance.show();\n            }\n          } else {\n            // See if we can fetch this\n            fetch(url.split('#')[0])\n            .then(res =&gt; res.text())\n            .then(html =&gt; {\n              const parser = new DOMParser();\n              const htmlDoc = parser.parseFromString(html, \"text/html\");\n              const note = htmlDoc.getElementById(id);\n              if (note !== null) {\n                const html = processXRef(id, note);\n                instance.setContent(html);\n              } \n            }).finally(() =&gt; {\n              instance.enable();\n              instance.show();\n            });\n          }\n        } else {\n          // See if we can fetch a full url (with no hash to target)\n          // This is a special case and we should probably do some content thinning / targeting\n          fetch(url)\n          .then(res =&gt; res.text())\n          .then(html =&gt; {\n            const parser = new DOMParser();\n            const htmlDoc = parser.parseFromString(html, \"text/html\");\n            const note = htmlDoc.querySelector('main.content');\n            if (note !== null) {\n              // This should only happen for chapter cross references\n              // (since there is no id in the URL)\n              // remove the first header\n              if (note.children.length &gt; 0 && note.children[0].tagName === \"HEADER\") {\n                note.children[0].remove();\n              }\n              const html = processXRef(null, note);\n              instance.setContent(html);\n            } \n          }).finally(() =&gt; {\n            instance.enable();\n            instance.show();\n          });\n        }\n      }, function(instance) {\n      });\n    }\n        let selectedAnnoteEl;\n        const selectorForAnnotation = ( cell, annotation) =&gt; {\n          let cellAttr = 'data-code-cell=\"' + cell + '\"';\n          let lineAttr = 'data-code-annotation=\"' +  annotation + '\"';\n          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';\n          return selector;\n        }\n        const selectCodeLines = (annoteEl) =&gt; {\n          const doc = window.document;\n          const targetCell = annoteEl.getAttribute(\"data-target-cell\");\n          const targetAnnotation = annoteEl.getAttribute(\"data-target-annotation\");\n          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));\n          const lines = annoteSpan.getAttribute(\"data-code-lines\").split(\",\");\n          const lineIds = lines.map((line) =&gt; {\n            return targetCell + \"-\" + line;\n          })\n          let top = null;\n          let height = null;\n          let parent = null;\n          if (lineIds.length &gt; 0) {\n              //compute the position of the single el (top and bottom and make a div)\n              const el = window.document.getElementById(lineIds[0]);\n              top = el.offsetTop;\n              height = el.offsetHeight;\n              parent = el.parentElement.parentElement;\n            if (lineIds.length &gt; 1) {\n              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);\n              const bottom = lastEl.offsetTop + lastEl.offsetHeight;\n              height = bottom - top;\n            }\n            if (top !== null && height !== null && parent !== null) {\n              // cook up a div (if necessary) and position it \n              let div = window.document.getElementById(\"code-annotation-line-highlight\");\n              if (div === null) {\n                div = window.document.createElement(\"div\");\n                div.setAttribute(\"id\", \"code-annotation-line-highlight\");\n                div.style.position = 'absolute';\n                parent.appendChild(div);\n              }\n              div.style.top = top - 2 + \"px\";\n              div.style.height = height + 4 + \"px\";\n              div.style.left = 0;\n              let gutterDiv = window.document.getElementById(\"code-annotation-line-highlight-gutter\");\n              if (gutterDiv === null) {\n                gutterDiv = window.document.createElement(\"div\");\n                gutterDiv.setAttribute(\"id\", \"code-annotation-line-highlight-gutter\");\n                gutterDiv.style.position = 'absolute';\n                const codeCell = window.document.getElementById(targetCell);\n                const gutter = codeCell.querySelector('.code-annotation-gutter');\n                gutter.appendChild(gutterDiv);\n              }\n              gutterDiv.style.top = top - 2 + \"px\";\n              gutterDiv.style.height = height + 4 + \"px\";\n            }\n            selectedAnnoteEl = annoteEl;\n          }\n        };\n        const unselectCodeLines = () =&gt; {\n          const elementsIds = [\"code-annotation-line-highlight\", \"code-annotation-line-highlight-gutter\"];\n          elementsIds.forEach((elId) =&gt; {\n            const div = window.document.getElementById(elId);\n            if (div) {\n              div.remove();\n            }\n          });\n          selectedAnnoteEl = undefined;\n        };\n          // Handle positioning of the toggle\n      window.addEventListener(\n        \"resize\",\n        throttle(() =&gt; {\n          elRect = undefined;\n          if (selectedAnnoteEl) {\n            selectCodeLines(selectedAnnoteEl);\n          }\n        }, 10)\n      );\n      function throttle(fn, ms) {\n      let throttle = false;\n      let timer;\n        return (...args) =&gt; {\n          if(!throttle) { // first call gets through\n              fn.apply(this, args);\n              throttle = true;\n          } else { // all the others get throttled\n              if(timer) clearTimeout(timer); // cancel #2\n              timer = setTimeout(() =&gt; {\n                fn.apply(this, args);\n                timer = throttle = false;\n              }, ms);\n          }\n        };\n      }\n        // Attach click handler to the DT\n        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');\n        for (const annoteDlNode of annoteDls) {\n          annoteDlNode.addEventListener('click', (event) =&gt; {\n            const clickedEl = event.target;\n            if (clickedEl !== selectedAnnoteEl) {\n              unselectCodeLines();\n              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');\n              if (activeEl) {\n                activeEl.classList.remove('code-annotation-active');\n              }\n              selectCodeLines(clickedEl);\n              clickedEl.classList.add('code-annotation-active');\n            } else {\n              // Unselect the line\n              unselectCodeLines();\n              clickedEl.classList.remove('code-annotation-active');\n            }\n          });\n        }\n    const findCites = (el) =&gt; {\n      const parentEl = el.parentElement;\n      if (parentEl) {\n        const cites = parentEl.dataset.cites;\n        if (cites) {\n          return {\n            el,\n            cites: cites.split(' ')\n          };\n        } else {\n          return findCites(el.parentElement)\n        }\n      } else {\n        return undefined;\n      }\n    };\n    var bibliorefs = window.document.querySelectorAll('a[role=\"doc-biblioref\"]');\n    for (var i=0; i&lt;bibliorefs.length; i++) {\n      const ref = bibliorefs[i];\n      const citeInfo = findCites(ref);\n      if (citeInfo) {\n        tippyHover(citeInfo.el, function() {\n          var popup = window.document.createElement('div');\n          citeInfo.cites.forEach(function(cite) {\n            var citeDiv = window.document.createElement('div');\n            citeDiv.classList.add('hanging-indent');\n            citeDiv.classList.add('csl-entry');\n            var biblioDiv = window.document.getElementById('ref-' + cite);\n            if (biblioDiv) {\n              citeDiv.innerHTML = biblioDiv.innerHTML;\n            }\n            popup.appendChild(citeDiv);\n          });\n          return popup.innerHTML;\n        });\n      }\n    }\n  });\n  &lt;/script&gt;\n&lt;/div&gt; &lt;!-- /content --&gt;\n\n&lt;/body&gt;\n\n&lt;/html&gt;"
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html",
+    "href": "user-guide/dataproviders/overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
     "crumbs": [
       "Home",
-      "User guide"
+      "Data Providers",
+      "Overview"
     ]
   },
   {
-    "objectID": "user-guide/index.html#who-is-this-guidance-for",
-    "href": "user-guide/index.html#who-is-this-guidance-for",
-    "title": "User guide",
+    "objectID": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
+    "href": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
+    "title": "Overview",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
     "crumbs": [
       "Home",
-      "User guide"
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#conceptual-workflow",
+    "href": "user-guide/dataproviders/overview.html#conceptual-workflow",
+    "title": "Overview",
+    "section": "Conceptual workflow",
+    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement.",
+    "crumbs": [
+      "Home",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#inputs",
+    "href": "user-guide/dataproviders/overview.html#inputs",
+    "title": "Overview",
+    "section": "Inputs",
+    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected.",
+    "crumbs": [
+      "Home",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#outputs",
+    "href": "user-guide/dataproviders/overview.html#outputs",
+    "title": "Overview",
+    "section": "Outputs",
+    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation.",
+    "crumbs": [
+      "Home",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
+    "href": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
+    "title": "Overview",
+    "section": "Limitations and responsibilities",
+    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "crumbs": [
+      "Home",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html",
+    "href": "user-guide/datausers/data-requests.html",
+    "title": "Data requests",
+    "section": "",
+    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#purpose-of-this-page",
+    "href": "user-guide/datausers/data-requests.html#purpose-of-this-page",
+    "title": "Data requests",
+    "section": "",
+    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
+    "href": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
+    "title": "Data requests",
+    "section": "When is a data request required?",
+    "text": "When is a data request required?\nIn most cases, a formal data request is required before:\n\naccessing non-public PEH data\nreceiving datasets containing personal or sensitive information\nreusing data beyond the original study purpose\n\nPublicly available summary data may be subject to different conditions.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
+    "href": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
+    "title": "Data requests",
+    "section": "Typical information included in a data request",
+    "text": "Typical information included in a data request\nA data request usually includes:\n\nthe purpose of data use\na description of the research or policy question\nrequested variables or data components\nintended analyses or outputs\ninformation on data protection and storage\n\nIncomplete requests may delay evaluation.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#download-excel-annexes",
+    "href": "user-guide/datausers/data-requests.html#download-excel-annexes",
+    "title": "Data requests",
+    "section": "Download Excel Annexes",
+    "text": "Download Excel Annexes\nThe Excel exports are generated automatically from Zenodo:  \n\nStudies\nCodebooks",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#review-and-decision-making",
+    "href": "user-guide/datausers/data-requests.html#review-and-decision-making",
+    "title": "Data requests",
+    "section": "Review and decision-making",
+    "text": "Review and decision-making\nData requests are typically:\n\nreviewed by the data owner or custodian\nassessed for legal, ethical and scientific suitability\napproved, conditionally approved, or rejected\n\nThe PEH Data Platform does not make these decisions.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#conditions-of-data-use",
+    "href": "user-guide/datausers/data-requests.html#conditions-of-data-use",
+    "title": "Data requests",
+    "section": "Conditions of data use",
+    "text": "Conditions of data use\nIf access is granted, data use is usually subject to conditions, such as:\n\nuse limited to a specific purpose or time period\nrestrictions on data sharing with third parties\nreporting or acknowledgement requirements\n\nViolation of conditions may lead to withdrawal of access.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#final-responsibility",
+    "href": "user-guide/datausers/data-requests.html#final-responsibility",
+    "title": "Data requests",
+    "section": "Final responsibility",
+    "text": "Final responsibility\n\n\n\n\n\n\nWarning\n\n\n\nApproval of a data request does not transfer responsibility for data use.\nData users remain responsible for: - lawful processing of data - compliance with agreed conditions - appropriate publication and dissemination practices",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html",
+    "href": "user-guide/datausers/overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#who-is-this-section-for",
+    "href": "user-guide/datausers/overview.html#who-is-this-section-for",
+    "title": "Overview",
+    "section": "",
+    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#purpose-of-the-peh-data-platform-for-data-users",
+    "href": "user-guide/datausers/overview.html#purpose-of-the-peh-data-platform-for-data-users",
+    "title": "Overview",
+    "section": "Purpose of the PEH Data Platform for data users",
+    "text": "Purpose of the PEH Data Platform for data users\nFor data users, the PEH Data Platform supports:\n\nunderstanding which data are available\nclarifying conditions and constraints for data access\nproviding structured information to support data requests\n\nThe platform does not grant access automatically.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#typical-role-of-a-data-user",
+    "href": "user-guide/datausers/overview.html#typical-role-of-a-data-user",
+    "title": "Overview",
+    "section": "Typical role of a data user",
+    "text": "Typical role of a data user\nA data user typically:\n\nIdentifies a research or policy question\n\nDetermines whether relevant PEH data may exist\n\nSubmits a data request through the appropriate procedure\n\nUses the data in line with agreed conditions\n\nEach step may involve review by data owners or governance bodies.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#what-this-section-covers",
+    "href": "user-guide/datausers/overview.html#what-this-section-covers",
+    "title": "Overview",
+    "section": "What this section covers",
+    "text": "What this section covers\nIn this section you will find guidance on:\n\nhow data requests are formulated\nwhat information is typically required\nresponsibilities associated with using PEH data",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#important-note-on-responsibilities",
+    "href": "user-guide/datausers/overview.html#important-note-on-responsibilities",
+    "title": "Overview",
+    "section": "Important note on responsibilities",
+    "text": "Important note on responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nData users remain fully responsible for:\n\nethical approval where required\ncompliance with data protection regulations\ncorrect interpretation and use of the data\n\n\n\nThe PEH Data Platform provides guidance and support, but does not replace formal governance procedures. ``",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Overview"
     ]
   },
   {
@@ -165,243 +397,25 @@
     ]
   },
   {
-    "objectID": "user-guide/datausers/overview.html",
-    "href": "user-guide/datausers/overview.html",
-    "title": "Overview",
+    "objectID": "user-guide/index.html",
+    "href": "user-guide/index.html",
+    "title": "User guide",
     "section": "",
-    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted.",
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
     "crumbs": [
       "Home",
-      "Data Users",
-      "Overview"
+      "User guide"
     ]
   },
   {
-    "objectID": "user-guide/datausers/overview.html#who-is-this-section-for",
-    "href": "user-guide/datausers/overview.html#who-is-this-section-for",
-    "title": "Overview",
+    "objectID": "user-guide/index.html#who-is-this-guidance-for",
+    "href": "user-guide/index.html#who-is-this-guidance-for",
+    "title": "User guide",
     "section": "",
-    "text": "This section is intended for data users, i.e. individuals or organisations who:\n\nrequest access to PEH data\nanalyse or interpret PEH data\nreuse PEH data for research, policy support or reporting\n\nIt does not describe how data should be prepared or submitted.",
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
     "crumbs": [
       "Home",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#purpose-of-the-peh-data-platform-for-data-users",
-    "href": "user-guide/datausers/overview.html#purpose-of-the-peh-data-platform-for-data-users",
-    "title": "Overview",
-    "section": "Purpose of the PEH Data Platform for data users",
-    "text": "Purpose of the PEH Data Platform for data users\nFor data users, the PEH Data Platform supports:\n\nunderstanding which data are available\nclarifying conditions and constraints for data access\nproviding structured information to support data requests\n\nThe platform does not grant access automatically.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#typical-role-of-a-data-user",
-    "href": "user-guide/datausers/overview.html#typical-role-of-a-data-user",
-    "title": "Overview",
-    "section": "Typical role of a data user",
-    "text": "Typical role of a data user\nA data user typically:\n\nIdentifies a research or policy question\n\nDetermines whether relevant PEH data may exist\n\nSubmits a data request through the appropriate procedure\n\nUses the data in line with agreed conditions\n\nEach step may involve review by data owners or governance bodies.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#what-this-section-covers",
-    "href": "user-guide/datausers/overview.html#what-this-section-covers",
-    "title": "Overview",
-    "section": "What this section covers",
-    "text": "What this section covers\nIn this section you will find guidance on:\n\nhow data requests are formulated\nwhat information is typically required\nresponsibilities associated with using PEH data",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#important-note-on-responsibilities",
-    "href": "user-guide/datausers/overview.html#important-note-on-responsibilities",
-    "title": "Overview",
-    "section": "Important note on responsibilities",
-    "text": "Important note on responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nData users remain fully responsible for:\n\nethical approval where required\ncompliance with data protection regulations\ncorrect interpretation and use of the data\n\n\n\nThe PEH Data Platform provides guidance and support, but does not replace formal governance procedures. ``",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html",
-    "href": "user-guide/datausers/data-requests.html",
-    "title": "Data requests",
-    "section": "",
-    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#purpose-of-this-page",
-    "href": "user-guide/datausers/data-requests.html#purpose-of-this-page",
-    "title": "Data requests",
-    "section": "",
-    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
-    "href": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
-    "title": "Data requests",
-    "section": "When is a data request required?",
-    "text": "When is a data request required?\nIn most cases, a formal data request is required before:\n\naccessing non-public PEH data\nreceiving datasets containing personal or sensitive information\nreusing data beyond the original study purpose\n\nPublicly available summary data may be subject to different conditions.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
-    "href": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
-    "title": "Data requests",
-    "section": "Typical information included in a data request",
-    "text": "Typical information included in a data request\nA data request usually includes:\n\nthe purpose of data use\na description of the research or policy question\nrequested variables or data components\nintended analyses or outputs\ninformation on data protection and storage\n\nIncomplete requests may delay evaluation.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#download-excel-annexes",
-    "href": "user-guide/datausers/data-requests.html#download-excel-annexes",
-    "title": "Data requests",
-    "section": "Download Excel Annexes",
-    "text": "Download Excel Annexes\nThe Excel exports are generated automatically from Zenodo:  \n\nStudies\nCodebooks",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#review-and-decision-making",
-    "href": "user-guide/datausers/data-requests.html#review-and-decision-making",
-    "title": "Data requests",
-    "section": "Review and decision-making",
-    "text": "Review and decision-making\nData requests are typically:\n\nreviewed by the data owner or custodian\nassessed for legal, ethical and scientific suitability\napproved, conditionally approved, or rejected\n\nThe PEH Data Platform does not make these decisions.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#conditions-of-data-use",
-    "href": "user-guide/datausers/data-requests.html#conditions-of-data-use",
-    "title": "Data requests",
-    "section": "Conditions of data use",
-    "text": "Conditions of data use\nIf access is granted, data use is usually subject to conditions, such as:\n\nuse limited to a specific purpose or time period\nrestrictions on data sharing with third parties\nreporting or acknowledgement requirements\n\nViolation of conditions may lead to withdrawal of access.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#final-responsibility",
-    "href": "user-guide/datausers/data-requests.html#final-responsibility",
-    "title": "Data requests",
-    "section": "Final responsibility",
-    "text": "Final responsibility\n\n\n\n\n\n\nWarning\n\n\n\nApproval of a data request does not transfer responsibility for data use.\nData users remain responsible for: - lawful processing of data - compliance with agreed conditions - appropriate publication and dissemination practices",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html",
-    "href": "user-guide/dataproviders/overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
-    "crumbs": [
-      "Home",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
-    "href": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
-    "title": "Overview",
-    "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
-    "crumbs": [
-      "Home",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#conceptual-workflow",
-    "href": "user-guide/dataproviders/overview.html#conceptual-workflow",
-    "title": "Overview",
-    "section": "Conceptual workflow",
-    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement.",
-    "crumbs": [
-      "Home",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#inputs",
-    "href": "user-guide/dataproviders/overview.html#inputs",
-    "title": "Overview",
-    "section": "Inputs",
-    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected.",
-    "crumbs": [
-      "Home",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#outputs",
-    "href": "user-guide/dataproviders/overview.html#outputs",
-    "title": "Overview",
-    "section": "Outputs",
-    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation.",
-    "crumbs": [
-      "Home",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
-    "href": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
-    "title": "Overview",
-    "section": "Limitations and responsibilities",
-    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
-    "crumbs": [
-      "Home",
-      "Data Providers",
-      "Overview"
+      "User guide"
     ]
   },
   {
