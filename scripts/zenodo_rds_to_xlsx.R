@@ -138,58 +138,141 @@ writeBin(content(bin, as = "raw"), tmp)
 obj <- readRDS(tmp)
 if (!is.list(obj)) stop("Top-level object in RDS is not a list; cannot apply requested folder structure.")
 
-# 3) Write Excel from any-depth nested lists -> data.frames
-write_df_excel <- function(df, out_xlsx, sheet_name = "data") {
-  wb <- createWorkbook()
-  sheet <- safe_name(sheet_name, max_len = 31)
-  addWorksheet(wb, sheet)
-  writeDataTable(wb, sheet = sheet, x = df, withFilter = TRUE)
-  freezePane(wb, sheet, firstRow = TRUE)
-  setColWidths(wb, sheet, cols = 1:max(1, ncol(df)), widths = "auto")
-  ensure_dir(dirname(out_xlsx))
-  saveWorkbook(wb, out_xlsx, overwrite = TRUE)
+# 3) Write Excel: for each list that contains data.frames, create ONE workbook
+#    named after the list; each data.frame becomes a sheet.
+
+# Ensure directory exists (safe for NULL/NA/empty)
+ensure_dir <- function(path) {
+  if (is.null(path) || length(path) == 0) return(invisible(FALSE))
+  path <- as.character(path[[1]])
+  if (is.na(path) || path == "") return(invisible(FALSE))
+  dir.create(path, showWarnings = FALSE, recursive = TRUE)
+  invisible(TRUE)
 }
 
-walk_nested <- function(x, base_dir, path_parts = character(), counters = new.env(parent = emptyenv())) {
-  if (is.data.frame(x)) {
-    leaf <- if (length(path_parts)) tail(path_parts, 1) else "data"
-    leaf <- safe_name(leaf, 80)
-    
-    # bepaal altijd een geldige parent directory (nooit character(0))
-    parent_dir <- if (length(path_parts) > 1) {
-      file.path(base_dir, head(path_parts, -1))
-    } else {
-      base_dir
+# Excel sheet name constraints: max 31 chars + no : \ / ? * [ ] (and avoid blanks)
+sheet_safe <- function(x) {
+  x <- safe_name(x, max_len = 31)  # your safe_name already replaces illegal path chars
+  x <- gsub("\\[|\\]", "_", x)
+  x <- ifelse(is.na(x) | x == "", "Sheet", x)
+  substr(x, 1, 31)
+}
+
+make_unique <- function(x) {
+  # make names unique while staying <=31 chars
+  out <- character(length(x))
+  seen <- list()
+  for (i in seq_along(x)) {
+    base <- sheet_safe(x[[i]])
+    cand <- base
+    k <- 1L
+    while (!is.null(seen[[cand]])) {
+      k <- k + 1L
+      suffix <- paste0("_", k)
+      cand <- substr(base, 1, max(1, 31 - nchar(suffix)))
+      cand <- paste0(cand, suffix)
     }
-    
-    # counter key (zorgt dat duplicate names netjes suffix krijgen)
-    key <- paste(c(parent_dir, leaf), collapse = "||")
-    if (is.null(counters[[key]])) counters[[key]] <- 0L
-    counters[[key]] <- counters[[key]] + 1L
-    idx <- counters[[key]]
-    
-    fname <- if (idx == 1L) sprintf("%s.xlsx", leaf) else sprintf("%s_%03d.xlsx", leaf, idx)
-    out <- file.path(parent_dir, fname)
-    
-    write_df_excel(x, out, leaf)
-    return(invisible(NULL))
+    seen[[cand]] <- TRUE
+    out[[i]] <- cand
+  }
+  out
+}
+
+# Create ONE workbook for a list node that contains >=1 data.frame child
+write_workbook_for_df_list <- function(df_list, out_file, sheet_names) {
+  ensure_dir(dirname(out_file))
+  wb <- createWorkbook()
+  
+  sheet_names <- make_unique(sheet_names)
+  
+  for (i in seq_along(df_list)) {
+    df <- df_list[[i]]
+    if (!is.data.frame(df)) next
+    sh <- sheet_names[[i]]
+    addWorksheet(wb, sh)  # [2](https://rdrr.io/cran/openxlsx/man/addWorksheet.html)
+    writeDataTable(wb, sheet = sh, x = df, withFilter = TRUE)  # [1](https://joshuasturm.github.io/openxlsx/reference/writeDataTable.html)
+    freezePane(wb, sh, firstRow = TRUE)
+    if (ncol(df) > 0) setColWidths(wb, sh, cols = 1:ncol(df), widths = "auto")
   }
   
-  
+  saveWorkbook(wb, file = out_file, overwrite = TRUE)  # [3](https://www.rdocumentation.org/packages/openxlsx/versions/4.2.8.1/topics/saveWorkbook)
+}
+
+# Helper to ensure workbook filenames are unique within a folder
+unique_file_path <- function(folder, base_name, ext = ".xlsx") {
+  base_name <- safe_name(base_name, max_len = 120)
+  if (is.na(base_name) || base_name == "") base_name <- "workbook"
+  candidate <- file.path(folder, paste0(base_name, ext))
+  if (!file.exists(candidate)) return(candidate)
+  for (k in 2:9999) {
+    suf <- sprintf("_%03d", k)
+    cand <- file.path(folder, paste0(substr(base_name, 1, max(1, 120 - nchar(suf))), suf, ext))
+    if (!file.exists(cand)) return(cand)
+  }
+  # fallback
+  file.path(folder, paste0(base_name, "_", as.integer(Sys.time()), ext))
+}
+
+walk_nested <- function(x, base_dir, path_parts = character()) {
+  # If x is a list, check if it contains data.frames directly
   if (is.list(x)) {
     nms <- names(x)
     if (is.null(nms)) nms <- rep("", length(x))
     
+    is_df <- vapply(x, is.data.frame, logical(1))
+    if (any(is_df)) {
+      # workbook name = THIS list node name (last path part) or "root"
+      node_name <- if (length(path_parts) > 0) tail(path_parts, 1) else "root"
+      
+      # workbook folder = parent folder of this list node
+      wb_folder <- if (length(path_parts) > 1) file.path(base_dir, head(path_parts, -1)) else base_dir
+      ensure_dir(wb_folder)
+      
+      # sheets: only for df children; use child names (or item_###)
+      df_idx <- which(is_df)
+      df_list <- x[df_idx]
+      df_names <- nms[df_idx]
+      df_names <- ifelse(is.na(df_names) | df_names == "", sprintf("item_%03d", df_idx), df_names)
+      
+      out_file <- unique_file_path(wb_folder, node_name, ext = ".xlsx")
+      write_workbook_for_df_list(df_list, out_file, df_names)
+    }
+    
+    # Continue recursion for non-data.frame children (nested lists etc.)
     for (i in seq_along(x)) {
+      if (is_df[[i]]) next  # already handled in workbook
       nm <- nms[[i]]
-      nm_use <- if (nzchar(nm)) nm else sprintf("item_%03d", i)
-      nm_use <- safe_name(nm_use, 80)
-      walk_nested(x[[i]], base_dir, c(path_parts, nm_use), counters)
+      nm_use <- if (!is.na(nm) && nzchar(nm)) nm else sprintf("item_%03d", i)
+      nm_use <- safe_name(nm_use, max_len = 80)
+      walk_nested(x[[i]], base_dir = base_dir, path_parts = c(path_parts, nm_use))
     }
   }
   
   invisible(NULL)
 }
+
+# Output root folder uses DOI string as before
+doi_dir <- file.path("downloads", safe_name(doi, 120))
+ensure_dir(doi_dir)
+
+# You previously created one folder per top-level list element. Keep that:
+top_names <- names(obj)
+if (is.null(top_names)) top_names <- rep("", length(obj))
+
+for (i in seq_along(obj)) {
+  top_nm <- top_names[[i]]
+  top_use <- if (!is.na(top_nm) && nzchar(top_nm)) top_nm else sprintf("list_%03d", i)
+  top_use <- safe_name(top_use, max_len = 80)
+  
+  top_dir <- file.path(doi_dir, top_use)
+  ensure_dir(top_dir)
+  
+  # Traverse below this top-level element
+  walk_nested(obj[[i]], base_dir = top_dir, path_parts = character())
+}
+
+message("Done. Wrote Excel workbooks under: ", normalizePath(doi_dir, winslash = "/", mustWork = FALSE))
+
 
 doi_dir <- file.path("downloads", safe_name(doi, 120))
 ensure_dir(doi_dir)
