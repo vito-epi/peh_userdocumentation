@@ -1,38 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PEH Data Platform – User Guidance",
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting started",
     "section": "",
-    "text": "The PEH Data Platform supports the preparation, inspection and harmonisation of data related to Population Environmental Health (PEH) studies.\nThe platform is designed to: - support structured data submission - improve consistency with agreed codebooks and templates - increase transparency in data processing steps\nIt is intended for researchers and data managers, not for software developers.\n\n\n\n\n\n\nNote\n\n\n\nThis website provides user guidance only.\nThe PEH Data Platform does not store personal data via this documentation site."
+    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
   },
   {
-    "objectID": "index.html#what-is-the-peh-data-platform",
-    "href": "index.html#what-is-the-peh-data-platform",
-    "title": "PEH Data Platform – User Guidance",
+    "objectID": "getting-started.html#purpose-of-this-page",
+    "href": "getting-started.html#purpose-of-this-page",
+    "title": "Getting started",
     "section": "",
-    "text": "The PEH Data Platform supports the preparation, inspection and harmonisation of data related to Population Environmental Health (PEH) studies.\nThe platform is designed to: - support structured data submission - improve consistency with agreed codebooks and templates - increase transparency in data processing steps\nIt is intended for researchers and data managers, not for software developers.\n\n\n\n\n\n\nNote\n\n\n\nThis website provides user guidance only.\nThe PEH Data Platform does not store personal data via this documentation site."
+    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
   },
   {
-    "objectID": "index.html#who-is-this-guidance-for",
-    "href": "index.html#who-is-this-guidance-for",
-    "title": "PEH Data Platform – User Guidance",
-    "section": "Who is this guidance for?",
-    "text": "Who is this guidance for?\n\nPartners contributing data to PEH‑related studies or platforms\n\nResearchers working with standardised questionnaires or templates\n\nData managers responsible for data quality and documentation\n\nNo programming knowledge is required to use the platform."
+    "objectID": "getting-started.html#before-you-begin",
+    "href": "getting-started.html#before-you-begin",
+    "title": "Getting started",
+    "section": "Before you begin",
+    "text": "Before you begin\nTo use the PEH Data Platform, you typically need:\n\nAccess to the platform (web-based or local deployment)\nInput data structured according to the relevant PEH specifications\nThe corresponding codebook or metadata template\n\nNo installation or programming is required."
   },
   {
-    "objectID": "index.html#what-you-will-find-here",
-    "href": "index.html#what-you-will-find-here",
-    "title": "PEH Data Platform – User Guidance",
-    "section": "What you will find here",
-    "text": "What you will find here\n\nGetting started – what you need before first use\n\nUser guide – detailed explanations of inputs, workflows and outputs\n\nLimitations and governance – assumptions, scope and responsibilities\n\nUse the navigation to explore the documentation."
+    "objectID": "getting-started.html#typical-use",
+    "href": "getting-started.html#typical-use",
+    "title": "Getting started",
+    "section": "Typical use",
+    "text": "Typical use\nIn most cases, users will:\n\nPrepare their data following the agreed template\n\nLoad the data into the PEH Data Platform\n\nInspect structure, variables and value domains\n\nExport results or reports for further review\n\nEach of these steps is explained in more detail in the User guide."
   },
   {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
-    "title": "PEH Data Platform – User Guidance",
-    "section": "Citation",
-    "text": "Citation\nIf you use the PEH Data Platform in your work, please cite:\n\nPEH Data Platform. Version X.Y.\nOrganization, Year.\nDOI: https://doi.org/xxxxx"
+    "objectID": "getting-started.html#important-boundaries",
+    "href": "getting-started.html#important-boundaries",
+    "title": "Getting started",
+    "section": "Important boundaries",
+    "text": "Important boundaries\n\n\n\n\n\n\nWarning\n\n\n\nThe PEH Data Platform: - does not correct or impute data - does not replace study-specific validation procedures - does not assess scientific validity of the data\n\n\nUsers remain responsible for the correctness and interpretation of their data."
+  },
+  {
+    "objectID": "getting-started.html#next-steps",
+    "href": "getting-started.html#next-steps",
+    "title": "Getting started",
+    "section": "Next steps",
+    "text": "Next steps\nContinue with the User guide for a detailed explanation of inputs, outputs and limitations."
   },
   {
     "objectID": "user-guide/index.html",
@@ -42,7 +49,6 @@
     "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
     "crumbs": [
       "Home",
-      "Data Providers",
       "User guide"
     ]
   },
@@ -54,7 +60,6 @@
     "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
     "crumbs": [
       "Home",
-      "Data Providers",
       "User guide"
     ]
   },
@@ -167,6 +172,102 @@
     ]
   },
   {
+    "objectID": "user-guide/datausers/data-requests.html",
+    "href": "user-guide/datausers/data-requests.html",
+    "title": "Data requests",
+    "section": "",
+    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#purpose-of-this-page",
+    "href": "user-guide/datausers/data-requests.html#purpose-of-this-page",
+    "title": "Data requests",
+    "section": "",
+    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
+    "href": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
+    "title": "Data requests",
+    "section": "When is a data request required?",
+    "text": "When is a data request required?\nIn most cases, a formal data request is required before:\n\naccessing non-public PEH data\nreceiving datasets containing personal or sensitive information\nreusing data beyond the original study purpose\n\nPublicly available summary data may be subject to different conditions.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
+    "href": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
+    "title": "Data requests",
+    "section": "Typical information included in a data request",
+    "text": "Typical information included in a data request\nA data request usually includes:\n\nthe purpose of data use\na description of the research or policy question\nrequested variables or data components\nintended analyses or outputs\ninformation on data protection and storage\n\nIncomplete requests may delay evaluation.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#download-excel-templates",
+    "href": "user-guide/datausers/data-requests.html#download-excel-templates",
+    "title": "Data requests",
+    "section": "Download Excel templates",
+    "text": "Download Excel templates\nThe Excel exports are generated automatically from the Zenodo RDS record: https://doi.org/10.5281/zenodo.19682162\n\nBrowse downloads",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#review-and-decision-making",
+    "href": "user-guide/datausers/data-requests.html#review-and-decision-making",
+    "title": "Data requests",
+    "section": "Review and decision-making",
+    "text": "Review and decision-making\nData requests are typically:\n\nreviewed by the data owner or custodian\nassessed for legal, ethical and scientific suitability\napproved, conditionally approved, or rejected\n\nThe PEH Data Platform does not make these decisions.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#conditions-of-data-use",
+    "href": "user-guide/datausers/data-requests.html#conditions-of-data-use",
+    "title": "Data requests",
+    "section": "Conditions of data use",
+    "text": "Conditions of data use\nIf access is granted, data use is usually subject to conditions, such as:\n\nuse limited to a specific purpose or time period\nrestrictions on data sharing with third parties\nreporting or acknowledgement requirements\n\nViolation of conditions may lead to withdrawal of access.",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#final-responsibility",
+    "href": "user-guide/datausers/data-requests.html#final-responsibility",
+    "title": "Data requests",
+    "section": "Final responsibility",
+    "text": "Final responsibility\n\n\n\n\n\n\nWarning\n\n\n\nApproval of a data request does not transfer responsibility for data use.\nData users remain responsible for: - lawful processing of data - compliance with agreed conditions - appropriate publication and dissemination practices",
+    "crumbs": [
+      "Home",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
     "objectID": "user-guide/datausers/overview.html",
     "href": "user-guide/datausers/overview.html",
     "title": "Overview",
@@ -236,102 +337,6 @@
       "Home",
       "Data Users",
       "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html",
-    "href": "user-guide/datausers/data-requests.html",
-    "title": "Data requests",
-    "section": "",
-    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#purpose-of-this-page",
-    "href": "user-guide/datausers/data-requests.html#purpose-of-this-page",
-    "title": "Data requests",
-    "section": "",
-    "text": "This page describes general principles related to requesting access to PEH data.\nExact procedures may differ depending on: - the specific dataset - the data owner - applicable legal or ethical frameworks",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
-    "href": "user-guide/datausers/data-requests.html#when-is-a-data-request-required",
-    "title": "Data requests",
-    "section": "When is a data request required?",
-    "text": "When is a data request required?\nIn most cases, a formal data request is required before:\n\naccessing non-public PEH data\nreceiving datasets containing personal or sensitive information\nreusing data beyond the original study purpose\n\nPublicly available summary data may be subject to different conditions.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
-    "href": "user-guide/datausers/data-requests.html#typical-information-included-in-a-data-request",
-    "title": "Data requests",
-    "section": "Typical information included in a data request",
-    "text": "Typical information included in a data request\nA data request usually includes:\n\nthe purpose of data use\na description of the research or policy question\nrequested variables or data components\nintended analyses or outputs\ninformation on data protection and storage\n\nIncomplete requests may delay evaluation.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#download-excel-templates",
-    "href": "user-guide/datausers/data-requests.html#download-excel-templates",
-    "title": "Data requests",
-    "section": "Download Excel templates",
-    "text": "Download Excel templates\nThe Excel exports are generated automatically from the Zenodo RDS record: https://doi.org/10.5281/zenodo.19682162\n\n[Browse downloads](https://vito-epi.github.io/peh_userdocumentation/downloads/10.5281_zenodo",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#review-and-decision-making",
-    "href": "user-guide/datausers/data-requests.html#review-and-decision-making",
-    "title": "Data requests",
-    "section": "Review and decision-making",
-    "text": "Review and decision-making\nData requests are typically:\n\nreviewed by the data owner or custodian\nassessed for legal, ethical and scientific suitability\napproved, conditionally approved, or rejected\n\nThe PEH Data Platform does not make these decisions.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#conditions-of-data-use",
-    "href": "user-guide/datausers/data-requests.html#conditions-of-data-use",
-    "title": "Data requests",
-    "section": "Conditions of data use",
-    "text": "Conditions of data use\nIf access is granted, data use is usually subject to conditions, such as:\n\nuse limited to a specific purpose or time period\nrestrictions on data sharing with third parties\nreporting or acknowledgement requirements\n\nViolation of conditions may lead to withdrawal of access.",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#final-responsibility",
-    "href": "user-guide/datausers/data-requests.html#final-responsibility",
-    "title": "Data requests",
-    "section": "Final responsibility",
-    "text": "Final responsibility\n\n\n\n\n\n\nWarning\n\n\n\nApproval of a data request does not transfer responsibility for data use.\nData users remain responsible for: - lawful processing of data - compliance with agreed conditions - appropriate publication and dissemination practices",
-    "crumbs": [
-      "Home",
-      "Data Users",
-      "Data requests"
     ]
   },
   {
@@ -407,45 +412,38 @@
     ]
   },
   {
-    "objectID": "getting-started.html",
-    "href": "getting-started.html",
-    "title": "Getting started",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PEH Data Platform – User Guidance",
     "section": "",
-    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
+    "text": "The PEH Data Platform supports the preparation, inspection and harmonisation of data related to Population Environmental Health (PEH) studies.\nThe platform is designed to: - support structured data submission - improve consistency with agreed codebooks and templates - increase transparency in data processing steps\nIt is intended for researchers and data managers, not for software developers.\n\n\n\n\n\n\nNote\n\n\n\nThis website provides user guidance only.\nThe PEH Data Platform does not store personal data via this documentation site."
   },
   {
-    "objectID": "getting-started.html#purpose-of-this-page",
-    "href": "getting-started.html#purpose-of-this-page",
-    "title": "Getting started",
+    "objectID": "index.html#what-is-the-peh-data-platform",
+    "href": "index.html#what-is-the-peh-data-platform",
+    "title": "PEH Data Platform – User Guidance",
     "section": "",
-    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
+    "text": "The PEH Data Platform supports the preparation, inspection and harmonisation of data related to Population Environmental Health (PEH) studies.\nThe platform is designed to: - support structured data submission - improve consistency with agreed codebooks and templates - increase transparency in data processing steps\nIt is intended for researchers and data managers, not for software developers.\n\n\n\n\n\n\nNote\n\n\n\nThis website provides user guidance only.\nThe PEH Data Platform does not store personal data via this documentation site."
   },
   {
-    "objectID": "getting-started.html#before-you-begin",
-    "href": "getting-started.html#before-you-begin",
-    "title": "Getting started",
-    "section": "Before you begin",
-    "text": "Before you begin\nTo use the PEH Data Platform, you typically need:\n\nAccess to the platform (web-based or local deployment)\nInput data structured according to the relevant PEH specifications\nThe corresponding codebook or metadata template\n\nNo installation or programming is required."
+    "objectID": "index.html#who-is-this-guidance-for",
+    "href": "index.html#who-is-this-guidance-for",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "Who is this guidance for?",
+    "text": "Who is this guidance for?\n\nPartners contributing data to PEH‑related studies or platforms\n\nResearchers working with standardised questionnaires or templates\n\nData managers responsible for data quality and documentation\n\nNo programming knowledge is required to use the platform."
   },
   {
-    "objectID": "getting-started.html#typical-use",
-    "href": "getting-started.html#typical-use",
-    "title": "Getting started",
-    "section": "Typical use",
-    "text": "Typical use\nIn most cases, users will:\n\nPrepare their data following the agreed template\n\nLoad the data into the PEH Data Platform\n\nInspect structure, variables and value domains\n\nExport results or reports for further review\n\nEach of these steps is explained in more detail in the User guide."
+    "objectID": "index.html#what-you-will-find-here",
+    "href": "index.html#what-you-will-find-here",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "What you will find here",
+    "text": "What you will find here\n\nGetting started – what you need before first use\n\nUser guide – detailed explanations of inputs, workflows and outputs\n\nLimitations and governance – assumptions, scope and responsibilities\n\nUse the navigation to explore the documentation."
   },
   {
-    "objectID": "getting-started.html#important-boundaries",
-    "href": "getting-started.html#important-boundaries",
-    "title": "Getting started",
-    "section": "Important boundaries",
-    "text": "Important boundaries\n\n\n\n\n\n\nWarning\n\n\n\nThe PEH Data Platform: - does not correct or impute data - does not replace study-specific validation procedures - does not assess scientific validity of the data\n\n\nUsers remain responsible for the correctness and interpretation of their data."
-  },
-  {
-    "objectID": "getting-started.html#next-steps",
-    "href": "getting-started.html#next-steps",
-    "title": "Getting started",
-    "section": "Next steps",
-    "text": "Next steps\nContinue with the User guide for a detailed explanation of inputs, outputs and limitations."
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "Citation",
+    "text": "Citation\nIf you use the PEH Data Platform in your work, please cite:\n\nPEH Data Platform. Version X.Y.\nOrganization, Year.\nDOI: https://doi.org/xxxxx"
   }
 ]
