@@ -13,7 +13,7 @@ website:
         text: Home
       - href: getting-started.qmd
         text: Getting started
-      - href: user-guide/overview.qmd
+      - href: user-guide/dp_overview.qmd
         text: User guide
     right:
       - icon: github
@@ -22,13 +22,13 @@ website:
 sidebar:
   - title: "Data Providers"
     contents:
-      - user-guide/overview.qmd
-      - user-guide/data-requirements.qmd
+      - user-guide/dp_overview.qmd
+      - user-guide/dp_data-requirements.qmd
 
   - title: "Data Users"
     contents:
-      - user-guide/data-users-overview.qmd
-      - user-guide/data-requests.qmd
+      - user-guide/du_overview.qmd
+      - user-guide/du_data-requests.qmd
 
         # later uitbreiden:
         # - user-guide/workflows.qmd
