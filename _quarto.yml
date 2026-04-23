@@ -19,17 +19,20 @@ website:
       - icon: github
         href: https://github.com/vito-epi/peh_userdocumentation
 
-  sidebar:
-    - title: "Data Providers"
-      contents:
-        - user-guide/index.qmd
-        - user-guide/dp_overview.qmd
-        - user-guide/dp_data-requirements.qmd
 
-    - title: "Data Users"
-      contents:
-        - user-guide/du_overview.qmd
-        - user-guide/du_data-requests.qmd
+  sidebar:
+    contents:
+      - section: "Data Providers"
+        contents:
+          - user-guide/index.qmd
+          - user-guide/dp_overview.qmd
+          - user-guide/dp_data-requirements.qmd
+
+      - section: "Data Users"
+        contents:
+          - user-guide/du_overview.qmd
+          - user-guide/du_data-requests.qmd
+
 
 
 format:
