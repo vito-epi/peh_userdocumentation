@@ -40,6 +40,17 @@ zenodo_get <- function(url) {
 # 1) Resolve DOI -> Zenodo record (latest/versioned DOI both work; use quotes around DOI) [5](https://github.com/zenodo/zenodo/issues/2358)[4](https://help.zenodo.org/guides/search/)
 # --- Robust DOI -> Zenodo record resolver ---
 
+# --- essentials for HTTP calls ---
+ua <- "PEH-DocSite/1.0 (https://vito-epi.github.io/peh_userdocumentation/)"  # user-agent
+zenodo_token <- Sys.getenv("ZENODO_API_KEY", "")  # optional
+
+zenodo_headers <- function() {
+  h <- c(`User-Agent` = ua)
+  if (nzchar(zenodo_token)) h <- c(h, Authorization = paste("Bearer", zenodo_token))
+  h
+}
+
+
 get_json <- function(url, query = NULL) {
   resp <- httr::RETRY(
     "GET", url,
@@ -50,6 +61,7 @@ get_json <- function(url, query = NULL) {
   httr::stop_for_status(resp)
   jsonlite::fromJSON(httr::content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)
 }
+
 
 # 1) Try Zenodo search using pids.doi.identifier (field used in Zenodo search guidance) [1](https://zenodo.org/help/search)
 query1 <- sprintf('pids.doi.identifier:"%s"', doi)
