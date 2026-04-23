@@ -2,48 +2,75 @@
 title: "PEH Data Platform – User Guidance"
 ---
 
-## What is the PEH Data Platform?
-
-The **PEH Data Platform** supports the preparation, inspection and harmonisation of data related to **Population Environmental Health (PEH)** studies.
-
-The platform is designed to:
-- support structured data submission
-- improve consistency with agreed codebooks and templates
-- increase transparency in data processing steps
-
-It is intended for **researchers and data managers**, not for software developers.
-
-::: callout-note
-This website provides **user guidance only**.  
-The PEH Data Platform does **not store personal data** via this documentation site.
-:::
-
----
-
 ## Who is this guidance for?
 
-- Partners contributing data to PEH‑related studies or platforms  
-- Researchers working with standardised questionnaires or templates  
-- Data managers responsible for data quality and documentation  
+This user guide is intended for:
 
-No programming knowledge is required to use the platform.
+- **Data Providers** contributing data to the PEH Data Platform
+- **Data Users** requesting and using PEH data
 
----
+Use the navigation on the left to access guidance relevant to your role.
 
-## What you will find here
 
-- **Getting started** – what you need before first use  
-- **User guide** – detailed explanations of inputs, workflows and outputs  
-- **Limitations and governance** – assumptions, scope and responsibilities  
+## What is the PEH Data Platform
+The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate 
+the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. 
+The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, 
+in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. 
+The PEH Data Platform supports transparent data governance, ensures data protection and traceability, 
+and provides operational services for data harmonisation, data processing, quality control, and access management.
 
-Use the navigation to explore the documentation.
+https://peh.vito.be/
 
----
+## Contact the PEH Data Platform managers
+For questions: PEHDataPlatform@vito.be
 
 ## Citation
 
 If you use the PEH Data Platform in your work, please cite:
 
-> *PEH Data Platform*. Version X.Y.  
-> Organization, Year.  
+<!-- ## What is the PEH Data Platform? -->
+
+<!-- The **PEH Data Platform** supports the preparation, inspection and harmonisation of data related to **Population Environmental Health (PEH)** studies. -->
+
+<!-- The platform is designed to: -->
+<!-- - support structured data submission -->
+<!-- - improve consistency with agreed codebooks and templates -->
+<!-- - increase transparency in data processing steps -->
+
+<!-- It is intended for **researchers and data managers**, not for software developers. -->
+
+<!-- ::: callout-note -->
+<!-- This website provides **user guidance only**.   -->
+<!-- The PEH Data Platform does **not store personal data** via this documentation site. -->
+<!-- ::: -->
+
+<!-- --- -->
+
+<!-- ## Who is this guidance for? -->
+
+<!-- - Partners contributing data to PEH‑related studies or platforms   -->
+<!-- - Researchers working with standardised questionnaires or templates   -->
+<!-- - Data managers responsible for data quality and documentation   -->
+
+<!-- No programming knowledge is required to use the platform. -->
+
+<!-- --- -->
+
+<!-- ## What you will find here -->
+
+<!-- - **Getting started** – what you need before first use   -->
+<!-- - **User guide** – detailed explanations of inputs, workflows and outputs   -->
+<!-- - **Limitations and governance** – assumptions, scope and responsibilities   -->
+
+<!-- Use the navigation to explore the documentation. -->
+
+<!-- --- -->
+
+<!-- ## Citation -->
+
+<!-- If you use the PEH Data Platform in your work, please cite: -->
+
+<!-- > *PEH Data Platform*. Version X.Y.   -->
+<!-- > Organization, Year.   -->
 > DOI: `https://doi.org/xxxxx`

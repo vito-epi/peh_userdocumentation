@@ -2,62 +2,27 @@
 title: "Overview"
 ---
 
-## Who is this section for?
+<!-- # About PEH Data -->
 
-This section is intended for **data users**, i.e. individuals or organisations who:
+<!-- This section provides access to information about the Personal Exposure and Health Data Platform  -->
+<!-- - Guidance on how to Request data from the Personal Exposure and Health Data Platform -->
+<!-- - Studies: information on the available studies in the platform -->
+<!-- - Codebooks: detailed information on collected variables (questionnaire, field work, chemical assessment) -->
 
-- request access to PEH data
-- analyse or interpret PEH data
-- reuse PEH data for research, policy support or reporting
+## What you can do
+- Browse and download information on available studies
+- Explore and download codebooks for each study
+- Consult the procedure and documents to request data from the Personal Exposure and Health Data Platform
 
-It does **not** describe how data should be prepared or submitted.
+## PEH Data Platform
+The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate 
+the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. 
+The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, 
+in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. 
+The PEH Data Platform supports transparent data governance, ensures data protection and traceability, 
+and provides operational services for data harmonisation, data processing, quality control, and access management.
 
----
+https://peh.vito.be/
 
-## Purpose of the PEH Data Platform for data users
-
-For data users, the PEH Data Platform supports:
-
-- understanding which data are available
-- clarifying conditions and constraints for data access
-- providing structured information to support data requests
-
-The platform does **not** grant access automatically.
-
----
-
-## Typical role of a data user
-
-A data user typically:
-
-1. Identifies a research or policy question  
-2. Determines whether relevant PEH data may exist  
-3. Submits a data request through the appropriate procedure  
-4. Uses the data in line with agreed conditions  
-
-Each step may involve review by data owners or governance bodies.
-
----
-
-## What this section covers
-
-In this section you will find guidance on:
-
-- how data requests are formulated
-- what information is typically required
-- responsibilities associated with using PEH data
-
----
-
-## Important note on responsibilities
-
-::: callout-important
-Data users remain fully responsible for:
-
-- ethical approval where required
-- compliance with data protection regulations
-- correct interpretation and use of the data
-:::
-
-The PEH Data Platform provides guidance and support, but does not replace formal governance procedures.
-``
+## Contact
+For questions: PEHDataPlatform@vito.be
