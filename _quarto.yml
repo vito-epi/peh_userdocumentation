@@ -25,9 +25,10 @@ website:
 
   sidebar:
     contents:
+      - user-guide/index.qmd
       - section: "Data Providers"
         contents:
-          - user-guide/index.qmd
+          # user-guide/index.qmd
           - user-guide/dataproviders/overview.qmd
           - user-guide/dataproviders/data-requirements.qmd
 
