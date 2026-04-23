@@ -1,0 +1,44 @@
+name: Build downloads from Zenodo RDS and publish Quarto site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("openxlsx","zen4R","httr"), repos="https://cloud.r-project.org")'
+
+      - name: Build Excel downloads from Zenodo
+        env:
+          ZENODO_DOI: 10.5281/zenodo.19682162
+          # Optional (only if multiple .rds files exist in the record):
+          # ZENODO_RDS_KEY: your_file_name.rds
+          # Optional token for higher rate limits:
+          # ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
+        run: |
+          Rscript scripts/zenodo_rds_to_xlsx.R
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Publish to GitHub Pages (gh-pages)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

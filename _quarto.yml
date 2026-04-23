@@ -1,11 +1,14 @@
 project:
   type: website
+  resources:
+  - downloads/**
 
 website:
   title: "PEH Data Platform – User Guidance"
   site-url: https://vito-epi.github.io/peh_userdocumentation/
   repo-url: https://github.com/vito-epi/peh_userdocumentation
   repo-actions: [edit, issue]
+
 
   navbar:
     left:
@@ -24,14 +27,14 @@ website:
     contents:
       - section: "Data Providers"
         contents:
-          - user-guide/index.qmd
-          - user-guide/dp_overview.qmd
-          - user-guide/dp_data-requirements.qmd
+          - user-guide/dataproviders/index.qmd
+          - user-guide/dataproviders/overview.qmd
+          - user-guide/dataproviders/data-requirements.qmd
 
       - section: "Data Users"
         contents:
-          - user-guide/du_overview.qmd
-          - user-guide/du_data-requests.qmd
+          - user-guide/datausers/overview.qmd
+          - user-guide/datausers/data-requests.qmd
 
 
 
