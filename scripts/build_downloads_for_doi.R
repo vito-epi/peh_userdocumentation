@@ -10,7 +10,7 @@ build_downloads_for_doi <- function(doi,
   # Set DOI for the existing script (it already reads ZENODO_DOI)
   Sys.setenv(ZENODO_DOI = doi)
   
-  # Optional: if you want to target a specific .rds filename inside the Zenodo record
+  # Optional: select a specific .rds file
   if (!is.null(rds_key) && nzchar(rds_key)) {
     Sys.setenv(ZENODO_RDS_KEY = rds_key)
   } else {
@@ -18,7 +18,9 @@ build_downloads_for_doi <- function(doi,
   }
   
   # Run the existing script in its own environment (prevents variable leakage)
-  source(out_script, local = new.env(parent = emptyenv()))
+  # IMPORTANT: parent must be baseenv() so base functions exist
+  run_env <- new.env(parent = baseenv())
+  source(out_script, local = run_env)
   
   invisible(TRUE)
 }
