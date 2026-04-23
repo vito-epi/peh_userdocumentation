@@ -7,19 +7,16 @@ build_downloads_for_doi <- function(doi,
   
   if (is.null(doi) || !nzchar(doi)) stop("Missing DOI")
   
-  # Set DOI for the existing script (it already reads ZENODO_DOI)
   Sys.setenv(ZENODO_DOI = doi)
   
-  # Optional: select a specific .rds file
   if (!is.null(rds_key) && nzchar(rds_key)) {
     Sys.setenv(ZENODO_RDS_KEY = rds_key)
   } else {
     Sys.unsetenv("ZENODO_RDS_KEY")
   }
   
-  # Run the existing script in its own environment (prevents variable leakage)
-  # IMPORTANT: parent must be baseenv() so base functions exist
-  run_env <- new.env(parent = baseenv())
+  # IMPORTANT: parent = globalenv() so attached packages (e.g. httr::GET) resolve correctly
+  run_env <- new.env(parent = globalenv())
   source(out_script, local = run_env)
   
   invisible(TRUE)
