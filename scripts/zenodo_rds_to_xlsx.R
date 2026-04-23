@@ -318,57 +318,36 @@ if (!done) {
 # - no hardcoded dataset info
 # - works with URL-safe DOI folder names (10.5281_zenodo.xxxxx)
 # ------------------------------------------------------------
-
+# Generate downloads/index.html so /downloads/ works in browser (needs index.html)
 download_root <- "downloads"
 index_path <- file.path(download_root, "index.html")
 
-# DOI folders = first-level subfolders under downloads/
-doi_dirs <- list.dirs(download_root, recursive = FALSE, full.names = TRUE)
+pulled_at <- format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")
+pulled_at_utc <- format(as.POSIXct(Sys.time(), tz = "UTC"), "%Y-%m-%d %H:%M:%S UTC")
 
-# keep only folders that look like Zenodo DOI folders
+doi_dirs <- list.dirs(download_root, recursive = FALSE, full.names = TRUE)
 doi_dirs <- doi_dirs[grepl("^.*/10\\.[0-9]+_zenodo\\.[0-9]+$", doi_dirs)]
 
 lines <- c(
-  "<!doctype html>",
-  "<html>",
-  "<head>",
-  "  <meta charset='utf-8'>",
-  "  <title>Downloads</title>",
-  "</head>",
-  "<body>",
-  "  <h1>Downloads</h1>",
-  "  <p>",
-  "    Data are archived on Zenodo and mirrored here for convenience.<br>",
-  "    Folder names use a URL-safe representation of the DOI",
-  "    (slash replaced by underscore). Use the DOI link for citation.",
-  "  </p>",
-  "  <ul>"
-)
-
-for (d in doi_dirs) {
-  folder <- basename(d)
-  
-  # reconstruct DOI from folder name
-  doi <- gsub("_", "/", folder, fixed = TRUE)
-  doi_url <- sprintf("https://doi.org/%s", doi)
-  
-  lines <- c(
-    lines,
-    sprintf(
-      "    <li><strong>%s</strong> — <a href='%s'>DOI</a> — <a href='./%s/'>browse files</a></li>",
-      folder, doi_url, folder
-    )
-  )
-}
-
-lines <- c(
-  lines,
-  "  </ul>",
-  "</body>",
-  "</html>"
+  "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
+  "<h1>Downloads</h1>",
+  sprintf("<p><small>Last generated (local): %s<br>Last generated (UTC): %s</small></p>", pulled_at, pulled_at_utc),
+  "<p><small>Folder names use a URL-safe representation of the Zenodo DOI (slash replaced by underscore). Use the DOI link for citation.</small></p>",
+  "<ul>",
+  if (length(doi_dirs) == 0) "<li><em>No DOI folders found under /downloads.</em></li>" else
+    vapply(doi_dirs, function(d) {
+      folder <- basename(d)
+      doi <- gsub("_", "/", folder, fixed = TRUE)
+      sprintf(
+        "<li><strong>%s</strong> — <a href='https://doi.org/%s'>DOI</a> — <a href='./%s/'>browse files</a></li>",
+        folder, doi, folder
+      )
+    }, character(1)),
+  "</ul></body></html>"
 )
 
 writeLines(lines, index_path)
+
 
 
 # ------------------------------------------------------------
