@@ -272,45 +272,152 @@ if (!done) {
 }
 
 
+# 
+# # Generate downloads/index.html so /downloads/ works in browser (needs index.html) [2](https://docs.github.com/en/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites)
+# xlsx_files <- list.files("downloads", pattern = "\\.xlsx$", recursive = TRUE, full.names = TRUE)
+# index_path <- file.path("downloads", "index.html")
+# 
+# lines <- c(
+#   "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
+#   "<h1>Downloads</h1><ul>",
+#   vapply(xlsx_files, function(f) {
+#     rel <- gsub("^downloads/", "", f)
+#     sprintf("<li><a href='%s'>%s</a></li>", rel, rel)
+#   }, character(1)),
+#   "</ul></body></html>"
+# )
+# writeLines(lines, index_path)
+# 
+# 
+# 
+# # ALSO create an index.html inside the DOI folder
+# xlsx_doi <- list.files(doi_dir, pattern = "\\.xlsx$", full.names = FALSE)
+# xlsx_doi <- sort(xlsx_doi)
+# 
+# doi_index_path <- file.path(doi_dir, "index.html")
+# 
+# doi_lines <- c(
+#   "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
+#   sprintf("<h1>Downloads for %s</h1>", doi),
+#   "<p>Click a file to download it.</p>",
+#   "<ul>",
+#   if (length(xlsx_doi) == 0) "<li><em>No .xlsx files found in this folder.</em></li>" else
+#     vapply(xlsx_doi, function(f) {
+#       # links are relative to the DOI folder
+#       sprintf("<li><a href='%s'>%s</a></li>", f, f)
+#     }, character(1)),
+#   "</ul>",
+#   "</body></html>"
+# )
+# 
+# writeLines(doi_lines, doi_index_path)
 
-# Generate downloads/index.html so /downloads/ works in browser (needs index.html) [2](https://docs.github.com/en/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites)
-xlsx_files <- list.files("downloads", pattern = "\\.xlsx$", recursive = TRUE, full.names = TRUE)
-index_path <- file.path("downloads", "index.html")
+# ------------------------------------------------------------
+# Generate downloads/index.html (GitHub Pages safe)
+# - groups by DOI folder
+# - no hardcoded dataset info
+# - works with URL-safe DOI folder names (10.5281_zenodo.xxxxx)
+# ------------------------------------------------------------
+
+download_root <- "downloads"
+index_path <- file.path(download_root, "index.html")
+
+# DOI folders = first-level subfolders under downloads/
+doi_dirs <- list.dirs(download_root, recursive = FALSE, full.names = TRUE)
+
+# keep only folders that look like Zenodo DOI folders
+doi_dirs <- doi_dirs[grepl("^.*/10\\.[0-9]+_zenodo\\.[0-9]+$", doi_dirs)]
 
 lines <- c(
-  "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
-  "<h1>Downloads</h1><ul>",
-  vapply(xlsx_files, function(f) {
-    rel <- gsub("^downloads/", "", f)
-    sprintf("<li><a href='%s'>%s</a></li>", rel, rel)
-  }, character(1)),
-  "</ul></body></html>"
+  "<!doctype html>",
+  "<html>",
+  "<head>",
+  "  <meta charset='utf-8'>",
+  "  <title>Downloads</title>",
+  "</head>",
+  "<body>",
+  "  <h1>Downloads</h1>",
+  "  <p>",
+  "    Data are archived on Zenodo and mirrored here for convenience.<br>",
+  "    Folder names use a URL-safe representation of the DOI",
+  "    (slash replaced by underscore). Use the DOI link for citation.",
+  "  </p>",
+  "  <ul>"
 )
+
+for (d in doi_dirs) {
+  folder <- basename(d)
+  
+  # reconstruct DOI from folder name
+  doi <- gsub("_", "/", folder, fixed = TRUE)
+  doi_url <- sprintf("https://doi.org/%s", doi)
+  
+  lines <- c(
+    lines,
+    sprintf(
+      "    <li><strong>%s</strong> — <a href='%s'>DOI</a> — <a href='./%s/'>browse files</a></li>",
+      folder, doi_url, folder
+    )
+  )
+}
+
+lines <- c(
+  lines,
+  "  </ul>",
+  "</body>",
+  "</html>"
+)
+
 writeLines(lines, index_path)
 
 
+# ------------------------------------------------------------
+# ALSO create an index.html inside ONE DOI folder
+# (call this block once per doi_dir in your loop)
+# ------------------------------------------------------------
 
-# ALSO create an index.html inside the DOI folder
 xlsx_doi <- list.files(doi_dir, pattern = "\\.xlsx$", full.names = FALSE)
 xlsx_doi <- sort(xlsx_doi)
 
 doi_index_path <- file.path(doi_dir, "index.html")
 
+doi <- gsub("_", "/", basename(doi_dir), fixed = TRUE)
+
 doi_lines <- c(
-  "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
-  sprintf("<h1>Downloads for %s</h1>", doi),
-  "<p>Click a file to download it.</p>",
-  "<ul>",
-  if (length(xlsx_doi) == 0) "<li><em>No .xlsx files found in this folder.</em></li>" else
-    vapply(xlsx_doi, function(f) {
-      # links are relative to the DOI folder
-      sprintf("<li><a href='%s'>%s</a></li>", f, f)
-    }, character(1)),
-  "</ul>",
-  "</body></html>"
+  "<!doctype html>",
+  "<html>",
+  "<head>",
+  "  <meta charset='utf-8'>",
+  "  <title>Downloads</title>",
+  "</head>",
+  "<body>",
+  sprintf("  <h1>Downloads for %s</h1>", doi),
+  sprintf(
+    "  <p>Official DOI: <a href='https://doi.org/%s'>https://doi.org/%s</a></p>",
+    doi, doi
+  ),
+  "  <ul>",
+  if (length(xlsx_doi) == 0) {
+    "    <li><em>No .xlsx files found in this folder.</em></li>"
+  } else {
+    vapply(
+      xlsx_doi,
+      function(f) sprintf("    <li><a href='%s'>%s</a></li>", f, f),
+      character(1)
+    )
+  },
+  "  </ul>",
+  "</body>",
+  "</html>"
 )
 
 writeLines(doi_lines, doi_index_path)
+
+message(
+  "Done. Wrote Excel workbooks under: ",
+  normalizePath(doi_dir, winslash = "/", mustWork = FALSE)
+)
+
 
 message("Done. Wrote Excel workbooks under: ", normalizePath(doi_dir, winslash = "/", mustWork = FALSE))
 
