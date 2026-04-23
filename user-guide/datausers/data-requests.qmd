@@ -2,87 +2,261 @@
 title: "Data requests"
 ---
 
-## Purpose of this page
+# Data access request
 
-This page describes general principles related to **requesting access to PEH data**.
-
-Exact procedures may differ depending on:
-- the specific dataset
-- the data owner
-- applicable legal or ethical frameworks
+Access to **individual-level data** stored in the **Personal Exposure and Health (PEH) Data Platform** is granted on request and subject to approval.
 
 ---
 
-## When is a data request required?
+## Quick overview
 
-In most cases, a formal data request is required before:
+To request access to PEH data:
 
-- accessing non-public PEH data
-- receiving datasets containing personal or sensitive information
-- reusing data beyond the original study purpose
+1. **Select studies and variables** in this application  
+2. **Download and complete the annex files**
+3. **Submit the Data Access Request Form**
 
-Publicly available summary data may be subject to different conditions.
-
----
-
-## Typical information included in a data request
-
-A data request usually includes:
-
-- the purpose of data use
-- a description of the research or policy question
-- requested variables or data components
-- intended analyses or outputs
-- information on data protection and storage
-
-Incomplete requests may delay evaluation.
+Access is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.
 
 ---
 
+## Who can request access?
 
-## Download Excel Annexes
+Data access requests can be submitted by a **Receiving Data Controller (RDC)** for research projects in the public interest, in line with the objectives of the PEH Data Platform.
 
-The Excel exports are generated automatically from Zenodo:
-<!-- RDS record: -->
-<!-- https://doi.org/10.5281/zenodo.19682162 -->
+If multiple RDCs are involved in the same research project, and they require **different subsets of data**,  
+**each RDC must submit a separate request**, specifying:
+- their own research questions, and
+- the specific data requested.
 
-- [Studies](/downloads/10.5281_zenodo.19682386)
-- [Codebooks](/downloads/10.5281_zenodo.19682162/)
+---
+
+## Data access procedure
+
+### Step-by-step
+
+1. The RDC submits a **Data Access Request Form** via [Microsoft Forms](https://forms.office.com/e/cvYykd6Q3S).
+2. The request is reviewed by the **Data Request Access Committee (DRAC)**, including a data minimisation check.  
+   The original data providers (**Supplying Data Controllers – SDCs**) may object to the request.
+3. If approved, access is granted:
+   - to the requested subset of PEH data (studies and variables),
+   - filtered to studies for which no SDC objection was raised, and
+   - **only after signature of the Protocol** by the RDC  
+     (https://doi.org/10.5281/zenodo.19232226).
+4. Approved data extracts are made available through the PEH Data Platform:  
+   https://peh.vito.be/
+
+---
+
+## Information required in the request
+
+The Data Access Request Form collects the following information.
+
+### 1. Project identification
+- Main project name (acronym and full name)
+- Research project title
+- Date of submission
+
+### 2. Scientific context
+- Scientific background
+- Objective and specific research questions
+
+### 3. Methods
+- Study design
+- Target population  
+  *(e.g. age groups, sex, inclusion/exclusion criteria)*
+
+### 4. Requested data
+- Requested datasets and studies
+- Requested variables
+
+> 📌 Requested data **must be specified using the official annex files** generated via this application.
+
+### 5. Data analysis plan
+- Statistical methods and analytical models
+- Sensitivity or pooled analyses (if applicable)
+- Requirements for data comparability
+
+### 6. Data minimisation
+- Explicit declaration that only data strictly necessary to answer the research questions are requested
+
+### 7. Administrative information
+- Responsible person and institution
+- Contact details
+- Data analysts and (if applicable) external data processors
+- Planned study start and end dates
+- Publication intentions
+
+---
+
+## Required annex files (generated via this app)
+
+To complete a Data Access Request, **two annex files are required**.  
+Both must be **downloaded from this application**.
+
+---
+
+### Annex – Studies
+
+Download the **Annex – Studies** file(s) from [Studies](/downloads/10.5281_zenodo.19682386).
+
+For each study you request:
+- set **`request_stud_1isYes` = 1**
+
+✅ All studies marked with `request_stud_1isYes = 1` are included in the request.
+
+---
+
+### Annex – Variables
+
+Download the **Annex – Variables** file(s) from the [Codebooks](/downloads/10.5281_zenodo.19682162/)
+
+For each variable you request:
+- set **`request_var_1isYes` = 1**
+
+✅ All variables marked with `request_var_1isYes = 1` are included in the request.
+
+⚠️ Only annex files **generated and completed via the Studies and Codebooks sections of this application** are accepted.
+---
+
+
+<!-- ## Download Excel Annexes -->
+
+<!-- The Excel exports are generated automatically from Zenodo: -->
+<!-- <!-- RDS record: --> -->
+<!-- <!-- https://doi.org/10.5281/zenodo.19682162 --> -->
+
+<!-- - [Studies](/downloads/10.5281_zenodo.19682386) -->
+<!-- - [Codebooks](/downloads/10.5281_zenodo.19682162/) -->
+
+<!-- --- -->
+
+## Submitting your request
+
+1. Complete the **Data Access Request Form** via Microsoft Forms:  
+   👉 https://forms.office.com/e/cvYykd6Q3S
+
+   To prepare your submission, you may optionally download the [**Data Access Request preparation template (Word document)**](https://doi.org/10.5281/zenodo.19330313)
+   This document contains the questions from the form and can be used to draft and review your answers before submission.
+
+2. Download and complete the required annex Excel files via this application.
+
+3. Send the completed annex files by e‑mail to:  
+   **PEHDataPlatform@vito.be**
+
+❗ Your request will **not be processed** until the annex files have been received.
+
+
+To avoid requesting data for research questions that have already been explored, 
+you can download an overview of publications based on data available through the PEH platform [here](https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx).
+
+---
+
+## Legal and ethical framework
+
+Requests may involve **sensitive personal data**, including health data.  
+All processing must comply with applicable national and EU legal and ethical requirements.
+
+All data requests are subject to the  
+**Protocol on the management and use of the Personal Exposure and Health Data Platform**.
+
+**Reference**  
+Protocol on the management and use of the Personal Exposure and Health Data Platform.  
+Zenodo. https://doi.org/10.5281/zenodo.19232226
+
 
 
 ---
 
-## Review and decision-making
+## Questions?
 
-Data requests are typically:
+For questions regarding data availability or the data access procedure, please contact:  
+**PEHDataPlatform@vito.be**
 
-- reviewed by the data owner or custodian
-- assessed for legal, ethical and scientific suitability
-- approved, conditionally approved, or rejected
 
-The PEH Data Platform does not make these decisions.
 
----
 
-## Conditions of data use
+<!-- ## Purpose of this page -->
 
-If access is granted, data use is usually subject to conditions, such as:
+<!-- This page describes general principles related to **requesting access to PEH data**. -->
 
-- use limited to a specific purpose or time period
-- restrictions on data sharing with third parties
-- reporting or acknowledgement requirements
+<!-- Exact procedures may differ depending on: -->
+<!-- - the specific dataset -->
+<!-- - the data owner -->
+<!-- - applicable legal or ethical frameworks -->
 
-Violation of conditions may lead to withdrawal of access.
+<!-- --- -->
 
----
+<!-- ## When is a data request required? -->
 
-## Final responsibility
+<!-- In most cases, a formal data request is required before: -->
 
-::: callout-warning
-Approval of a data request does **not** transfer responsibility for data use.
+<!-- - accessing non-public PEH data -->
+<!-- - receiving datasets containing personal or sensitive information -->
+<!-- - reusing data beyond the original study purpose -->
 
-Data users remain responsible for:
-- lawful processing of data
-- compliance with agreed conditions
-- appropriate publication and dissemination practices
-:::
+<!-- Publicly available summary data may be subject to different conditions. -->
+
+<!-- --- -->
+
+<!-- ## Typical information included in a data request -->
+
+<!-- A data request usually includes: -->
+
+<!-- - the purpose of data use -->
+<!-- - a description of the research or policy question -->
+<!-- - requested variables or data components -->
+<!-- - intended analyses or outputs -->
+<!-- - information on data protection and storage -->
+
+<!-- Incomplete requests may delay evaluation. -->
+
+<!-- --- -->
+
+
+<!-- ## Download Excel Annexes -->
+
+<!-- The Excel exports are generated automatically from Zenodo: -->
+<!-- <!-- RDS record: --> -->
+<!-- <!-- https://doi.org/10.5281/zenodo.19682162 --> -->
+
+<!-- - [Studies](/downloads/10.5281_zenodo.19682386) -->
+<!-- - [Codebooks](/downloads/10.5281_zenodo.19682162/) -->
+
+
+<!-- --- -->
+
+<!-- ## Review and decision-making -->
+
+<!-- Data requests are typically: -->
+
+<!-- - reviewed by the data owner or custodian -->
+<!-- - assessed for legal, ethical and scientific suitability -->
+<!-- - approved, conditionally approved, or rejected -->
+
+<!-- The PEH Data Platform does not make these decisions. -->
+
+<!-- --- -->
+
+<!-- ## Conditions of data use -->
+
+<!-- If access is granted, data use is usually subject to conditions, such as: -->
+
+<!-- - use limited to a specific purpose or time period -->
+<!-- - restrictions on data sharing with third parties -->
+<!-- - reporting or acknowledgement requirements -->
+
+<!-- Violation of conditions may lead to withdrawal of access. -->
+
+<!-- --- -->
+
+<!-- ## Final responsibility -->
+
+<!-- ::: callout-warning -->
+<!-- Approval of a data request does **not** transfer responsibility for data use. -->
+
+<!-- Data users remain responsible for: -->
+<!-- - lawful processing of data -->
+<!-- - compliance with agreed conditions -->
+<!-- - appropriate publication and dissemination practices -->
+<!-- ::: -->

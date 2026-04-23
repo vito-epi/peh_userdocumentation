@@ -73,4 +73,4 @@ If you use the PEH Data Platform in your work, please cite:
 
 <!-- > *PEH Data Platform*. Version X.Y.   -->
 <!-- > Organization, Year.   -->
-> DOI: `https://doi.org/xxxxx`
+<!-- > DOI: `https://doi.org/xxxxx` -->
