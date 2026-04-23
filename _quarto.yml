@@ -13,8 +13,8 @@ website:
         text: Home
       - href: getting-started.qmd
         text: Getting started
-      - href: user-guide/dp_overview.qmd
-        text: User guide
+      - href: user-guide/index.qmd
+       # text: User guide
     right:
       - icon: github
         href: https://github.com/vito-epi/peh_userdocumentation
