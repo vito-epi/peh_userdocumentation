@@ -285,11 +285,11 @@
     ]
   },
   {
-    "objectID": "user-guide/datausers/data-requests.html#download-excel-templates",
-    "href": "user-guide/datausers/data-requests.html#download-excel-templates",
+    "objectID": "user-guide/datausers/data-requests.html#download-excel-annexes",
+    "href": "user-guide/datausers/data-requests.html#download-excel-annexes",
     "title": "Data requests",
-    "section": "Download Excel templates",
-    "text": "Download Excel templates\nThe Excel exports are generated automatically from the Zenodo RDS record: https://doi.org/10.5281/zenodo.19682162\n\nBrowse downloads",
+    "section": "Download Excel Annexes",
+    "text": "Download Excel Annexes\nThe Excel exports are generated automatically from the Zenodo:  \n\nStudies\nCodebooks",
     "crumbs": [
       "Home",
       "Data Users",
