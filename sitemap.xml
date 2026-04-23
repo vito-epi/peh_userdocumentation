@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://&lt;org&gt;.github.io/&lt;repo&gt;/user-guide/overview.html</loc>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/overview.html</loc>
     <lastmod>2026-04-23T14:39:03.928Z</lastmod>
   </url>
   <url>
-    <loc>https://&lt;org&gt;.github.io/&lt;repo&gt;/index.html</loc>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/index.html</loc>
     <lastmod>2026-04-23T14:39:03.918Z</lastmod>
   </url>
   <url>
-    <loc>https://&lt;org&gt;.github.io/&lt;repo&gt;/getting-started.html</loc>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/getting-started.html</loc>
     <lastmod>2026-04-23T14:39:03.918Z</lastmod>
   </url>
   <url>
-    <loc>https://&lt;org&gt;.github.io/&lt;repo&gt;/user-guide/data-requirements.html</loc>
+    <loc>https://vito-epi.github.io/peh_userdocumentation/user-guide/data-requirements.html</loc>
     <lastmod>2026-04-23T14:39:03.926Z</lastmod>
   </url>
 </urlset>

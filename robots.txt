@@ -1,1 +1,1 @@
-Sitemap: https://<org>.github.io/<repo>/sitemap.xml
+Sitemap: https://vito-epi.github.io/peh_userdocumentation/sitemap.xml
