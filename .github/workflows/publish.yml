@@ -30,7 +30,7 @@ jobs:
             any::jsonlite
 
       - name: Build Excel downloads from Zenodo (all DOIs)
-        env:
+        # env:
          # ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
         run: |
           Rscript scripts/build_all_downloads.R
