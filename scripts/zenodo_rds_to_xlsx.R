@@ -264,11 +264,9 @@ for (i in seq_along(obj)) {
   top_use <- if (!is.na(top_nm) && nzchar(top_nm)) top_nm else sprintf("list_%03d", i)
   top_use <- safe_name(top_use, max_len = 80)
   
-  top_dir <- file.path(doi_dir, top_use)
-  ensure_dir(top_dir)
+  # geen top_dir folder meer; alles rechtstreeks in doi_dir
+  walk_nested(obj[[i]], base_dir = doi_dir, path_parts = c(top_use))
   
-  # Traverse below this top-level element
-  walk_nested(obj[[i]], base_dir = top_dir, path_parts = character())
 }
 
 message("Done. Wrote Excel workbooks under: ", normalizePath(doi_dir, winslash = "/", mustWork = FALSE))
@@ -292,3 +290,20 @@ for (i in seq_along(obj)) {
 }
 
 message("Done. Wrote Excel files under: ", normalizePath(doi_dir, winslash = "/", mustWork = FALSE))
+
+# After generating all xlsx files:
+xlsx <- list.files("downloads", pattern = "\\.xlsx$", recursive = TRUE, full.names = TRUE)
+
+# Make a simple index.html inside downloads/
+index_path <- file.path("downloads", "index.html")
+lines <- c(
+  "<!doctype html><html><head><meta charset='utf-8'><title>Downloads</title></head><body>",
+  "<h1>Downloads</h1><ul>",
+  vapply(xlsx, function(f) {
+    rel <- gsub("^downloads/", "", f)
+    sprintf("<li><a href='%s'>%s</a></li>", rel, rel)
+  }, character(1)),
+  "</ul></body></html>"
+)
+writeLines(lines, index_path)
+
