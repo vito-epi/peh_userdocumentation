@@ -155,16 +155,26 @@ walk_nested <- function(x, base_dir, path_parts = character(), counters = new.en
     leaf <- if (length(path_parts)) tail(path_parts, 1) else "data"
     leaf <- safe_name(leaf, 80)
     
-    key <- paste(c(base_dir, head(path_parts, -1), leaf), collapse = "||")
+    # bepaal altijd een geldige parent directory (nooit character(0))
+    parent_dir <- if (length(path_parts) > 1) {
+      file.path(base_dir, head(path_parts, -1))
+    } else {
+      base_dir
+    }
+    
+    # counter key (zorgt dat duplicate names netjes suffix krijgen)
+    key <- paste(c(parent_dir, leaf), collapse = "||")
     if (is.null(counters[[key]])) counters[[key]] <- 0L
     counters[[key]] <- counters[[key]] + 1L
     idx <- counters[[key]]
     
     fname <- if (idx == 1L) sprintf("%s.xlsx", leaf) else sprintf("%s_%03d.xlsx", leaf, idx)
-    out <- file.path(base_dir, head(path_parts, -1), fname)
+    out <- file.path(parent_dir, fname)
+    
     write_df_excel(x, out, leaf)
     return(invisible(NULL))
   }
+  
   
   if (is.list(x)) {
     nms <- names(x)
