@@ -3,7 +3,7 @@ project:
 
 website:
   title: "PEH Data Platform – User Guidance"
-  site-url: https://<org>.github.io/<repo>/
+  site-url: https://vito-epi.github.io/peh_userdocumentation/
   repo-url: https://github.com/<org>/<repo>
   repo-actions: [edit, issue]
 
