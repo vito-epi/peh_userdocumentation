@@ -1,0 +1,16 @@
+---
+title: "PEH Data Explorer"
+description: "Interactive exploration of PEH Data: Studies and codebooks"
+---
+
+## Interactive PEH data explorer
+
+The interactive explorer below allows you to browse PEH codebooks and studies.
+The application runs on a separate Shiny server and is embedded here for convenience.
+
+```{=html}
+<iframe
+  src="https://vito-epi.shinyapps.io/peh_data/"
+  style="width: 100%; height: 900px; border: none;"
+  loading="lazy"
+></iframe
