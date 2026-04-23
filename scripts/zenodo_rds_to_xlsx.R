@@ -38,16 +38,50 @@ zenodo_get <- function(url) {
 }
 
 # 1) Resolve DOI -> Zenodo record (latest/versioned DOI both work; use quotes around DOI) [5](https://github.com/zenodo/zenodo/issues/2358)[4](https://help.zenodo.org/guides/search/)
-message("Searching Zenodo record for DOI: ", doi)
-query <- sprintf('(doi:"%s" OR conceptdoi:"%s")', doi, doi)
-q <- URLencode(query, reserved = TRUE)
-search_url <- sprintf("https://zenodo.org/api/records/?q=%s&size=1", q)
-js <- fromJSON(zenodo_get(search_url), simplifyVector = FALSE)
+# --- Robust DOI -> Zenodo record resolver ---
+
+get_json <- function(url, query = NULL) {
+  resp <- httr::RETRY(
+    "GET", url,
+    query = query,
+    httr::add_headers(.headers = zenodo_headers()),
+    times = 5
+  )
+  httr::stop_for_status(resp)
+  jsonlite::fromJSON(httr::content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)
+}
+
+# 1) Try Zenodo search using pids.doi.identifier (field used in Zenodo search guidance) [1](https://zenodo.org/help/search)
+query1 <- sprintf('pids.doi.identifier:"%s"', doi)
+js <- get_json("https://zenodo.org/api/records", query = list(q = query1, size = 1))
 
 hits <- js$hits$hits
-if (is.null(hits) || length(hits) == 0) stop("No Zenodo record found for DOI: ", doi)
+if (is.null(hits) || length(hits) == 0) {
+  # 2) Fallback: resolve DOI via doi.org -> Zenodo landing page -> extract record id
+  doi_url <- if (grepl("^https?://", doi)) doi else paste0("https://doi.org/", doi)
+  
+  resp <- httr::RETRY(
+    "GET", doi_url,
+    httr::add_headers(.headers = c(`User-Agent` = ua)),
+    times = 5
+  )
+  httr::stop_for_status(resp)
+  
+  final_url <- resp$url
+  recid <- sub(".*zenodo\\.org/(records|record)/([0-9]+).*", "\\2", final_url)
+  
+  if (!grepl("^[0-9]+$", recid)) {
+    stop("Could not resolve DOI to a Zenodo record id. Final URL was: ", final_url)
+  }
+  
+  rec <- get_json(paste0("https://zenodo.org/api/records/", recid))
+} else {
+  rec <- hits[[1]]
+}
 
-rec <- hits[[1]]
+message("Resolved Zenodo record id: ", rec$id)
+
+
 record_id <- rec$id
 files <- rec$files
 if (is.null(files) || length(files) == 0) stop("Zenodo record has no files: ", doi)
