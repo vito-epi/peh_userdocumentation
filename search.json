@@ -39,14 +39,24 @@
     "href": "user-guide/index.html",
     "title": "User guide",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role."
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
+    "crumbs": [
+      "Home",
+      "Data Providers",
+      "User guide"
+    ]
   },
   {
     "objectID": "user-guide/index.html#who-is-this-guidance-for",
     "href": "user-guide/index.html#who-is-this-guidance-for",
     "title": "User guide",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role."
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role.",
+    "crumbs": [
+      "Home",
+      "Data Providers",
+      "User guide"
+    ]
   },
   {
     "objectID": "user-guide/dataproviders/data-requirements.html",
@@ -281,7 +291,7 @@
     "href": "user-guide/datausers/data-requests.html#download-excel-templates",
     "title": "Data requests",
     "section": "Download Excel templates",
-    "text": "Download Excel templates\nThe Excel exports are generated automatically from the Zenodo RDS record: https://doi.org/10.5281/zenodo.19682162\n\nBrowse downloads",
+    "text": "Download Excel templates\nThe Excel exports are generated automatically from the Zenodo RDS record: https://doi.org/10.5281/zenodo.19682162\n\n[Browse downloads](https://vito-epi.github.io/peh_userdocumentation/downloads/10.5281_zenodo",
     "crumbs": [
       "Home",
       "Data Users",
