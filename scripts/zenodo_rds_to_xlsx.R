@@ -132,6 +132,39 @@ sheet_safe <- function(x) {
   substr(x, 1, 31)
 }
 
+
+
+write_workbook_for_df_list <- function(df_list, out_file, sheet_names) {
+  ensure_dir(dirname(out_file))
+  wb <- createWorkbook()
+  sheet_names <- make_unique(sheet_names)
+  
+  for (i in seq_along(df_list)) {
+    df <- df_list[[i]]
+    if (!is.data.frame(df)) next
+    sh <- sheet_names[[i]]
+    addWorksheet(wb, sh)                           # [3](https://rdrr.io/cran/openxlsx/man/addWorksheet.html)
+    writeDataTable(wb, sh, df, withFilter = TRUE)  # [4](https://joshuasturm.github.io/openxlsx/reference/writeDataTable.html)
+    freezePane(wb, sh, firstRow = TRUE)
+    if (ncol(df) > 0) setColWidths(wb, sh, cols = 1:ncol(df), widths = "auto")
+  }
+  
+  saveWorkbook(wb, out_file, overwrite = TRUE)      # [2](https://www.rdocumentation.org/packages/openxlsx/versions/4.2.8.1/topics/saveWorkbook)
+}
+
+unique_file_path <- function(folder, base_name, ext = ".xlsx") {
+  base_name <- safe_name(base_name, max_len = 120)
+  if (is.na(base_name) || base_name == "") base_name <- "workbook"
+  candidate <- file.path(folder, paste0(base_name, ext))
+  if (!file.exists(candidate)) return(candidate)
+  for (k in 2:9999) {
+    suf <- sprintf("_%03d", k)
+    cand <- file.path(folder, paste0(substr(base_name, 1, max(1, 120 - nchar(suf))), suf, ext))
+    if (!file.exists(cand)) return(cand)
+  }
+  file.path(folder, paste0(base_name, "_", as.integer(Sys.time()), ext))
+}
+
 # ==========================================================
 # CASE 0: RDS itself is already a list of data.frames
 # (your second DOI structure)
@@ -183,37 +216,6 @@ make_unique <- function(x) {
     out[[i]] <- cand
   }
   out
-}
-
-write_workbook_for_df_list <- function(df_list, out_file, sheet_names) {
-  ensure_dir(dirname(out_file))
-  wb <- createWorkbook()
-  sheet_names <- make_unique(sheet_names)
-  
-  for (i in seq_along(df_list)) {
-    df <- df_list[[i]]
-    if (!is.data.frame(df)) next
-    sh <- sheet_names[[i]]
-    addWorksheet(wb, sh)                           # [3](https://rdrr.io/cran/openxlsx/man/addWorksheet.html)
-    writeDataTable(wb, sh, df, withFilter = TRUE)  # [4](https://joshuasturm.github.io/openxlsx/reference/writeDataTable.html)
-    freezePane(wb, sh, firstRow = TRUE)
-    if (ncol(df) > 0) setColWidths(wb, sh, cols = 1:ncol(df), widths = "auto")
-  }
-  
-  saveWorkbook(wb, out_file, overwrite = TRUE)      # [2](https://www.rdocumentation.org/packages/openxlsx/versions/4.2.8.1/topics/saveWorkbook)
-}
-
-unique_file_path <- function(folder, base_name, ext = ".xlsx") {
-  base_name <- safe_name(base_name, max_len = 120)
-  if (is.na(base_name) || base_name == "") base_name <- "workbook"
-  candidate <- file.path(folder, paste0(base_name, ext))
-  if (!file.exists(candidate)) return(candidate)
-  for (k in 2:9999) {
-    suf <- sprintf("_%03d", k)
-    cand <- file.path(folder, paste0(substr(base_name, 1, max(1, 120 - nchar(suf))), suf, ext))
-    if (!file.exists(cand)) return(cand)
-  }
-  file.path(folder, paste0(base_name, "_", as.integer(Sys.time()), ext))
 }
 
 walk_nested <- function(x, base_dir, path_parts = character()) {
