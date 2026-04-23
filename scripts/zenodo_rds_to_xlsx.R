@@ -221,9 +221,12 @@ for (i in seq_along(obj)) {
   top_use <- if (!is.na(top_nm) && nzchar(top_nm)) top_nm else sprintf("list_%03d", i)
   top_use <- safe_name(top_use, max_len = 80)
   
-  # ✅ QUICK FIX:
-  # If the object is already a list of data.frames, write one workbook directly
-  if (is.list(current) && all(vapply(current, is.data.frame, logical(1)))) {
+  # ✅ CASE 1:
+  # Top level is ALREADY a list of data.frames  (your 2nd DOI case)
+  if (is.list(current) && length(current) > 0 &&
+      all(vapply(current, is.data.frame, logical(1)))) {
+    
+    message("Top-level list of data.frames detected for: ", top_use)
     
     df_names <- names(current)
     df_names <- ifelse(
@@ -236,10 +239,12 @@ for (i in seq_along(obj)) {
     write_workbook_for_df_list(current, out_file, df_names)
     
   } else {
-    # Existing recursive handling (nested lists)
+    # ✅ CASE 2:
+    # Nested structure (your 1st DOI case)
     walk_nested(current, base_dir = doi_dir, path_parts = c(top_use))
   }
 }
+
 
 
 # Generate downloads/index.html so /downloads/ works in browser (needs index.html) [2](https://docs.github.com/en/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites)
