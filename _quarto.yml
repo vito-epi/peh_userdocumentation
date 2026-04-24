@@ -16,7 +16,7 @@ website:
         text: About
       #- href: getting-started.qmd
       #  text: Getting started
-      - href: user-guide/index.qmd
+      - href: user-guide/legal.qmd
         text: User guide
       - href: pehdata_shiny.qmd
         text: PEH Data Explorer
