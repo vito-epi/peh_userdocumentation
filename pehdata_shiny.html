@@ -135,28 +135,42 @@ ul.task-list li input[type="checkbox"] {
 <!-- ## Interactive PEH data explorer -->
 <!-- The interactive explorer below allows you to browse PEH codebooks and studies. -->
 <!-- The application runs on a separate Shiny server and is embedded here for convenience. -->
+<!-- <style> -->
+<!-- /* Break out of Quarto content width */ -->
+<!-- .peh-embed-wrap { -->
+<!--   width: 100vw; -->
+<!--   margin-left: calc(-50vw + 50%); -->
+<!--   /* KEY FIX: avoid calc(100vh - x) */ -->
+<!--   height: 85vh; -->
+<!--   min-height: 900px; -->
+<!-- } -->
+<!-- /* iframe fills wrapper */ -->
+<!-- .peh-embed-wrap iframe { -->
+<!--   width: 100%; -->
+<!--   height: 100%; -->
+<!--   border: none; -->
+<!--   display: block; -->
+<!-- } -->
+<!-- /* reduce extra vertical padding above/below */ -->
+<!-- main.content { -->
+<!--   padding-bottom: 0; -->
+<!-- } -->
+<!-- </style> -->
 <style>
-/* Break out of Quarto content width */
-.peh-embed-wrap {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-
-  /* KEY FIX: avoid calc(100vh - x) */
-  height: 85vh;
-  min-height: 900px;
+.peh-embed-wrap{
+  width:100vw;
+  margin-left:calc(-50vw + 50%);
+  height: 92vh;
+  min-height: 650px;
 }
+.peh-embed-wrap iframe{width:100%;height:100%;border:0;display:block;}
 
-/* iframe fills wrapper */
-.peh-embed-wrap iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-}
-
-/* reduce extra vertical padding above/below */
-main.content {
-  padding-bottom: 0;
+/* Small screens: reduce min-height to avoid forced double scroll */
+@media (max-width: 992px){
+  .peh-embed-wrap{
+    height: 88vh;
+    min-height: 520px;
+  }
 }
 </style>
 <div class="peh-embed-wrap">
