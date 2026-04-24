@@ -53,6 +53,17 @@ page-layout: full
 }
 </style>
 
+<div style="margin-bottom: 0.75rem;">
+  <a 
+    href="https://vito-epi.shinyapps.io/peh_data/"
+    target="_blank"
+    rel="noopener"
+    class="btn btn-outline-primary"
+  >
+    Open PEH Data Explorer in a new tab
+  </a>
+</div>
+
 <div class="peh-embed-wrap">
   <iframe
     src="https://vito-epi.shinyapps.io/peh_data/"
