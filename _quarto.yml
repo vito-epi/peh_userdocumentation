@@ -7,7 +7,7 @@ website:
   title: "PEH Data Platform – User Guidance"
   site-url: https://vito-epi.github.io/peh_userdocumentation/
   repo-url: https://github.com/vito-epi/peh_userdocumentation
-  repo-actions: [edit, issue]
+  # repo-actions: [edit, issue]
   page-navigation: false
 
 
@@ -29,8 +29,10 @@ website:
   sidebar:
     contents:
       - user-guide/index.qmd
-      - user-guide/protocol.qmd
-      - user-guide/account.qmd
+      - href: user-guide/protocol.qmd
+        title: "Protocol"
+      - href: user-guide/account.qmd
+        title: "Account"        
       - section: "Data Providers"
         contents:
           - user-guide/dataproviders/overview.qmd

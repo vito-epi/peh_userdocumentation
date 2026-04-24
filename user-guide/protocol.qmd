@@ -13,7 +13,7 @@ of this protocol and the Regulation 2016/679 of the European Parliament and of t
 
 This Protocol describes the terms and conditions on the data exchange between Supplying and Receiving Data Controllers via PEH Data Platform, the role of the PEH Data Platform Manager, as well as the processing activities performed by the Receiving Data Controller. 
 
-The can be consulted at [doi.org/10.5281/zenodo.19232226](https://doi.org/10.5281/zenodo.19232226)
+The **Protocol On the management and use of the Personal Exposure and Health Data Platform** can be consulted at [doi.org/10.5281/zenodo.19232226](https://doi.org/10.5281/zenodo.19232226)
 
 
 To initiate the signature process to sign the Protocol On the management and use of the Personal Exposure and Health Data Platform, send an e-mail to: [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
