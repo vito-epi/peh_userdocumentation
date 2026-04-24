@@ -16,9 +16,8 @@ url <- "https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%
 tmp <- tempfile(fileext = ".xlsx")
 download.file(url, tmp, mode = "wb")
 
-requests <- read_excel(tmp, sheet = "Approved requests")
+requests <- read_excel(tmp, sheet = "Approved requests (publication)")
 
 requests |>
-  arrange(desc(`Approval date`)) |>
   knitr::kable()
 ```
