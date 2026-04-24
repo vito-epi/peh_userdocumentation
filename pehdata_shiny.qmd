@@ -6,13 +6,13 @@ page-layout: full
 
 [Open PEH Data Explorer in a new tab](https://vito-epi.shinyapps.io/peh_data/){target="_blank" rel="noopener noreferrer" .btn .btn-outline-primary}
 
-```{=html}
-<div class="peh-embed-wrap">
-  <iframe
-    src="https://vito-epi.shinyapps.io/peh_data/"
-    title="PEH Data Explorer"
-    loading="lazy"
-  ></iframe>
-</div>
-``
+<!-- ```{=html} -->
+<!-- <div class="peh-embed-wrap"> -->
+<!--   <iframe -->
+<!--     src="https://vito-epi.shinyapps.io/peh_data/" -->
+<!--     title="PEH Data Explorer" -->
+<!--     loading="lazy" -->
+<!--   ></iframe> -->
+<!-- </div> -->
+<!-- `` -->
 
