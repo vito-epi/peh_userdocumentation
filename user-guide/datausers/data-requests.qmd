@@ -117,19 +117,10 @@ For each variable you request:
 ✅ All variables marked with `request_var_1isYes = 1` are included in the request.
 
 ⚠️ Only annex files **generated and completed via the Studies and Codebooks sections of this application** are accepted.
+
 ---
 
 
-<!-- ## Download Excel Annexes -->
-
-<!-- The Excel exports are generated automatically from Zenodo: -->
-<!-- <!-- RDS record: --> -->
-<!-- <!-- https://doi.org/10.5281/zenodo.19682162 --> -->
-
-<!-- - [Studies](/downloads/10.5281_zenodo.19682386) -->
-<!-- - [Codebooks](/downloads/10.5281_zenodo.19682162/) -->
-
-<!-- --- -->
 
 ## Submitting your request
 
@@ -175,88 +166,3 @@ For questions regarding data availability or the data access procedure, please c
 
 
 
-
-<!-- ## Purpose of this page -->
-
-<!-- This page describes general principles related to **requesting access to PEH data**. -->
-
-<!-- Exact procedures may differ depending on: -->
-<!-- - the specific dataset -->
-<!-- - the data owner -->
-<!-- - applicable legal or ethical frameworks -->
-
-<!-- --- -->
-
-<!-- ## When is a data request required? -->
-
-<!-- In most cases, a formal data request is required before: -->
-
-<!-- - accessing non-public PEH data -->
-<!-- - receiving datasets containing personal or sensitive information -->
-<!-- - reusing data beyond the original study purpose -->
-
-<!-- Publicly available summary data may be subject to different conditions. -->
-
-<!-- --- -->
-
-<!-- ## Typical information included in a data request -->
-
-<!-- A data request usually includes: -->
-
-<!-- - the purpose of data use -->
-<!-- - a description of the research or policy question -->
-<!-- - requested variables or data components -->
-<!-- - intended analyses or outputs -->
-<!-- - information on data protection and storage -->
-
-<!-- Incomplete requests may delay evaluation. -->
-
-<!-- --- -->
-
-
-<!-- ## Download Excel Annexes -->
-
-<!-- The Excel exports are generated automatically from Zenodo: -->
-<!-- <!-- RDS record: --> -->
-<!-- <!-- https://doi.org/10.5281/zenodo.19682162 --> -->
-
-<!-- - [Studies](/downloads/10.5281_zenodo.19682386) -->
-<!-- - [Codebooks](/downloads/10.5281_zenodo.19682162/) -->
-
-
-<!-- --- -->
-
-<!-- ## Review and decision-making -->
-
-<!-- Data requests are typically: -->
-
-<!-- - reviewed by the data owner or custodian -->
-<!-- - assessed for legal, ethical and scientific suitability -->
-<!-- - approved, conditionally approved, or rejected -->
-
-<!-- The PEH Data Platform does not make these decisions. -->
-
-<!-- --- -->
-
-<!-- ## Conditions of data use -->
-
-<!-- If access is granted, data use is usually subject to conditions, such as: -->
-
-<!-- - use limited to a specific purpose or time period -->
-<!-- - restrictions on data sharing with third parties -->
-<!-- - reporting or acknowledgement requirements -->
-
-<!-- Violation of conditions may lead to withdrawal of access. -->
-
-<!-- --- -->
-
-<!-- ## Final responsibility -->
-
-<!-- ::: callout-warning -->
-<!-- Approval of a data request does **not** transfer responsibility for data use. -->
-
-<!-- Data users remain responsible for: -->
-<!-- - lawful processing of data -->
-<!-- - compliance with agreed conditions -->
-<!-- - appropriate publication and dissemination practices -->
-<!-- ::: -->

@@ -27,7 +27,7 @@ website:
 
   sidebar:
     contents:
-      # - user-guide/index.qmd
+      - user-guide/legal.qmd
       - section: "Data Providers"
         contents:
           - user-guide/dataproviders/overview.qmd
