@@ -28,6 +28,11 @@ jobs:
             any::openxlsx
             any::httr
             any::jsonlite
+            any::readxl
+            any::dplyr
+            any::knitr
+            any::rmarkdown
+
 
       - name: Build Excel downloads from Zenodo (all DOIs)
         # env:
