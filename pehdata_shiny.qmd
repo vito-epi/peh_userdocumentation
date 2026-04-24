@@ -4,7 +4,7 @@ sidebar: false
 page-layout: full
 ---
 
-https://vito-epi.shinyapps.io/peh_data/{target="_blank" rel="noopener noreferrer" .btn .btn-outline-primary}
+[Open PEH Data Explorer in a new tab](https://vito-epi.shinyapps.io/peh_data/){target="_blank" rel="noopener noreferrer" .btn .btn-outline-primary}
 
 ```{=html}
 <div class="peh-embed-wrap">
@@ -14,7 +14,7 @@ https://vito-epi.shinyapps.io/peh_data/{target="_blank" rel="noopener noreferrer
     loading="lazy"
   ></iframe>
 </div>
-
+``
 
 <!-- --- -->
 <!-- # title: "PEH Data" -->
