@@ -127,7 +127,7 @@ For each variable you request:
 1. Complete the **Data Access Request Form** via Microsoft Forms:  
    👉 https://forms.office.com/e/cvYykd6Q3S
 
-   To prepare your submission, you may optionally download the [**Data Access Request preparation template (Word document)**](https://doi.org/10.5281/zenodo.19330313)
+   To prepare your submission, you may optionally download the Data Access Request preparation template [Word document](https://doi.org/10.5281/zenodo.19330313)
    This document contains the questions from the form and can be used to draft and review your answers before submission.
 
 2. Download and complete the required annex Excel files via this application.
