@@ -39,6 +39,9 @@ website:
         contents:
           - user-guide/datausers/overview.qmd
           - user-guide/datausers/data-requests.qmd
+      - section: "Publications"
+        contents:
+          - user-guide/publications/approved.qmd   
 
 
 
