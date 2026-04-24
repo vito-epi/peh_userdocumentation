@@ -1,6 +1,8 @@
 ---
-title: "Protocol On the management and use of the Personal Exposure and Health Data Platform"
+title: "Protocol"
 ---
+
+# Protocol On the management and use of the Personal Exposure and Health Data Platform
 
 The Personal Exposure and Health Data Platform (“PEH Data Platform”) has been developed at VITO in order to
 give access and to share single measurement Personal Exposure and Health data (“PEH data”), 

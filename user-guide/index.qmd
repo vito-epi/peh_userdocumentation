@@ -1,5 +1,5 @@
 ---
-title: "PEH Data Platform - User Guide"
+title: "User Guide"
 ---
 
 In this section you will find detailed guidance on:

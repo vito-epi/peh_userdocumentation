@@ -29,15 +29,12 @@ website:
   sidebar:
     contents:
       - user-guide/index.qmd
-      - href: user-guide/protocol.qmd
-        title: "Protocol"
-      - href: user-guide/account.qmd
-        title: "Account"        
+      - user-guide/protocol.qmd
+      - user-guide/account.qmd
       - section: "Data Providers"
         contents:
           - user-guide/dataproviders/overview.qmd
           - user-guide/dataproviders/data-requirements.qmd
-
       - section: "Data Users"
         contents:
           - user-guide/datausers/overview.qmd

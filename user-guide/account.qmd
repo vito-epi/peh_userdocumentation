@@ -1,10 +1,12 @@
 ---
-title: "Register for an account"
+title: "Account"
 ---
+
+# Register for an account
 
 To apply for an account to the PEH Data Platform, go to [https://peh.vito.be/](https://peh.vito.be/) and follow the instructions.
 
 Important note: 
 
-Providing data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signatur of the [Protocol On the management and use of the Personal Exposure and Health Data Platform](https://vito-epi.github.io/peh_userdocumentation/user-guide/protocol.html)
+Providing data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signature of the [Protocol On the management and use of the Personal Exposure and Health Data Platform](https://vito-epi.github.io/peh_userdocumentation/user-guide/protocol.html)
 
