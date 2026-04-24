@@ -233,6 +233,48 @@
     ]
   },
   {
+    "objectID": "main/index.html",
+    "href": "main/index.html",
+    "title": "PEH Data Platform",
+    "section": "",
+    "text": "This website is the central entry point for documentation, tools, and guidance related to the PEH Data Platform.\nIt provides access to different documentation sections, each tailored to a specific purpose.\nNew sections will be added over time as compomenets become available."
+  },
+  {
+    "objectID": "main/index.html#welcome",
+    "href": "main/index.html#welcome",
+    "title": "PEH Data Platform",
+    "section": "",
+    "text": "This website is the central entry point for documentation, tools, and guidance related to the PEH Data Platform.\nIt provides access to different documentation sections, each tailored to a specific purpose.\nNew sections will be added over time as compomenets become available."
+  },
+  {
+    "objectID": "main/index.html#peh-data-platform",
+    "href": "main/index.html#peh-data-platform",
+    "title": "PEH Data Platform",
+    "section": "PEH Data Platform",
+    "text": "PEH Data Platform\nThe Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies.\nThe platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements.\nThe PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nIn addition to the exchange of single measurement data as governed by this Protocol, the PEH Data Platform also offers additional functionalities, including (but may be not limited to) the collection and publication of metadata and the calculation and publication of summary statistics.\nhttps://hbm.vito.be/"
+  },
+  {
+    "objectID": "main/index.html#peh-user-documentation",
+    "href": "main/index.html#peh-user-documentation",
+    "title": "PEH Data Platform",
+    "section": "PEH User Documentation",
+    "text": "PEH User Documentation\nStakeholders: data providers and data users that interact with the PEH Data Platform to provide\nand/or get access to individual leval data\nThis section contains detailed user guidance to interact with https://peh.vito.be/\n➡️ Go to:\n/peh_userdocumentation/"
+  },
+  {
+    "objectID": "main/index.html#upcoming-sections",
+    "href": "main/index.html#upcoming-sections",
+    "title": "PEH Data Platform",
+    "section": "Upcoming Sections",
+    "text": "Upcoming Sections\nThe documentation hub is designed to grow.\nPlanned additions include: - … - … - …\nThese sections will appear here once available."
+  },
+  {
+    "objectID": "main/index.html#about-this-documentation",
+    "href": "main/index.html#about-this-documentation",
+    "title": "PEH Data Platform",
+    "section": "About this documentation",
+    "text": "About this documentation\nThis documentation is developed and maintained by VITO. It supports transparent, FAIR-compliant access to PEH Data."
+  },
+  {
     "objectID": "user-guide/account.html",
     "href": "user-guide/account.html",
     "title": "Account",
