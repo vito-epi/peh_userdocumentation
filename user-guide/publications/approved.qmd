@@ -14,5 +14,5 @@ url <- "https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%
 requests <- read_excel(url, sheet = "Approved requests")
 
 requests |> 
-  arrange(desc(`Approval date`)) |> 
   knitr::kable()
+```

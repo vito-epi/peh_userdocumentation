@@ -42,6 +42,7 @@ website:
       - section: "Publications"
         contents:
           - user-guide/publications/approved.qmd   
+          - user-guide/publications/publications.qmd   
 
 
 

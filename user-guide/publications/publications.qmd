@@ -1,0 +1,40 @@
+---
+title: "Publications"
+---
+
+# Overview of publications based on data available through the PEH platform
+
+
+This page provides an overview of peer-reviewed publications that made use of data
+available through the PEH Data Platform.
+
+## HBM4EU AS studies
+
+
+```{r}
+library(readxl)
+library(dplyr)
+library(knitr)
+
+url <- "https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx"
+
+
+publ_hbm4eu_as <- read_excel(url, sheet = "All publications_HBM4EU AS")
+
+publ_hbm4eu_as |> 
+  knitr::kable()
+```
+
+## HBM4EU MOM-study
+
+```{r}
+library(readxl)
+library(dplyr)
+library(knitr)
+
+url <- "https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx"
+publ_hbm4eu_mom <- read_excel(url, sheet = "All publications_HBM4EU MoMstud")
+
+publ_hbm4eu_mom |> 
+  knitr::kable()
+```
