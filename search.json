@@ -42,253 +42,38 @@
     "text": "Open PEH Data Explorer in a new tab"
   },
   {
-    "objectID": "user-guide/protocol.html",
-    "href": "user-guide/protocol.html",
-    "title": "Protocol",
+    "objectID": "user-guide/publications/approved.html",
+    "href": "user-guide/publications/approved.html",
+    "title": "Approved Requests",
     "section": "",
-    "text": "Protocol On the management and use of the Personal Exposure and Health Data Platform\nThe Personal Exposure and Health Data Platform (“PEH Data Platform”) has been developed at VITO in order to give access and to share single measurement Personal Exposure and Health data (“PEH data”), most commonly originating from population studies, in the highest possible resolution to researchers and other stakeholders.\nIt is the intention of the Supplying Data Controllers of the data included in this platform, to make the data on this data platform further available to stakeholders according to the terms and conditions of this protocol and the Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (‘GDPR’, General Data Protection Regulation), and allow additional data to be added to it.\nThis Protocol describes the terms and conditions on the data exchange between Supplying and Receiving Data Controllers via PEH Data Platform, the role of the PEH Data Platform Manager, as well as the processing activities performed by the Receiving Data Controller.\nThe Protocol On the management and use of the Personal Exposure and Health Data Platform can be consulted at doi.org/10.5281/zenodo.19232226\nTo initiate the signature process to sign the Protocol On the management and use of the Personal Exposure and Health Data Platform, send an e-mail to: PEHDataPlatform@vito.be",
+    "text": "library(readxl)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(knitr)\n\nurl &lt;- \"https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx\"\n\ntmp &lt;- tempfile(fileext = \".xlsx\")\ndownload.file(url, tmp, mode = \"wb\")\n\nrequests &lt;- read_excel(tmp, sheet = \"Approved requests (publication)\")\n\nrequests |&gt;\n  knitr::kable()\n\n\n\n\n\n\n\n\n\n\n\n\n\nRequest number\nTitle of request\nInstitution of submitter\nCountry of submitter\nResulting publication title\nDate\nResulting publication doi\n\n\n\n\nPEH_2023_01\nAssociation between PFAS, phthalates/DINCH with Metabolic hormones, kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_02\nAssociation between Arsenic, Metabolic hormones & kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_03\nAssociation between exposure to acrylamide and the neurological biomarker BDNF\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_04\nAssociation between exposure to acrylamide and metabolism\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_05\nAssociation between UV filters, acrylamide and non-persistent pesticides and body mass index among adult population\nINRAE\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_06\nAssociation between pesticide exposure and asthma and allergies in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_07\nAssociation between pesticide exposure and body mass index (BMI) in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_08\nAssociation between arsenic exposure and reproductive hormones and sexual maturation\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_09\nAssociation between Cadmium with metabolism focusing on BMI in young adults\nAU-PH\nDenmark\nNA\nNA\nNA\n\n\nPEH_2023_10\nAssociations of PAHs with BMI\nAUTH\nGreece\nNA\nNA\nNA\n\n\nPEH_2023_11\nAssociations between mycotoxins exposure (DON) and body mass index in adults\nSpF\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_13\nMaster’s Thesis: Applying robust regression to assess exposure to bisphenols in the European population\nINSA\nPortugal\nNA\nNA\nNA\n\n\nPEH_2023_14\nAssociation between UV filters, with metabolic and asthma/allergy alterations in teenagers\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_15\nAssociation between Bisphenols and BMI in adults from HBM4EU Aligned studies\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_16\nEpigenetic changes in relation to PFAS, phthalates, DINCH, and arsenic in the association between exposure and cardiovascular and endocrine effects\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_17\nAssociation of Arsenic, PFAS, Phthalates, and UV-filters on the neurological pathway: serum BDNF and thyroid hormones\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_18\nAssociation of UV-filters on kisspeptin and reproductive markers\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_19\nDerivation of European exposure values of internal exposure to environmental pollutants using human biomonitoring data – Method development\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2024_01\nCase study 7.3.2 Assessment of uncertainty in PBK models of PFAS exposure in humans and reverse dosimetry\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_02\nSpatial determinants of PAHs exposure in European population\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_03\nSpatial determinants of pesticide exposure\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_04\nFeasibility study to evaluate occupational exposure in general surveys\nTTL\nFinland\nNA\nNA\nNA\n\n\nPEH_2025_01\nPARC activity T4.1.4.1 on data management of HBM data\nVITO\nBelgium\nNA\nNA\nNA",
     "crumbs": [
       "About",
-      "Protocol"
+      "Publications",
+      "Approved Requests"
     ]
   },
   {
-    "objectID": "user-guide/dataproviders/overview.html",
-    "href": "user-guide/dataproviders/overview.html",
-    "title": "Overview",
+    "objectID": "user-guide/publications/approved.html#approved-data-access-requests",
+    "href": "user-guide/publications/approved.html#approved-data-access-requests",
+    "title": "Approved Requests",
     "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "text": "library(readxl)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(knitr)\n\nurl &lt;- \"https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx\"\n\ntmp &lt;- tempfile(fileext = \".xlsx\")\ndownload.file(url, tmp, mode = \"wb\")\n\nrequests &lt;- read_excel(tmp, sheet = \"Approved requests (publication)\")\n\nrequests |&gt;\n  knitr::kable()\n\n\n\n\n\n\n\n\n\n\n\n\n\nRequest number\nTitle of request\nInstitution of submitter\nCountry of submitter\nResulting publication title\nDate\nResulting publication doi\n\n\n\n\nPEH_2023_01\nAssociation between PFAS, phthalates/DINCH with Metabolic hormones, kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_02\nAssociation between Arsenic, Metabolic hormones & kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_03\nAssociation between exposure to acrylamide and the neurological biomarker BDNF\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_04\nAssociation between exposure to acrylamide and metabolism\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_05\nAssociation between UV filters, acrylamide and non-persistent pesticides and body mass index among adult population\nINRAE\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_06\nAssociation between pesticide exposure and asthma and allergies in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_07\nAssociation between pesticide exposure and body mass index (BMI) in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_08\nAssociation between arsenic exposure and reproductive hormones and sexual maturation\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_09\nAssociation between Cadmium with metabolism focusing on BMI in young adults\nAU-PH\nDenmark\nNA\nNA\nNA\n\n\nPEH_2023_10\nAssociations of PAHs with BMI\nAUTH\nGreece\nNA\nNA\nNA\n\n\nPEH_2023_11\nAssociations between mycotoxins exposure (DON) and body mass index in adults\nSpF\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_13\nMaster’s Thesis: Applying robust regression to assess exposure to bisphenols in the European population\nINSA\nPortugal\nNA\nNA\nNA\n\n\nPEH_2023_14\nAssociation between UV filters, with metabolic and asthma/allergy alterations in teenagers\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_15\nAssociation between Bisphenols and BMI in adults from HBM4EU Aligned studies\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_16\nEpigenetic changes in relation to PFAS, phthalates, DINCH, and arsenic in the association between exposure and cardiovascular and endocrine effects\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_17\nAssociation of Arsenic, PFAS, Phthalates, and UV-filters on the neurological pathway: serum BDNF and thyroid hormones\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_18\nAssociation of UV-filters on kisspeptin and reproductive markers\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_19\nDerivation of European exposure values of internal exposure to environmental pollutants using human biomonitoring data – Method development\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2024_01\nCase study 7.3.2 Assessment of uncertainty in PBK models of PFAS exposure in humans and reverse dosimetry\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_02\nSpatial determinants of PAHs exposure in European population\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_03\nSpatial determinants of pesticide exposure\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_04\nFeasibility study to evaluate occupational exposure in general surveys\nTTL\nFinland\nNA\nNA\nNA\n\n\nPEH_2025_01\nPARC activity T4.1.4.1 on data management of HBM data\nVITO\nBelgium\nNA\nNA\nNA",
     "crumbs": [
       "About",
-      "Data Providers",
-      "Overview"
+      "Publications",
+      "Approved Requests"
     ]
   },
   {
-    "objectID": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
-    "href": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
-    "title": "Overview",
+    "objectID": "user-guide/index.html",
+    "href": "user-guide/index.html",
+    "title": "User Guide",
     "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "text": "In this section you will find detailed guidance on:\nto be constructed",
     "crumbs": [
       "About",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#conceptual-workflow",
-    "href": "user-guide/dataproviders/overview.html#conceptual-workflow",
-    "title": "Overview",
-    "section": "Conceptual workflow",
-    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement.",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#inputs",
-    "href": "user-guide/dataproviders/overview.html#inputs",
-    "title": "Overview",
-    "section": "Inputs",
-    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected.",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#outputs",
-    "href": "user-guide/dataproviders/overview.html#outputs",
-    "title": "Overview",
-    "section": "Outputs",
-    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation.",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
-    "href": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
-    "title": "Overview",
-    "section": "Limitations and responsibilities",
-    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html",
-    "href": "user-guide/datausers/data-requests.html",
-    "title": "Data requests",
-    "section": "",
-    "text": "Access to individual-level data stored in the Personal Exposure and Health (PEH) Data Platform is granted on request and subject to approval.\n\n\n\nTo request access to PEH data:\n\nSelect studies and variables in this application\n\nDownload and complete the annex files\nSubmit the Data Access Request Form\n\nAccess is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.\n\n\n\n\nData access requests can be submitted by a Receiving Data Controller (RDC) for research projects in the public interest, in line with the objectives of the PEH Data Platform.\nIf multiple RDCs are involved in the same research project, and they require different subsets of data,\neach RDC must submit a separate request, specifying: - their own research questions, and - the specific data requested.\n\n\n\n\n\n\n\nThe RDC submits a Data Access Request Form via Microsoft Forms.\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/\n\n\n\n\n\n\nThe Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions\n\n\n\n\n\n\nTo complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.\n\n\n\n\n\n\nComplete the Data Access Request Form via Microsoft Forms:\n👉 https://forms.office.com/e/cvYykd6Q3S\nTo prepare your submission, you may optionally download the Data Access Request preparation template (Word document) This document contains the questions from the form and can be used to draft and review your answers before submission.\nDownload and complete the required annex Excel files via this application.\nSend the completed annex files by e‑mail to:\nPEHDataPlatform@vito.be\n\n❗ Your request will not be processed until the annex files have been received.\nTo avoid requesting data for research questions that have already been explored, you can download an overview of publications based on data available through the PEH platform here.\n\n\n\n\nRequests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226\n\n\n\n\nFor questions regarding data availability or the data access procedure, please contact:\nPEHDataPlatform@vito.be",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#quick-overview",
-    "href": "user-guide/datausers/data-requests.html#quick-overview",
-    "title": "Data requests",
-    "section": "",
-    "text": "To request access to PEH data:\n\nSelect studies and variables in this application\n\nDownload and complete the annex files\nSubmit the Data Access Request Form\n\nAccess is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#who-can-request-access",
-    "href": "user-guide/datausers/data-requests.html#who-can-request-access",
-    "title": "Data requests",
-    "section": "",
-    "text": "Data access requests can be submitted by a Receiving Data Controller (RDC) for research projects in the public interest, in line with the objectives of the PEH Data Platform.\nIf multiple RDCs are involved in the same research project, and they require different subsets of data,\neach RDC must submit a separate request, specifying: - their own research questions, and - the specific data requested.",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#data-access-procedure",
-    "href": "user-guide/datausers/data-requests.html#data-access-procedure",
-    "title": "Data requests",
-    "section": "",
-    "text": "The RDC submits a Data Access Request Form via Microsoft Forms.\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#information-required-in-the-request",
-    "href": "user-guide/datausers/data-requests.html#information-required-in-the-request",
-    "title": "Data requests",
-    "section": "",
-    "text": "The Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#required-annex-files-generated-via-this-app",
-    "href": "user-guide/datausers/data-requests.html#required-annex-files-generated-via-this-app",
-    "title": "Data requests",
-    "section": "",
-    "text": "To complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#submitting-your-request",
-    "href": "user-guide/datausers/data-requests.html#submitting-your-request",
-    "title": "Data requests",
-    "section": "",
-    "text": "Complete the Data Access Request Form via Microsoft Forms:\n👉 https://forms.office.com/e/cvYykd6Q3S\nTo prepare your submission, you may optionally download the Data Access Request preparation template (Word document) This document contains the questions from the form and can be used to draft and review your answers before submission.\nDownload and complete the required annex Excel files via this application.\nSend the completed annex files by e‑mail to:\nPEHDataPlatform@vito.be\n\n❗ Your request will not be processed until the annex files have been received.\nTo avoid requesting data for research questions that have already been explored, you can download an overview of publications based on data available through the PEH platform here.",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#legal-and-ethical-framework",
-    "href": "user-guide/datausers/data-requests.html#legal-and-ethical-framework",
-    "title": "Data requests",
-    "section": "",
-    "text": "Requests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#questions",
-    "href": "user-guide/datausers/data-requests.html#questions",
-    "title": "Data requests",
-    "section": "",
-    "text": "For questions regarding data availability or the data access procedure, please contact:\nPEHDataPlatform@vito.be",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/account.html",
-    "href": "user-guide/account.html",
-    "title": "Account",
-    "section": "",
-    "text": "Register for an account\nTo apply for an account to the PEH Data Platform, go to https://peh.vito.be/ and follow the instructions.\nImportant note:\nProviding data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signature of the Protocol On the management and use of the Personal Exposure and Health Data Platform",
-    "crumbs": [
-      "About",
-      "Account"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html",
-    "href": "user-guide/datausers/overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Browse and download information on available studies\nExplore and download codebooks for each study\nConsult the procedure and documents to request data from the Personal Exposure and Health Data Platform",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#what-you-can-do",
-    "href": "user-guide/datausers/overview.html#what-you-can-do",
-    "title": "Overview",
-    "section": "",
-    "text": "Browse and download information on available studies\nExplore and download codebooks for each study\nConsult the procedure and documents to request data from the Personal Exposure and Health Data Platform",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#peh-data-platform",
-    "href": "user-guide/datausers/overview.html#peh-data-platform",
-    "title": "Overview",
-    "section": "PEH Data Platform",
-    "text": "PEH Data Platform\nThe Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nhttps://peh.vito.be/",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/overview.html#contact",
-    "href": "user-guide/datausers/overview.html#contact",
-    "title": "Overview",
-    "section": "Contact",
-    "text": "Contact\nFor questions: PEHDataPlatform@vito.be",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Overview"
+      "User Guide"
     ]
   },
   {
@@ -400,38 +185,289 @@
     ]
   },
   {
-    "objectID": "user-guide/index.html",
-    "href": "user-guide/index.html",
-    "title": "User Guide",
+    "objectID": "user-guide/datausers/overview.html",
+    "href": "user-guide/datausers/overview.html",
+    "title": "Overview",
     "section": "",
-    "text": "In this section you will find detailed guidance on:\nto be constructed",
+    "text": "Browse and download information on available studies\nExplore and download codebooks for each study\nConsult the procedure and documents to request data from the Personal Exposure and Health Data Platform",
     "crumbs": [
       "About",
-      "User Guide"
+      "Data Users",
+      "Overview"
     ]
   },
   {
-    "objectID": "user-guide/publications/approved.html",
-    "href": "user-guide/publications/approved.html",
-    "title": "Approved Requests",
+    "objectID": "user-guide/datausers/overview.html#what-you-can-do",
+    "href": "user-guide/datausers/overview.html#what-you-can-do",
+    "title": "Overview",
     "section": "",
-    "text": "library(readxl) library(dplyr) library(knitr)\nurl &lt;- “https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx”\nrequests &lt;- read_excel(url, sheet = “Approved requests”)\nrequests |&gt; arrange(desc(Approval date)) |&gt; knitr::kable()",
+    "text": "Browse and download information on available studies\nExplore and download codebooks for each study\nConsult the procedure and documents to request data from the Personal Exposure and Health Data Platform",
     "crumbs": [
       "About",
-      "Publications",
-      "Approved Requests"
+      "Data Users",
+      "Overview"
     ]
   },
   {
-    "objectID": "user-guide/publications/approved.html#approved-data-access-requests",
-    "href": "user-guide/publications/approved.html#approved-data-access-requests",
-    "title": "Approved Requests",
+    "objectID": "user-guide/datausers/overview.html#peh-data-platform",
+    "href": "user-guide/datausers/overview.html#peh-data-platform",
+    "title": "Overview",
+    "section": "PEH Data Platform",
+    "text": "PEH Data Platform\nThe Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nhttps://peh.vito.be/",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#contact",
+    "href": "user-guide/datausers/overview.html#contact",
+    "title": "Overview",
+    "section": "Contact",
+    "text": "Contact\nFor questions: PEHDataPlatform@vito.be",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/account.html",
+    "href": "user-guide/account.html",
+    "title": "Account",
     "section": "",
-    "text": "library(readxl) library(dplyr) library(knitr)\nurl &lt;- “https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx”\nrequests &lt;- read_excel(url, sheet = “Approved requests”)\nrequests |&gt; arrange(desc(Approval date)) |&gt; knitr::kable()",
+    "text": "Register for an account\nTo apply for an account to the PEH Data Platform, go to https://peh.vito.be/ and follow the instructions.\nImportant note:\nProviding data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signature of the Protocol On the management and use of the Personal Exposure and Health Data Platform",
+    "crumbs": [
+      "About",
+      "Account"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html",
+    "href": "user-guide/datausers/data-requests.html",
+    "title": "Data requests",
+    "section": "",
+    "text": "Access to individual-level data stored in the Personal Exposure and Health (PEH) Data Platform is granted on request and subject to approval.\n\n\n\nTo request access to PEH data:\n\nSelect studies and variables in this application\n\nDownload and complete the annex files\nSubmit the Data Access Request Form\n\nAccess is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.\n\n\n\n\nData access requests can be submitted by a Receiving Data Controller (RDC) for research projects in the public interest, in line with the objectives of the PEH Data Platform.\nIf multiple RDCs are involved in the same research project, and they require different subsets of data,\neach RDC must submit a separate request, specifying: - their own research questions, and - the specific data requested.\n\n\n\n\n\n\n\nThe RDC submits a Data Access Request Form via Microsoft Forms.\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/\n\n\n\n\n\n\nThe Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions\n\n\n\n\n\n\nTo complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.\n\n\n\n\n\n\nComplete the Data Access Request Form via Microsoft Forms:\n👉 https://forms.office.com/e/cvYykd6Q3S\nTo prepare your submission, you may optionally download the Data Access Request preparation template Word document This document contains the questions from the form and can be used to draft and review your answers before submission.\nDownload and complete the required annex Excel files via this application.\nSend the completed annex files by e‑mail to:\nPEHDataPlatform@vito.be\n\n❗ Your request will not be processed until the annex files have been received.\nTo avoid requesting data for research questions that have already been explored, you can download an overview of publications based on data available through the PEH platform here.\n\n\n\n\nRequests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226\n\n\n\n\nFor questions regarding data availability or the data access procedure, please contact:\nPEHDataPlatform@vito.be",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#quick-overview",
+    "href": "user-guide/datausers/data-requests.html#quick-overview",
+    "title": "Data requests",
+    "section": "",
+    "text": "To request access to PEH data:\n\nSelect studies and variables in this application\n\nDownload and complete the annex files\nSubmit the Data Access Request Form\n\nAccess is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#who-can-request-access",
+    "href": "user-guide/datausers/data-requests.html#who-can-request-access",
+    "title": "Data requests",
+    "section": "",
+    "text": "Data access requests can be submitted by a Receiving Data Controller (RDC) for research projects in the public interest, in line with the objectives of the PEH Data Platform.\nIf multiple RDCs are involved in the same research project, and they require different subsets of data,\neach RDC must submit a separate request, specifying: - their own research questions, and - the specific data requested.",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#data-access-procedure",
+    "href": "user-guide/datausers/data-requests.html#data-access-procedure",
+    "title": "Data requests",
+    "section": "",
+    "text": "The RDC submits a Data Access Request Form via Microsoft Forms.\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#information-required-in-the-request",
+    "href": "user-guide/datausers/data-requests.html#information-required-in-the-request",
+    "title": "Data requests",
+    "section": "",
+    "text": "The Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#required-annex-files-generated-via-this-app",
+    "href": "user-guide/datausers/data-requests.html#required-annex-files-generated-via-this-app",
+    "title": "Data requests",
+    "section": "",
+    "text": "To complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#submitting-your-request",
+    "href": "user-guide/datausers/data-requests.html#submitting-your-request",
+    "title": "Data requests",
+    "section": "",
+    "text": "Complete the Data Access Request Form via Microsoft Forms:\n👉 https://forms.office.com/e/cvYykd6Q3S\nTo prepare your submission, you may optionally download the Data Access Request preparation template Word document This document contains the questions from the form and can be used to draft and review your answers before submission.\nDownload and complete the required annex Excel files via this application.\nSend the completed annex files by e‑mail to:\nPEHDataPlatform@vito.be\n\n❗ Your request will not be processed until the annex files have been received.\nTo avoid requesting data for research questions that have already been explored, you can download an overview of publications based on data available through the PEH platform here.",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#legal-and-ethical-framework",
+    "href": "user-guide/datausers/data-requests.html#legal-and-ethical-framework",
+    "title": "Data requests",
+    "section": "",
+    "text": "Requests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/data-requests.html#questions",
+    "href": "user-guide/datausers/data-requests.html#questions",
+    "title": "Data requests",
+    "section": "",
+    "text": "For questions regarding data availability or the data access procedure, please contact:\nPEHDataPlatform@vito.be",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Data requests"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html",
+    "href": "user-guide/dataproviders/overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
+    "href": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
+    "title": "Overview",
+    "section": "",
+    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#conceptual-workflow",
+    "href": "user-guide/dataproviders/overview.html#conceptual-workflow",
+    "title": "Overview",
+    "section": "Conceptual workflow",
+    "text": "Conceptual workflow\nUse of the PEH Data Platform typically follows these steps:\n\nData are prepared according to an agreed PEH template or codebook\n\nData are loaded into the platform for inspection\n\nStructure, variables and value domains are reviewed\n\nOutputs are used to support further data curation or reporting\n\nThe platform supports the process, but does not replace expert judgement.",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#inputs",
+    "href": "user-guide/dataproviders/overview.html#inputs",
+    "title": "Overview",
+    "section": "Inputs",
+    "text": "Inputs\nInput data are expected to be:\n\nStructured in tabular form\nAligned with predefined variable names\nCoded using specified allowed values where applicable\n\nDeviation from the specification is reported, not automatically corrected.",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#outputs",
+    "href": "user-guide/dataproviders/overview.html#outputs",
+    "title": "Overview",
+    "section": "Outputs",
+    "text": "Outputs\nDepending on the configuration, the platform may provide:\n\nStructured overview tables\nSummaries of variables and value domains\nDiagnostic messages or warnings\n\nOutputs should always be reviewed in the context of the original data and documentation.",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
+    "href": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
+    "title": "Overview",
+    "section": "Limitations and responsibilities",
+    "text": "Limitations and responsibilities\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/protocol.html",
+    "href": "user-guide/protocol.html",
+    "title": "Protocol",
+    "section": "",
+    "text": "Protocol On the management and use of the Personal Exposure and Health Data Platform\nThe Personal Exposure and Health Data Platform (“PEH Data Platform”) has been developed at VITO in order to give access and to share single measurement Personal Exposure and Health data (“PEH data”), most commonly originating from population studies, in the highest possible resolution to researchers and other stakeholders.\nIt is the intention of the Supplying Data Controllers of the data included in this platform, to make the data on this data platform further available to stakeholders according to the terms and conditions of this protocol and the Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (‘GDPR’, General Data Protection Regulation), and allow additional data to be added to it.\nThis Protocol describes the terms and conditions on the data exchange between Supplying and Receiving Data Controllers via PEH Data Platform, the role of the PEH Data Platform Manager, as well as the processing activities performed by the Receiving Data Controller.\nThe Protocol On the management and use of the Personal Exposure and Health Data Platform can be consulted at doi.org/10.5281/zenodo.19232226\nTo initiate the signature process to sign the Protocol On the management and use of the Personal Exposure and Health Data Platform, send an e-mail to: PEHDataPlatform@vito.be",
+    "crumbs": [
+      "About",
+      "Protocol"
+    ]
+  },
+  {
+    "objectID": "user-guide/publications/publications.html",
+    "href": "user-guide/publications/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page provides an overview of peer-reviewed publications that made use of data available through the PEH Data Platform.\n\n\n\nlibrary(readxl)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(knitr)\n\nurl &lt;- \"https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx\"\n\ntmp &lt;- tempfile(fileext = \".xlsx\")\ndownload.file(url, tmp, mode = \"wb\")\n\n\npubl_hbm4eu_as &lt;- read_excel(tmp, sheet = \"All publications_HBM4EU AS\")\n\npubl_hbm4eu_as |&gt;\n  knitr::kable()\n\n\n\n\n\n\n\n\n\nPublication title\nDate\nPublication doi\n\n\n\n\nCharacteristics paper\nNA\nNA\n\n\nHBM4EU combines and harmonises human biomonitoring data across the EU, building on existing capacity - The HBM4EU survey\n44431\nhttps://doi.org/10.1016/j.ijheh.2021.113809\n\n\nHarmonization of Human Biomonitoring Studies in Europe: Characteristics of the HBM4EU-Aligned Studies Participants\n44713\nhttps://doi.org/10.3390/ijerph19116787\n\n\nNA\nNA\nNA\n\n\nOverview paper expoure levels\nNA\nNA\n\n\nHarmonized human biomonitoring in European children, teenagers and adults: EU-wide exposure data of 11 chemical substance groups from the HBM4EU Aligned Studies (2014-2021)\n44966\nhttps://doi.org/10.1016/j.ijheh.2023.114119\n\n\nNA\nNA\nNA\n\n\nExposure data analyses (determinants, trends, …)\nNA\nNA\n\n\nTrends of Exposure to Acrylamide as Measured by Urinary Biomarkers Levels within the HBM4EU Biomonitoring Aligned Studies (2000-2021)\n44775\nhttps://doi.org/10.3390/toxics10080443\n\n\nGlyphosate and AMPA in Human Urine of HBM4EU Aligned Studies: Part A Children\n44785\nhttps://doi.org/10.3390/toxics10080470\n\n\nTime Trends of Acrylamide Exposure in Europe: Combined Analysis of Published Reports and Current HBM4EU Studies\n44790\nhttps://doi.org/10.3390/toxics10080481\n\n\nGlyphosate and AMPA in Human Urine of HBM4EU-Aligned Studies: Part B Adults\n44825\nhttps://doi.org/10.3390/toxics10100552\n\n\nCadmium exposure in adults across Europe: Results from the HBM4EU Aligned Studies survey 2014-2020\n44851\nhttps://doi.org/10.1016/j.ijheh.2022.114050\n\n\nPFAS levels and determinants of variability in exposure in European teenagers - Results from the HBM4EU aligned studies (2014-2021)\n44865\nhttps://doi.org/10.1016/j.ijheh.2022.114057\n\n\nExposure to flame retardants in European children - Results from the HBM4EU aligned studies\n44890\nhttps://doi.org/10.1016/j.ijheh.2022.114070\n\n\nHuman urinary arsenic species, associated exposure determinants and potential health risks assessed in the HBM4EU Aligned Studies\n44947\nhttps://doi.org/10.1016/j.ijheh.2023.114115\n\n\nCurrent exposure to phthalates and DINCH in European children and adolescents - Results from the HBM4EU Aligned Studies 2014 to 2021\n44973\nhttps://doi.org/10.1016/j.ijheh.2022.114101\n\n\nTime Patterns in Internal Human Exposure Data to Bisphenols, Phthalates, DINCH, Organophosphate Flame Retardants, Cadmium and Polyaromatic Hydrocarbons in Europe\n45197\nhttps://doi.org/10.3390/toxics11100819\n\n\nDeterminants of exposure to acrylamide in European children and adults based on urinary biomarkers: results from the “European Human Biomonitoring Initiative” HBM4EU participating studies\n45262\nhttps://doi.org/10.1038/s41598-023-48738-6\n\n\nExposure assessment of the European adult population to deoxynivalenol - Results from the HBM4EU Aligned Studies\n45602\nhttps://doi.org/10.1016/j.foodres.2024.115281\n\n\nPolycyclic aromatic hydrocarbon (PAH) exposure among European adults: Evidence from the HBM4EU aligned studies\n45732\nhttps://doi.org/10.1016/j.envint.2025.109383\n\n\nNA\nNA\nNA\n\n\nExposure-effect\nNA\nNA\n\n\nConcurrent Assessment of Phthalates/HEXAMOLL® DINCH Exposure and Wechsler Intelligence Scale for Children Performance in Three European Cohorts of the HBM4EU Aligned Studies\n44820\nhttps://doi.org/10.3390/toxics10090538\n\n\nCross-sectional associations between exposure to per- and polyfluoroalkyl substances and body mass index among European teenagers in the HBM4EU aligned studies\n44867\nhttps://doi.org/10.1016/j.envpol.2022.120566\n\n\nPFAS association with kisspeptin and sex hormones in teenagers of the HBM4EU aligned studies\n45128\nhttps://doi.org/10.1016/j.envpol.2023.122214\n\n\nPFAS and Phthalate/DINCH Exposure in Association with Age at Menarche in Teenagers of the HBM4EU Aligned Studies\n45156\nhttps://doi.org/10.3390/toxics11080711\n\n\nAssociation of exposure to perfluoroalkyl substances (PFAS) and phthalates with thyroid hormones in adolescents from HBM4EU aligned studies\n45157\nhttps://doi.org/10.1016/j.envres.2023.116897\n\n\nCognitive Performance and Exposure to Organophosphate Flame Retardants in Children: Evidence from a Cross-Sectional Analysis of Two European Mother-Child Cohorts\n45223\nhttps://doi.org/10.3390/toxics11110878\n\n\nUrinary phthalate/DINCH metabolites associations with kisspeptin and reproductive hormones in teenagers: A cross-sectional study from the HBM4EU aligned studies\n45397\nhttps://doi.org/10.1016/j.scitotenv.2024.172426\n\n\nUrinary concentrations of phthalate/DINCH metabolites and body mass index among European children and adolescents in the HBM4EU Aligned Studies: A cross-sectional multi-country study\n45507\nhttps://doi.org/10.1016/j.envint.2024.108931\n\n\nAssociations between Urinary Phthalate Metabolites with BDNF and Behavioral Function among European Children from Five HBM4EU Aligned Studies\n45535\nhttps://doi.org/10.3390/toxics12090642\n\n\nAssociation of environmental pollutants with asthma and allergy, and the mediating role of oxidative stress and immune markers in adolescents\n45619\nhttps://doi.org/10.1016/j.envres.2024.120445\n\n\nAdolescent exposure to benzophenone ultraviolet filters: cross-sectional associations with obesity, cardiometabolic biomarkers, and asthma/allergy in six European biomonitoring studies\n45798\nhttps://doi.org/10.1016/j.envres.2025.121912\n\n\nNA\nNA\nNA\n\n\nRisk assessment\nNA\nNA\n\n\nRisk Assessment of Dietary Exposure to Organophosphorus Flame Retardants in Children by Using HBM-Data\n44684\nhttps://doi.org/10.3390/toxics10050234\n\n\nImproving the Risk Assessment of Pesticides through the Integration of Human Biomonitoring and Food Monitoring Data: A Case Study for Chlorpyrifos\n44721\nhttps://doi.org/10.3390/toxics10060313\n\n\nCumulative risk assessment of five phthalates in European children and adolescents\n30-Oct-2022\nhttps://doi.org/10.1016/j.ijheh.2022.114052\n\n\nApproaches to mixture risk assessment of PFASs in the European population based on human hazard and biomonitoring data\n44891\nhttps://doi.org/10.1016/j.ijheh.2022.114071\n\n\n\n\n\n\n\n\n\nlibrary(readxl)\nlibrary(dplyr)\nlibrary(knitr)\n\nurl &lt;- \"https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx\"\n\ntmp &lt;- tempfile(fileext = \".xlsx\")\ndownload.file(url, tmp, mode = \"wb\")\n\npubl_hbm4eu_mom &lt;- read_excel(tmp, sheet = \"All publications_HBM4EU MoMstud\")\n\npubl_hbm4eu_mom |&gt;\n  knitr::kable()\n\n\n\n\n\n\n\n\n\nPublication title\nDate\nPublication doi\n\n\n\n\nCharacteristics paper\nNA\nNA\n\n\nHBM4EU-MOM: Prenatal methylmercury-exposure control in five countries through suitable dietary advice for pregnancy – Study design and characteristics of participants\n2023-07-01\nhttps://doi.org/10.1016/j.ijheh.2023.114213",
     "crumbs": [
       "About",
       "Publications",
-      "Approved Requests"
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "user-guide/publications/publications.html#hbm4eu-as-studies",
+    "href": "user-guide/publications/publications.html#hbm4eu-as-studies",
+    "title": "Publications",
+    "section": "",
+    "text": "library(readxl)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(knitr)\n\nurl &lt;- \"https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx\"\n\ntmp &lt;- tempfile(fileext = \".xlsx\")\ndownload.file(url, tmp, mode = \"wb\")\n\n\npubl_hbm4eu_as &lt;- read_excel(tmp, sheet = \"All publications_HBM4EU AS\")\n\npubl_hbm4eu_as |&gt;\n  knitr::kable()\n\n\n\n\n\n\n\n\n\nPublication title\nDate\nPublication doi\n\n\n\n\nCharacteristics paper\nNA\nNA\n\n\nHBM4EU combines and harmonises human biomonitoring data across the EU, building on existing capacity - The HBM4EU survey\n44431\nhttps://doi.org/10.1016/j.ijheh.2021.113809\n\n\nHarmonization of Human Biomonitoring Studies in Europe: Characteristics of the HBM4EU-Aligned Studies Participants\n44713\nhttps://doi.org/10.3390/ijerph19116787\n\n\nNA\nNA\nNA\n\n\nOverview paper expoure levels\nNA\nNA\n\n\nHarmonized human biomonitoring in European children, teenagers and adults: EU-wide exposure data of 11 chemical substance groups from the HBM4EU Aligned Studies (2014-2021)\n44966\nhttps://doi.org/10.1016/j.ijheh.2023.114119\n\n\nNA\nNA\nNA\n\n\nExposure data analyses (determinants, trends, …)\nNA\nNA\n\n\nTrends of Exposure to Acrylamide as Measured by Urinary Biomarkers Levels within the HBM4EU Biomonitoring Aligned Studies (2000-2021)\n44775\nhttps://doi.org/10.3390/toxics10080443\n\n\nGlyphosate and AMPA in Human Urine of HBM4EU Aligned Studies: Part A Children\n44785\nhttps://doi.org/10.3390/toxics10080470\n\n\nTime Trends of Acrylamide Exposure in Europe: Combined Analysis of Published Reports and Current HBM4EU Studies\n44790\nhttps://doi.org/10.3390/toxics10080481\n\n\nGlyphosate and AMPA in Human Urine of HBM4EU-Aligned Studies: Part B Adults\n44825\nhttps://doi.org/10.3390/toxics10100552\n\n\nCadmium exposure in adults across Europe: Results from the HBM4EU Aligned Studies survey 2014-2020\n44851\nhttps://doi.org/10.1016/j.ijheh.2022.114050\n\n\nPFAS levels and determinants of variability in exposure in European teenagers - Results from the HBM4EU aligned studies (2014-2021)\n44865\nhttps://doi.org/10.1016/j.ijheh.2022.114057\n\n\nExposure to flame retardants in European children - Results from the HBM4EU aligned studies\n44890\nhttps://doi.org/10.1016/j.ijheh.2022.114070\n\n\nHuman urinary arsenic species, associated exposure determinants and potential health risks assessed in the HBM4EU Aligned Studies\n44947\nhttps://doi.org/10.1016/j.ijheh.2023.114115\n\n\nCurrent exposure to phthalates and DINCH in European children and adolescents - Results from the HBM4EU Aligned Studies 2014 to 2021\n44973\nhttps://doi.org/10.1016/j.ijheh.2022.114101\n\n\nTime Patterns in Internal Human Exposure Data to Bisphenols, Phthalates, DINCH, Organophosphate Flame Retardants, Cadmium and Polyaromatic Hydrocarbons in Europe\n45197\nhttps://doi.org/10.3390/toxics11100819\n\n\nDeterminants of exposure to acrylamide in European children and adults based on urinary biomarkers: results from the “European Human Biomonitoring Initiative” HBM4EU participating studies\n45262\nhttps://doi.org/10.1038/s41598-023-48738-6\n\n\nExposure assessment of the European adult population to deoxynivalenol - Results from the HBM4EU Aligned Studies\n45602\nhttps://doi.org/10.1016/j.foodres.2024.115281\n\n\nPolycyclic aromatic hydrocarbon (PAH) exposure among European adults: Evidence from the HBM4EU aligned studies\n45732\nhttps://doi.org/10.1016/j.envint.2025.109383\n\n\nNA\nNA\nNA\n\n\nExposure-effect\nNA\nNA\n\n\nConcurrent Assessment of Phthalates/HEXAMOLL® DINCH Exposure and Wechsler Intelligence Scale for Children Performance in Three European Cohorts of the HBM4EU Aligned Studies\n44820\nhttps://doi.org/10.3390/toxics10090538\n\n\nCross-sectional associations between exposure to per- and polyfluoroalkyl substances and body mass index among European teenagers in the HBM4EU aligned studies\n44867\nhttps://doi.org/10.1016/j.envpol.2022.120566\n\n\nPFAS association with kisspeptin and sex hormones in teenagers of the HBM4EU aligned studies\n45128\nhttps://doi.org/10.1016/j.envpol.2023.122214\n\n\nPFAS and Phthalate/DINCH Exposure in Association with Age at Menarche in Teenagers of the HBM4EU Aligned Studies\n45156\nhttps://doi.org/10.3390/toxics11080711\n\n\nAssociation of exposure to perfluoroalkyl substances (PFAS) and phthalates with thyroid hormones in adolescents from HBM4EU aligned studies\n45157\nhttps://doi.org/10.1016/j.envres.2023.116897\n\n\nCognitive Performance and Exposure to Organophosphate Flame Retardants in Children: Evidence from a Cross-Sectional Analysis of Two European Mother-Child Cohorts\n45223\nhttps://doi.org/10.3390/toxics11110878\n\n\nUrinary phthalate/DINCH metabolites associations with kisspeptin and reproductive hormones in teenagers: A cross-sectional study from the HBM4EU aligned studies\n45397\nhttps://doi.org/10.1016/j.scitotenv.2024.172426\n\n\nUrinary concentrations of phthalate/DINCH metabolites and body mass index among European children and adolescents in the HBM4EU Aligned Studies: A cross-sectional multi-country study\n45507\nhttps://doi.org/10.1016/j.envint.2024.108931\n\n\nAssociations between Urinary Phthalate Metabolites with BDNF and Behavioral Function among European Children from Five HBM4EU Aligned Studies\n45535\nhttps://doi.org/10.3390/toxics12090642\n\n\nAssociation of environmental pollutants with asthma and allergy, and the mediating role of oxidative stress and immune markers in adolescents\n45619\nhttps://doi.org/10.1016/j.envres.2024.120445\n\n\nAdolescent exposure to benzophenone ultraviolet filters: cross-sectional associations with obesity, cardiometabolic biomarkers, and asthma/allergy in six European biomonitoring studies\n45798\nhttps://doi.org/10.1016/j.envres.2025.121912\n\n\nNA\nNA\nNA\n\n\nRisk assessment\nNA\nNA\n\n\nRisk Assessment of Dietary Exposure to Organophosphorus Flame Retardants in Children by Using HBM-Data\n44684\nhttps://doi.org/10.3390/toxics10050234\n\n\nImproving the Risk Assessment of Pesticides through the Integration of Human Biomonitoring and Food Monitoring Data: A Case Study for Chlorpyrifos\n44721\nhttps://doi.org/10.3390/toxics10060313\n\n\nCumulative risk assessment of five phthalates in European children and adolescents\n30-Oct-2022\nhttps://doi.org/10.1016/j.ijheh.2022.114052\n\n\nApproaches to mixture risk assessment of PFASs in the European population based on human hazard and biomonitoring data\n44891\nhttps://doi.org/10.1016/j.ijheh.2022.114071",
+    "crumbs": [
+      "About",
+      "Publications",
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "user-guide/publications/publications.html#hbm4eu-mom-study",
+    "href": "user-guide/publications/publications.html#hbm4eu-mom-study",
+    "title": "Publications",
+    "section": "",
+    "text": "library(readxl)\nlibrary(dplyr)\nlibrary(knitr)\n\nurl &lt;- \"https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx\"\n\ntmp &lt;- tempfile(fileext = \".xlsx\")\ndownload.file(url, tmp, mode = \"wb\")\n\npubl_hbm4eu_mom &lt;- read_excel(tmp, sheet = \"All publications_HBM4EU MoMstud\")\n\npubl_hbm4eu_mom |&gt;\n  knitr::kable()\n\n\n\n\n\n\n\n\n\nPublication title\nDate\nPublication doi\n\n\n\n\nCharacteristics paper\nNA\nNA\n\n\nHBM4EU-MOM: Prenatal methylmercury-exposure control in five countries through suitable dietary advice for pregnancy – Study design and characteristics of participants\n2023-07-01\nhttps://doi.org/10.1016/j.ijheh.2023.114213",
+    "crumbs": [
+      "About",
+      "Publications",
+      "Publications"
     ]
   },
   {
