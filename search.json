@@ -42,6 +42,17 @@
     "text": "Open PEH Data Explorer in a new tab"
   },
   {
+    "objectID": "user-guide/index.html",
+    "href": "user-guide/index.html",
+    "title": "PEH Data Platform - User Guide",
+    "section": "",
+    "text": "In this section you will find detailed guidance on:\nto be constructed",
+    "crumbs": [
+      "About",
+      "PEH Data Platform - User Guide"
+    ]
+  },
+  {
     "objectID": "user-guide/dataproviders/data-requirements.html",
     "href": "user-guide/dataproviders/data-requirements.html",
     "title": "Data requirements",
@@ -198,36 +209,14 @@
     ]
   },
   {
-    "objectID": "user-guide/legal.html",
-    "href": "user-guide/legal.html",
-    "title": "Legal",
+    "objectID": "user-guide/account.html",
+    "href": "user-guide/account.html",
+    "title": "Protocol On the management and use of the Personal Exposure and Health Data Platform",
     "section": "",
-    "text": "to compile",
+    "text": "The Personal Exposure and Health Data Platform (“PEH Data Platform”) has been developed at VITO in order to give access and to share single measurement Personal Exposure and Health data (“PEH data”), most commonly originating from population studies, in the highest possible resolution to researchers and other stakeholders.\nIt is the intention of the Supplying Data Controllers of the data included in this platform, to make the data on this data platform further available to stakeholders according to the terms and conditions of this protocol and the Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (‘GDPR’, General Data Protection Regulation), and allow additional data to be added to it.\nThis Protocol describes the terms and conditions on the data exchange between Supplying and Receiving Data Controllers via PEH Data Platform, the role of the PEH Data Platform Manager, as well as the processing activities performed by the Receiving Data Controller.\nThe can be consulted at doi.org/10.5281/zenodo.19232226\nTo initiate the signature process to sign the Protocol On the management and use of the Personal Exposure and Health Data Platform, send an e-mail to: PEHDataPlatform@vito.be",
     "crumbs": [
       "About",
-      "Legal"
-    ]
-  },
-  {
-    "objectID": "user-guide/legal.html#legal",
-    "href": "user-guide/legal.html#legal",
-    "title": "Legal",
-    "section": "",
-    "text": "to compile",
-    "crumbs": [
-      "About",
-      "Legal"
-    ]
-  },
-  {
-    "objectID": "user-guide/legal.html#peh-protocol-agreement",
-    "href": "user-guide/legal.html#peh-protocol-agreement",
-    "title": "Legal",
-    "section": "PEH Protocol Agreement",
-    "text": "PEH Protocol Agreement\nto compile",
-    "crumbs": [
-      "About",
-      "Legal"
+      "Protocol On the management and use of the Personal Exposure and Health Data Platform"
     ]
   },
   {
@@ -408,6 +397,17 @@
       "About",
       "Data Providers",
       "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/protocol.html",
+    "href": "user-guide/protocol.html",
+    "title": "Protocol On the management and use of the Personal Exposure and Health Data Platform",
+    "section": "",
+    "text": "The Personal Exposure and Health Data Platform (“PEH Data Platform”) has been developed at VITO in order to give access and to share single measurement Personal Exposure and Health data (“PEH data”), most commonly originating from population studies, in the highest possible resolution to researchers and other stakeholders.\nIt is the intention of the Supplying Data Controllers of the data included in this platform, to make the data on this data platform further available to stakeholders according to the terms and conditions of this protocol and the Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (‘GDPR’, General Data Protection Regulation), and allow additional data to be added to it.\nThis Protocol describes the terms and conditions on the data exchange between Supplying and Receiving Data Controllers via PEH Data Platform, the role of the PEH Data Platform Manager, as well as the processing activities performed by the Receiving Data Controller.\nThe can be consulted at doi.org/10.5281/zenodo.19232226\nTo initiate the signature process to sign the Protocol On the management and use of the Personal Exposure and Health Data Platform, send an e-mail to: PEHDataPlatform@vito.be",
+    "crumbs": [
+      "About",
+      "Protocol On the management and use of the Personal Exposure and Health Data Platform"
     ]
   },
   {
