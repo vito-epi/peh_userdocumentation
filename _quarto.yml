@@ -13,9 +13,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: getting-started.qmd
-        text: Getting started
+        text: About
+      #- href: getting-started.qmd
+      #  text: Getting started
       - href: user-guide/index.qmd
         text: User guide
       - href: pehdata_shiny.qmd
@@ -27,10 +27,9 @@ website:
 
   sidebar:
     contents:
-      - user-guide/index.qmd
+      # - user-guide/index.qmd
       - section: "Data Providers"
         contents:
-          # user-guide/index.qmd
           - user-guide/dataproviders/overview.qmd
           - user-guide/dataproviders/data-requirements.qmd
 
