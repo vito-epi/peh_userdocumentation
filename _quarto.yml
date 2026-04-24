@@ -17,7 +17,7 @@ website:
         text: About
       #- href: getting-started.qmd
       #  text: Getting started
-      - href: user-guide/legal.qmd
+      - href: user-guide/index.qmd
         text: User guide
       - href: pehdata_shiny.qmd
         text: PEH Data Explorer
@@ -28,7 +28,9 @@ website:
 
   sidebar:
     contents:
-      - user-guide/legal.qmd
+      - user-guide/index.qmd
+      - user-guide/protocol.qmd
+      - user-guide/account.qmd
       - section: "Data Providers"
         contents:
           - user-guide/dataproviders/overview.qmd
