@@ -2,7 +2,9 @@
 title: "Approved Requests"
 ---
 
-## Approved Data Access Requests
+
+## Approved Data Access Requests"
+
 
 ```{r}
 library(readxl)
@@ -11,8 +13,12 @@ library(knitr)
 
 url <- "https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx"
 
-requests <- read_excel(url, sheet = "Approved requests")
+tmp <- tempfile(fileext = ".xlsx")
+download.file(url, tmp, mode = "wb")
 
-requests |> 
+requests <- read_excel(tmp, sheet = "Approved requests")
+
+requests |>
+  arrange(desc(`Approval date`)) |>
   knitr::kable()
 ```
