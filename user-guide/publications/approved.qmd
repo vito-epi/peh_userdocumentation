@@ -6,7 +6,7 @@ title: "Approved Requests"
 ## Approved Data Access Requests"
 
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(readxl)
 library(dplyr)
 library(knitr)

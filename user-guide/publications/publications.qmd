@@ -11,7 +11,7 @@ available through the PEH Data Platform.
 ## HBM4EU AS studies
 
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(readxl)
 library(dplyr)
 library(knitr)
@@ -30,7 +30,7 @@ publ_hbm4eu_as |>
 
 ## HBM4EU MOM-study
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(readxl)
 library(dplyr)
 library(knitr)
