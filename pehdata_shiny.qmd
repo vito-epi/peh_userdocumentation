@@ -1,69 +1,12 @@
 ---
-# title: "PEH Data"
 toc: false
 sidebar: false
 page-layout: full
 ---
 
-<!-- ## Interactive PEH data explorer -->
-
-<!-- The interactive explorer below allows you to browse PEH codebooks and studies. -->
-<!-- The application runs on a separate Shiny server and is embedded here for convenience. -->
+https://vito-epi.shinyapps.io/peh_data/{target="_blank" rel="noopener noreferrer" .btn .btn-outline-primary}
 
 ```{=html}
-<!-- <style> -->
-<!-- /* Break out of Quarto content width */ -->
-<!-- .peh-embed-wrap { -->
-<!--   width: 100vw; -->
-<!--   margin-left: calc(-50vw + 50%); -->
-
-<!--   /* KEY FIX: avoid calc(100vh - x) */ -->
-<!--   height: 85vh; -->
-<!--   min-height: 900px; -->
-<!-- } -->
-
-<!-- /* iframe fills wrapper */ -->
-<!-- .peh-embed-wrap iframe { -->
-<!--   width: 100%; -->
-<!--   height: 100%; -->
-<!--   border: none; -->
-<!--   display: block; -->
-<!-- } -->
-
-<!-- /* reduce extra vertical padding above/below */ -->
-<!-- main.content { -->
-<!--   padding-bottom: 0; -->
-<!-- } -->
-<!-- </style> -->
-<style>
-.peh-embed-wrap{
-  width:100vw;
-  margin-left:calc(-50vw + 50%);
-  height: 92vh;
-  min-height: 650px;
-}
-.peh-embed-wrap iframe{width:100%;height:100%;border:0;display:block;}
-
-/* Small screens: reduce min-height to avoid forced double scroll */
-@media (max-width: 992px){
-  .peh-embed-wrap{
-    height: 88vh;
-    min-height: 520px;
-  }
-}
-</style>
-
-<div style="margin-bottom: 0.75rem;">
-  <a 
-    href="https://vito-epi.shinyapps.io/peh_data/"
-    target="_blank"
-    rel="noopener"
-    class="btn btn-outline-primary"
-  >
-    Open PEH Data Explorer in a new tab
-  </a>
-</div>
-
 <div class="peh-embed-wrap">
   <iframe
     src="https://vito-epi.shinyapps.io/peh_data/"
@@ -71,3 +14,78 @@ page-layout: full
     loading="lazy"
   ></iframe>
 </div>
+
+
+<!-- --- -->
+<!-- # title: "PEH Data" -->
+<!-- toc: false -->
+<!-- sidebar: false -->
+<!-- page-layout: full -->
+<!-- --- -->
+
+<!-- <!-- ## Interactive PEH data explorer --> -->
+
+<!-- <!-- The interactive explorer below allows you to browse PEH codebooks and studies. --> -->
+<!-- <!-- The application runs on a separate Shiny server and is embedded here for convenience. --> -->
+
+<!-- ```{=html} -->
+<!-- <!-- <style> --> -->
+<!-- <!-- /* Break out of Quarto content width */ --> -->
+<!-- <!-- .peh-embed-wrap { --> -->
+<!-- <!--   width: 100vw; --> -->
+<!-- <!--   margin-left: calc(-50vw + 50%); --> -->
+
+<!-- <!--   /* KEY FIX: avoid calc(100vh - x) */ --> -->
+<!-- <!--   height: 85vh; --> -->
+<!-- <!--   min-height: 900px; --> -->
+<!-- <!-- } --> -->
+
+<!-- <!-- /* iframe fills wrapper */ --> -->
+<!-- <!-- .peh-embed-wrap iframe { --> -->
+<!-- <!--   width: 100%; --> -->
+<!-- <!--   height: 100%; --> -->
+<!-- <!--   border: none; --> -->
+<!-- <!--   display: block; --> -->
+<!-- <!-- } --> -->
+
+<!-- <!-- /* reduce extra vertical padding above/below */ --> -->
+<!-- <!-- main.content { --> -->
+<!-- <!--   padding-bottom: 0; --> -->
+<!-- <!-- } --> -->
+<!-- <!-- </style> --> -->
+<!-- <style> -->
+<!-- .peh-embed-wrap{ -->
+<!--   width:100vw; -->
+<!--   margin-left:calc(-50vw + 50%); -->
+<!--   height: 92vh; -->
+<!--   min-height: 650px; -->
+<!-- } -->
+<!-- .peh-embed-wrap iframe{width:100%;height:100%;border:0;display:block;} -->
+
+<!-- /* Small screens: reduce min-height to avoid forced double scroll */ -->
+<!-- @media (max-width: 992px){ -->
+<!--   .peh-embed-wrap{ -->
+<!--     height: 88vh; -->
+<!--     min-height: 520px; -->
+<!--   } -->
+<!-- } -->
+<!-- </style> -->
+
+<!-- <div style="margin-bottom: 0.75rem;"> -->
+<!--   <a  -->
+<!--     href="https://vito-epi.shinyapps.io/peh_data/" -->
+<!--     target="_blank" -->
+<!--     rel="noopener" -->
+<!--     class="btn btn-outline-primary" -->
+<!--   > -->
+<!--     Open PEH Data Explorer in a new tab -->
+<!--   </a> -->
+<!-- </div> -->
+
+<!-- <div class="peh-embed-wrap"> -->
+<!--   <iframe -->
+<!--     src="https://vito-epi.shinyapps.io/peh_data/" -->
+<!--     title="PEH Data Explorer" -->
+<!--     loading="lazy" -->
+<!--   ></iframe> -->
+<!-- </div> -->
