@@ -1,0 +1,12 @@
+project:
+  type: website
+
+website:
+  title: "PEH Data Platform"
+
+navbar:
+  left:
+    - href: index.qmd
+      text: Home
+    - href: peh_userdocumentation/
+      text: PEH User Documentation

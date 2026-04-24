@@ -5,7 +5,7 @@ project:
 
 website:
   title: "PEH Data Platform – User Guidance"
-  site-url: https://vito-epi.github.io/peh_userdocumentation/
+  # site-url: https://vito-epi.github.io/peh_userdocumentation/
   repo-url: https://github.com/vito-epi/peh_userdocumentation
   # repo-actions: [edit, issue]
   page-navigation: false
