@@ -14,15 +14,16 @@ It explains:
 This information is essential for correct and consistent use of the platform.
 
 ---
-## Data provider codebooks and data templates
+
+## Requirements
 
 The PEH Data Platform assumes that data providers:
 
-- work with **predefined data templates**
-- follow [**agreed codebooks**](downloads/zenodo.19682162) (click to download)
+- work with **predefined templates** (dowload link will follow)
+- follow [**agreed codebooks**](/downloads/10.5281_zenodo.19682162/) (click to download)
 - take responsibility for data correctness and completeness
 
-The platform supports inspection and harmonisation, but does not enforce or modify data.
+The platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.
 
 ---
 
@@ -120,3 +121,4 @@ Project‑specific templates, codebooks and metadata specifications are typicall
 - or through dedicated data coordination teams
 
 Always ensure you are using the **correct and most recent version** of the specifications.
+

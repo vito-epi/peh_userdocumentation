@@ -34,8 +34,7 @@ website:
       - section: "Data Providers"
         contents:
           - user-guide/dataproviders/overview.qmd
-          # - user-guide/dataproviders/data-requirements.qmd
-          - user-guide/dataproviders/codebooks-datatemplates.qmd
+          - user-guide/dataproviders/data-requirements.qmd
       - section: "Data Users"
         contents:
           - user-guide/datausers/overview.qmd
