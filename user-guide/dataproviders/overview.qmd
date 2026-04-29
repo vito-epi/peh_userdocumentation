@@ -2,9 +2,9 @@
 title: "Overview"
 ---
 
-## Purpose of the user guide
+## Purpose 
 
-This user guide describes how to use the **PEH Data Platform** in a correct and responsible way.
+This section describes how to provide data to the **PEH Data Platform**.
 
 It focuses on:
 
@@ -25,22 +25,10 @@ Providing data to the PEH Data Platform typically follows these steps:
 5. The data provider requests a user account to the PEH Data Platform
 6. The data provider runs services in the PEH Data Platform on the filled out data template:
 
-- data validation
-- data enrichment
-- summary statistics
+  - data validation
+  - data enrichment
+  - summary statistics
 7. The data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform
-
-
----
-
-## Inputs
-
-Input data are expected to:
-
-- Follow the provided template format
-- Adhere to the codebook
-
-Deviation from the specification is reported during data validation, but not automatically corrected by the PEH Data Platform.
 
 
 ---

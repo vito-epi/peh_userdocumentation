@@ -8,18 +8,6 @@ Access to **individual-level data** stored in the **Personal Exposure and Health
 
 ---
 
-## Quick overview
-
-To request access to PEH data:
-
-1. **Select studies and variables** in this application  
-2. **Download and complete the annex files**
-3. **Submit the Data Access Request Form**
-
-Access is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.
-
----
-
 ## Who can request access?
 
 Data access requests can be submitted by a **Receiving Data Controller (RDC)** for research projects in the public interest, in line with the objectives of the PEH Data Platform.
@@ -35,7 +23,12 @@ If multiple RDCs are involved in the same research project, and they require **d
 
 ### Step-by-step
 
-1. The RDC submits a **Data Access Request Form** via [Microsoft Forms](https://forms.office.com/e/cvYykd6Q3S).
+1. The RDC submits a **Data Access Request Form** 
+
+  - Via [**Microsoft Forms**](https://forms.office.com/e/cvYykd6Q3S).
+  - Provides the required annexes as instructed in the form. 
+      - Selection of [**studies**](downloads/10.5281_zenodo.19682386/):
+      - Selection of [**variables**](downloads/10.5281_zenodo.19856114/): 
 2. The request is reviewed by the **Data Request Access Committee (DRAC)**, including a data minimisation check.  
    The original data providers (**Supplying Data Controllers – SDCs**) may object to the request.
 3. If approved, access is granted:
@@ -45,10 +38,14 @@ If multiple RDCs are involved in the same research project, and they require **d
      (https://doi.org/10.5281/zenodo.19232226).
 4. Approved data extracts are made available through the PEH Data Platform:  
    https://peh.vito.be/
+   
+
+
+To avoid requesting data for research questions that have already been explored, it is advised to browse the Publications section in this user guide prior to submitting your request. 
 
 ---
 
-## Information required in the request
+## Information required in the Data Access Request Form
 
 The Data Access Request Form collects the following information.
 
@@ -120,29 +117,6 @@ For each variable you request:
 
 ---
 
-
-
-## Submitting your request
-
-1. Complete the **Data Access Request Form** via Microsoft Forms:  
-   👉 https://forms.office.com/e/cvYykd6Q3S
-
-   To prepare your submission, you may optionally download the Data Access Request preparation template [Word document](https://doi.org/10.5281/zenodo.19330313)
-   This document contains the questions from the form and can be used to draft and review your answers before submission.
-
-2. Download and complete the required annex Excel files via this application.
-
-3. Send the completed annex files by e‑mail to:  
-   **PEHDataPlatform@vito.be**
-
-❗ Your request will **not be processed** until the annex files have been received.
-
-
-To avoid requesting data for research questions that have already been explored, 
-you can download an overview of publications based on data available through the PEH platform [here](https://hbm.vito.be/sites/hbm4eu/files/inline_ckeditor_uploads/Overview%20of%20approved%20requests%20and%20resulting%20publications_01102025.xlsx).
-
----
-
 ## Legal and ethical framework
 
 Requests may involve **sensitive personal data**, including health data.  
@@ -154,7 +128,6 @@ All data requests are subject to the
 **Reference**  
 Protocol on the management and use of the Personal Exposure and Health Data Platform.  
 Zenodo. https://doi.org/10.5281/zenodo.19232226
-
 
 
 ---

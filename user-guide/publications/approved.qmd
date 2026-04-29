@@ -3,7 +3,7 @@ title: "Approved Requests"
 ---
 
 
-## Approved Data Access Requests"
+## Approved Data Access Requests
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
