@@ -109,7 +109,7 @@ For each study you request:
 
 ### Annex – Variables
 
-Download the **Annex – Variables** file(s) from the [Codebooks](/downloads/10.5281_zenodo.19682162/)
+Download the **Annex – Variables** file(s) from the [Codebooks](/downloads/10.5281_zenodo.19856114/)
 
 For each variable you request:
 - set **`request_var_1isYes` = 1**

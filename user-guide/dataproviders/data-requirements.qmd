@@ -14,13 +14,12 @@ It explains:
 This information is essential for correct and consistent use of the platform.
 
 ---
-
-## General principles
+## Data provider codebooks and data templates
 
 The PEH Data Platform assumes that data providers:
 
-- work with **predefined templates**
-- follow **agreed codebooks**
+- work with **predefined data templates**
+- follow [**agreed codebooks**](downloads/zenodo.19682162) (click to download)
 - take responsibility for data correctness and completeness
 
 The platform supports inspection and harmonisation, but does not enforce or modify data.

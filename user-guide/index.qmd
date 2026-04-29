@@ -7,4 +7,5 @@ This user guide describes how to use the PEH Data Platform in a correct and resp
 You can navigate to detailed guidance for:
 
 **Data Providers** - Supplying Data Controllers
+
 **Data Users** - Receiving Data Controllers
