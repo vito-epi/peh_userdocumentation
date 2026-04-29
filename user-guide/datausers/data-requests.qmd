@@ -115,19 +115,6 @@ For each variable you request:
 
 ⚠️ Only annex files **generated and completed via the Studies and Codebooks sections of this application** are accepted.
 
----
-
-## Legal and ethical framework
-
-Requests may involve **sensitive personal data**, including health data.  
-All processing must comply with applicable national and EU legal and ethical requirements.
-
-All data requests are subject to the  
-**Protocol on the management and use of the Personal Exposure and Health Data Platform**.
-
-**Reference**  
-Protocol on the management and use of the Personal Exposure and Health Data Platform.  
-Zenodo. https://doi.org/10.5281/zenodo.19232226
 
 
 ---

@@ -19,58 +19,33 @@ This information is essential for correct and consistent use of the platform.
 
 The PEH Data Platform assumes that data providers:
 
-- work with **predefined templates** (dowload link will follow)
+- work with **predefined data templates** (dowload link will follow)
 - follow [**agreed codebooks**](/downloads/10.5281_zenodo.19682162/) (click to download)
 - take responsibility for data correctness and completeness
 
 The platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.
 
 ---
-
-## Templates
-
-### What is a template?
-
-A template defines:
-- the expected structure of the dataset
-- variable names
-- basic formatting rules (e.g. one variable per column)
-
-Templates are typically provided by the project or coordinating body.
-
-### Template expectations
-
-Input data should:
-- match the template structure
-- contain all required variables
-- use consistent naming and formatting
-
-Missing variables or additional, non‑specified variables are reported by the platform.
-
----
-
-## Codebooks
-
-### Role of codebooks
+### Codebooks
 
 Codebooks describe the **meaning and coding** of variables, including:
 - variable definitions
 - allowed values or value domains
 - units and categories where applicable
 
-They form the reference against which input data are inspected.
+They form the reference against which input data are inspected during the data validation in the PEH Data Platform
 
-### Allowed values
+### Data Templates
 
-Where allowed values are specified:
-- the platform checks whether data values fall within the defined domain
-- deviations are flagged, not corrected
+### What is a template?
 
-::: callout-note
-The platform does not harmonise or recode values automatically.
-:::
+A template defines:
+...
 
----
+
+
+Input data should:
+...
 
 ## Relationship between templates and codebooks
 
@@ -83,42 +58,20 @@ Correct use of the PEH Data Platform requires alignment with both.
 
 ---
 
-## Handling deviations
+::: callout-note
+The platform does not harmonise or recode values automatically.
+:::
 
-The following situations may occur:
-
-- missing required variables
-- additional variables not defined in the codebook
-- values outside the allowed domain
-
-In all cases:
-- deviations are reported or summarised
-- data are not altered
-- responsibility remains with the data provider
-
----
-
-## Responsibilities of data providers
 
 ::: callout-important
 Use of the PEH Data Platform does not shift responsibility for data quality.
 
 Data providers remain responsible for:
+
 - correctness of their data
 - alignment with project specifications
 - ethical and regulatory compliance
 :::
 
-The platform is a **supporting tool**, not a validation authority.
-
----
-
-## Where to find specifications
-
-Project‑specific templates, codebooks and metadata specifications are typically provided:
-- via the project repository
-- as supplementary documentation
-- or through dedicated data coordination teams
-
-Always ensure you are using the **correct and most recent version** of the specifications.
+The platform is a **supporting tool**.
 

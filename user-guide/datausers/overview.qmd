@@ -2,27 +2,25 @@
 title: "Overview"
 ---
 
-<!-- # About PEH Data -->
+## Purpose 
 
-<!-- This section provides access to information about the Personal Exposure and Health Data Platform  -->
-<!-- - Guidance on how to Request data from the Personal Exposure and Health Data Platform -->
-<!-- - Studies: information on the available studies in the platform -->
-<!-- - Codebooks: detailed information on collected variables (questionnaire, field work, chemical assessment) -->
+This section describes how to get access to data from the **PEH Data Platform**.
 
-## What you can do
-- Browse and download information on available studies
-- Explore and download codebooks for each study
-- Consult the procedure and documents to request data from the Personal Exposure and Health Data Platform
+It focuses on:
 
-## PEH Data Platform
-The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate 
-the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. 
-The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, 
-in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. 
-The PEH Data Platform supports transparent data governance, ensures data protection and traceability, 
-and provides operational services for data harmonisation, data processing, quality control, and access management.
+- Submission of a **data request**
+- Data extract codebook and format
 
-https://peh.vito.be/
+---
 
-## Contact
-For questions: PEHDataPlatform@vito.be
+## Legal and ethical framework
+
+Requests may involve **sensitive personal data**, including health data.  
+All processing must comply with applicable national and EU legal and ethical requirements.
+
+All data requests are subject to the  
+**Protocol on the management and use of the Personal Exposure and Health Data Platform**.
+
+**Reference**  
+Protocol on the management and use of the Personal Exposure and Health Data Platform.  
+Zenodo. https://doi.org/10.5281/zenodo.19232226
