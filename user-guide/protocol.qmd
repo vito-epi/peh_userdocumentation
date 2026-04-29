@@ -17,5 +17,6 @@ This Protocol describes the terms and conditions on the data exchange between Su
 
 The **Protocol On the management and use of the Personal Exposure and Health Data Platform** can be consulted at [doi.org/10.5281/zenodo.19232226](https://doi.org/10.5281/zenodo.19232226)
 
+Providing data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signature of the [Protocol On the management and use of the Personal Exposure and Health Data Platform](https://vito-epi.github.io/peh_userdocumentation/user-guide/protocol.html)
 
 To initiate the signature process to sign the Protocol On the management and use of the Personal Exposure and Health Data Platform, send an e-mail to: [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
