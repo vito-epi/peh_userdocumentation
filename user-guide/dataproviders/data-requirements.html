@@ -231,21 +231,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#purpose-of-this-page" id="toc-purpose-of-this-page" class="nav-link active" data-scroll-target="#purpose-of-this-page">Purpose of this page</a></li>
-  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
-  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates">Templates</a>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a>
   <ul class="collapse">
+  <li><a href="#codebooks" id="toc-codebooks" class="nav-link" data-scroll-target="#codebooks">Codebooks</a></li>
+  <li><a href="#data-templates" id="toc-data-templates" class="nav-link" data-scroll-target="#data-templates">Data Templates</a></li>
   <li><a href="#what-is-a-template" id="toc-what-is-a-template" class="nav-link" data-scroll-target="#what-is-a-template">What is a template?</a></li>
-  <li><a href="#template-expectations" id="toc-template-expectations" class="nav-link" data-scroll-target="#template-expectations">Template expectations</a></li>
-  </ul></li>
-  <li><a href="#codebooks" id="toc-codebooks" class="nav-link" data-scroll-target="#codebooks">Codebooks</a>
-  <ul class="collapse">
-  <li><a href="#role-of-codebooks" id="toc-role-of-codebooks" class="nav-link" data-scroll-target="#role-of-codebooks">Role of codebooks</a></li>
-  <li><a href="#allowed-values" id="toc-allowed-values" class="nav-link" data-scroll-target="#allowed-values">Allowed values</a></li>
   </ul></li>
   <li><a href="#relationship-between-templates-and-codebooks" id="toc-relationship-between-templates-and-codebooks" class="nav-link" data-scroll-target="#relationship-between-templates-and-codebooks">Relationship between templates and codebooks</a></li>
-  <li><a href="#handling-deviations" id="toc-handling-deviations" class="nav-link" data-scroll-target="#handling-deviations">Handling deviations</a></li>
-  <li><a href="#responsibilities-of-data-providers" id="toc-responsibilities-of-data-providers" class="nav-link" data-scroll-target="#responsibilities-of-data-providers">Responsibilities of data providers</a></li>
-  <li><a href="#where-to-find-specifications" id="toc-where-to-find-specifications" class="nav-link" data-scroll-target="#where-to-find-specifications">Where to find specifications</a></li>
   </ul>
 </nav>
     </div>
@@ -276,43 +268,39 @@ ul.task-list li input[type="checkbox"] {
 <p>This page describes the <strong>data requirements</strong> for using the <strong>PEH Data Platform</strong>.</p>
 <p>It explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled</p>
 <p>This information is essential for correct and consistent use of the platform.</p>
-<hr>
 </section>
 <section id="requirements" class="level2">
 <h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
 <p>The PEH Data Platform assumes that data providers:</p>
 <ul>
-<li>work with <strong>predefined templates</strong> (dowload link will follow)</li>
+<li>work with <strong>predefined data templates</strong> (dowload link will follow)</li>
 <li>follow <a href="../../downloads/10.5281_zenodo.19682162/"><strong>agreed codebooks</strong></a> (click to download)</li>
 <li>take responsibility for data correctness and completeness</li>
 </ul>
 <p>The platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.</p>
-<hr>
+<section id="codebooks" class="level3">
+<h3 class="anchored" data-anchor-id="codebooks">Codebooks</h3>
+<p>Codebooks describe the <strong>meaning and coding</strong> of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable</p>
+<p>They form the reference against which input data are inspected during the data validation in the PEH Data Platform</p>
 </section>
-<section id="templates" class="level2">
-<h2 class="anchored" data-anchor-id="templates">Templates</h2>
+<section id="data-templates" class="level3">
+<h3 class="anchored" data-anchor-id="data-templates">Data Templates</h3>
+</section>
 <section id="what-is-a-template" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-a-template">What is a template?</h3>
-<p>A template defines: - the expected structure of the dataset - variable names - basic formatting rules (e.g.&nbsp;one variable per column)</p>
-<p>Templates are typically provided by the project or coordinating body.</p>
+<p>A template defines:</p>
+<p>Input data should:</p>
 </section>
-<section id="template-expectations" class="level3">
-<h3 class="anchored" data-anchor-id="template-expectations">Template expectations</h3>
-<p>Input data should: - match the template structure - contain all required variables - use consistent naming and formatting</p>
-<p>Missing variables or additional, non‑specified variables are reported by the platform.</p>
+</section>
+<section id="relationship-between-templates-and-codebooks" class="level2">
+<h2 class="anchored" data-anchor-id="relationship-between-templates-and-codebooks">Relationship between templates and codebooks</h2>
+<p>Templates and codebooks are complementary:</p>
+<ul>
+<li><strong>Templates</strong> define <em>structure</em></li>
+<li><strong>Codebooks</strong> define <em>semantics</em></li>
+</ul>
+<p>Correct use of the PEH Data Platform requires alignment with both.</p>
 <hr>
-</section>
-</section>
-<section id="codebooks" class="level2">
-<h2 class="anchored" data-anchor-id="codebooks">Codebooks</h2>
-<section id="role-of-codebooks" class="level3">
-<h3 class="anchored" data-anchor-id="role-of-codebooks">Role of codebooks</h3>
-<p>Codebooks describe the <strong>meaning and coding</strong> of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable</p>
-<p>They form the reference against which input data are inspected.</p>
-</section>
-<section id="allowed-values" class="level3">
-<h3 class="anchored" data-anchor-id="allowed-values">Allowed values</h3>
-<p>Where allowed values are specified: - the platform checks whether data values fall within the defined domain - deviations are flagged, not corrected</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -326,32 +314,6 @@ Note
 <p>The platform does not harmonise or recode values automatically.</p>
 </div>
 </div>
-<hr>
-</section>
-</section>
-<section id="relationship-between-templates-and-codebooks" class="level2">
-<h2 class="anchored" data-anchor-id="relationship-between-templates-and-codebooks">Relationship between templates and codebooks</h2>
-<p>Templates and codebooks are complementary:</p>
-<ul>
-<li><strong>Templates</strong> define <em>structure</em></li>
-<li><strong>Codebooks</strong> define <em>semantics</em></li>
-</ul>
-<p>Correct use of the PEH Data Platform requires alignment with both.</p>
-<hr>
-</section>
-<section id="handling-deviations" class="level2">
-<h2 class="anchored" data-anchor-id="handling-deviations">Handling deviations</h2>
-<p>The following situations may occur:</p>
-<ul>
-<li>missing required variables</li>
-<li>additional variables not defined in the codebook</li>
-<li>values outside the allowed domain</li>
-</ul>
-<p>In all cases: - deviations are reported or summarised - data are not altered - responsibility remains with the data provider</p>
-<hr>
-</section>
-<section id="responsibilities-of-data-providers" class="level2">
-<h2 class="anchored" data-anchor-id="responsibilities-of-data-providers">Responsibilities of data providers</h2>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -363,16 +325,15 @@ Important
 </div>
 <div class="callout-body-container callout-body">
 <p>Use of the PEH Data Platform does not shift responsibility for data quality.</p>
-<p>Data providers remain responsible for: - correctness of their data - alignment with project specifications - ethical and regulatory compliance</p>
+<p>Data providers remain responsible for:</p>
+<ul>
+<li>correctness of their data</li>
+<li>alignment with project specifications</li>
+<li>ethical and regulatory compliance</li>
+</ul>
 </div>
 </div>
-<p>The platform is a <strong>supporting tool</strong>, not a validation authority.</p>
-<hr>
-</section>
-<section id="where-to-find-specifications" class="level2">
-<h2 class="anchored" data-anchor-id="where-to-find-specifications">Where to find specifications</h2>
-<p>Project‑specific templates, codebooks and metadata specifications are typically provided: - via the project repository - as supplementary documentation - or through dedicated data coordination teams</p>
-<p>Always ensure you are using the <strong>correct and most recent version</strong> of the specifications.</p>
+<p>The platform is a <strong>supporting tool</strong>.</p>
 
 
 </section>
