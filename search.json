@@ -290,19 +290,7 @@
     "href": "user-guide/datausers/data-requests.html",
     "title": "Data requests",
     "section": "",
-    "text": "Access to individual-level data stored in the Personal Exposure and Health (PEH) Data Platform is granted on request and subject to approval.\n\n\n\nTo request access to PEH data:\n\nSelect studies and variables in this application\n\nDownload and complete the annex files\nSubmit the Data Access Request Form\n\nAccess is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.\n\n\n\n\nData access requests can be submitted by a Receiving Data Controller (RDC) for research projects in the public interest, in line with the objectives of the PEH Data Platform.\nIf multiple RDCs are involved in the same research project, and they require different subsets of data,\neach RDC must submit a separate request, specifying: - their own research questions, and - the specific data requested.\n\n\n\n\n\n\n\nThe RDC submits a Data Access Request Form via Microsoft Forms.\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/\n\n\n\n\n\n\nThe Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions\n\n\n\n\n\n\nTo complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.\n\n\n\n\n\n\nComplete the Data Access Request Form via Microsoft Forms:\n👉 https://forms.office.com/e/cvYykd6Q3S\nTo prepare your submission, you may optionally download the Data Access Request preparation template Word document This document contains the questions from the form and can be used to draft and review your answers before submission.\nDownload and complete the required annex Excel files via this application.\nSend the completed annex files by e‑mail to:\nPEHDataPlatform@vito.be\n\n❗ Your request will not be processed until the annex files have been received.\nTo avoid requesting data for research questions that have already been explored, you can download an overview of publications based on data available through the PEH platform here.\n\n\n\n\nRequests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226\n\n\n\n\nFor questions regarding data availability or the data access procedure, please contact:\nPEHDataPlatform@vito.be",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#quick-overview",
-    "href": "user-guide/datausers/data-requests.html#quick-overview",
-    "title": "Data requests",
-    "section": "",
-    "text": "To request access to PEH data:\n\nSelect studies and variables in this application\n\nDownload and complete the annex files\nSubmit the Data Access Request Form\n\nAccess is granted only after approval and signature of the Protocol on the management and use of the Personal Exposure and Health Data Platform.",
+    "text": "Access to individual-level data stored in the Personal Exposure and Health (PEH) Data Platform is granted on request and subject to approval.\n\n\n\nData access requests can be submitted by a Receiving Data Controller (RDC) for research projects in the public interest, in line with the objectives of the PEH Data Platform.\nIf multiple RDCs are involved in the same research project, and they require different subsets of data,\neach RDC must submit a separate request, specifying: - their own research questions, and - the specific data requested.\n\n\n\n\n\n\n\nThe RDC submits a Data Access Request Form\n\n\nVia Microsoft Forms.\nProvides the required annexes as instructed in the form.\n\nSelection of studies:\nSelection of variables:\n\n\n\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/\n\nTo avoid requesting data for research questions that have already been explored, it is advised to browse the Publications section in this user guide prior to submitting your request.\n\n\n\n\n\nThe Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions\n\n\n\n\n\n\nTo complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.\n\n\n\n\n\nRequests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226\n\n\n\n\nFor questions regarding data availability or the data access procedure, please contact:\nPEHDataPlatform@vito.be",
     "crumbs": [
       "About",
       "Data Users",
@@ -326,7 +314,7 @@
     "href": "user-guide/datausers/data-requests.html#data-access-procedure",
     "title": "Data requests",
     "section": "",
-    "text": "The RDC submits a Data Access Request Form via Microsoft Forms.\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/",
+    "text": "The RDC submits a Data Access Request Form\n\n\nVia Microsoft Forms.\nProvides the required annexes as instructed in the form.\n\nSelection of studies:\nSelection of variables:\n\n\n\nThe request is reviewed by the Data Request Access Committee (DRAC), including a data minimisation check.\nThe original data providers (Supplying Data Controllers – SDCs) may object to the request.\nIf approved, access is granted:\n\nto the requested subset of PEH data (studies and variables),\nfiltered to studies for which no SDC objection was raised, and\nonly after signature of the Protocol by the RDC\n(https://doi.org/10.5281/zenodo.19232226).\n\nApproved data extracts are made available through the PEH Data Platform:\nhttps://peh.vito.be/\n\nTo avoid requesting data for research questions that have already been explored, it is advised to browse the Publications section in this user guide prior to submitting your request.",
     "crumbs": [
       "About",
       "Data Users",
@@ -334,8 +322,8 @@
     ]
   },
   {
-    "objectID": "user-guide/datausers/data-requests.html#information-required-in-the-request",
-    "href": "user-guide/datausers/data-requests.html#information-required-in-the-request",
+    "objectID": "user-guide/datausers/data-requests.html#information-required-in-the-data-access-request-form",
+    "href": "user-guide/datausers/data-requests.html#information-required-in-the-data-access-request-form",
     "title": "Data requests",
     "section": "",
     "text": "The Data Access Request Form collects the following information.\n\n\n\nMain project name (acronym and full name)\nResearch project title\nDate of submission\n\n\n\n\n\nScientific background\nObjective and specific research questions\n\n\n\n\n\nStudy design\nTarget population\n(e.g. age groups, sex, inclusion/exclusion criteria)\n\n\n\n\n\nRequested datasets and studies\nRequested variables\n\n\n📌 Requested data must be specified using the official annex files generated via this application.\n\n\n\n\n\nStatistical methods and analytical models\nSensitivity or pooled analyses (if applicable)\nRequirements for data comparability\n\n\n\n\n\nExplicit declaration that only data strictly necessary to answer the research questions are requested\n\n\n\n\n\nResponsible person and institution\nContact details\nData analysts and (if applicable) external data processors\nPlanned study start and end dates\nPublication intentions",
@@ -351,18 +339,6 @@
     "title": "Data requests",
     "section": "",
     "text": "To complete a Data Access Request, two annex files are required.\nBoth must be downloaded from this application.\n\n\n\nDownload the Annex – Studies file(s) from Studies.\nFor each study you request: - set request_stud_1isYes = 1\n✅ All studies marked with request_stud_1isYes = 1 are included in the request.\n\n\n\n\nDownload the Annex – Variables file(s) from the Codebooks\nFor each variable you request: - set request_var_1isYes = 1\n✅ All variables marked with request_var_1isYes = 1 are included in the request.\n⚠️ Only annex files generated and completed via the Studies and Codebooks sections of this application are accepted.",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Data requests"
-    ]
-  },
-  {
-    "objectID": "user-guide/datausers/data-requests.html#submitting-your-request",
-    "href": "user-guide/datausers/data-requests.html#submitting-your-request",
-    "title": "Data requests",
-    "section": "",
-    "text": "Complete the Data Access Request Form via Microsoft Forms:\n👉 https://forms.office.com/e/cvYykd6Q3S\nTo prepare your submission, you may optionally download the Data Access Request preparation template Word document This document contains the questions from the form and can be used to draft and review your answers before submission.\nDownload and complete the required annex Excel files via this application.\nSend the completed annex files by e‑mail to:\nPEHDataPlatform@vito.be\n\n❗ Your request will not be processed until the annex files have been received.\nTo avoid requesting data for research questions that have already been explored, you can download an overview of publications based on data available through the PEH platform here.",
     "crumbs": [
       "About",
       "Data Users",
@@ -398,7 +374,7 @@
     "href": "user-guide/dataproviders/overview.html",
     "title": "Overview",
     "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on:\n\nrequired input structures\ndata validation: supported checks and inspections\nknown limitations",
+    "text": "This section describes how to provide data to the PEH Data Platform.\nIt focuses on:\n\nrequired input structures\ndata validation: supported checks and inspections\nknown limitations",
     "crumbs": [
       "About",
       "Data Providers",
@@ -406,11 +382,11 @@
     ]
   },
   {
-    "objectID": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
-    "href": "user-guide/dataproviders/overview.html#purpose-of-the-user-guide",
+    "objectID": "user-guide/dataproviders/overview.html#purpose",
+    "href": "user-guide/dataproviders/overview.html#purpose",
     "title": "Overview",
     "section": "",
-    "text": "This user guide describes how to use the PEH Data Platform in a correct and responsible way.\nIt focuses on:\n\nrequired input structures\ndata validation: supported checks and inspections\nknown limitations",
+    "text": "This section describes how to provide data to the PEH Data Platform.\nIt focuses on:\n\nrequired input structures\ndata validation: supported checks and inspections\nknown limitations",
     "crumbs": [
       "About",
       "Data Providers",
@@ -423,18 +399,6 @@
     "title": "Overview",
     "section": "Conceptual workflow",
     "text": "Conceptual workflow\nProviding data to the PEH Data Platform typically follows these steps:\n\nThe data provider signs the Protocol\nA codebook is prepared together with the data platform manager\nThe data platform build the project configuration in the PEH Data Platform\nThe data provider receives a tailored data template to provide the data\nThe data provider requests a user account to the PEH Data Platform\nThe data provider runs services in the PEH Data Platform on the filled out data template:\n\n\ndata validation\ndata enrichment\nsummary statistics\n\n\nThe data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/overview.html#inputs",
-    "href": "user-guide/dataproviders/overview.html#inputs",
-    "title": "Overview",
-    "section": "Inputs",
-    "text": "Inputs\nInput data are expected to:\n\nFollow the provided template format\nAdhere to the codebook\n\nDeviation from the specification is reported during data validation, but not automatically corrected by the PEH Data Platform.",
     "crumbs": [
       "About",
       "Data Providers",
