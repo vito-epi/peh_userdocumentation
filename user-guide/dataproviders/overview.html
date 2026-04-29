@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../user-guide/account.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Account</span></a>
+ <span class="menu-text">User account</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../user-guide/dataproviders/data-requirements.html" class="sidebar-item-text sidebar-link">
+  <a href="../../user-guide/dataproviders/codebooks-datatemplates.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data requirements</span></a>
   </div>
 </li>
@@ -233,7 +233,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#purpose-of-the-user-guide" id="toc-purpose-of-the-user-guide" class="nav-link active" data-scroll-target="#purpose-of-the-user-guide">Purpose of the user guide</a></li>
   <li><a href="#conceptual-workflow" id="toc-conceptual-workflow" class="nav-link" data-scroll-target="#conceptual-workflow">Conceptual workflow</a></li>
   <li><a href="#inputs" id="toc-inputs" class="nav-link" data-scroll-target="#inputs">Inputs</a></li>
-  <li><a href="#outputs" id="toc-outputs" class="nav-link" data-scroll-target="#outputs">Outputs</a></li>
   <li><a href="#limitations-and-responsibilities" id="toc-limitations-and-responsibilities" class="nav-link" data-scroll-target="#limitations-and-responsibilities">Limitations and responsibilities</a></li>
   </ul>
 </nav>
@@ -263,44 +262,43 @@ ul.task-list li input[type="checkbox"] {
 <section id="purpose-of-the-user-guide" class="level2">
 <h2 class="anchored" data-anchor-id="purpose-of-the-user-guide">Purpose of the user guide</h2>
 <p>This user guide describes how to use the <strong>PEH Data Platform</strong> in a correct and responsible way.</p>
-<p>It focuses on: - required input structures - supported checks and inspections - interpretation of outputs - known limitations</p>
+<p>It focuses on:</p>
+<ul>
+<li>required input structures</li>
+<li>data validation: supported checks and inspections</li>
+<li>known limitations</li>
+</ul>
 <hr>
 </section>
 <section id="conceptual-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="conceptual-workflow">Conceptual workflow</h2>
-<p>Use of the PEH Data Platform typically follows these steps:</p>
+<p>Providing data to the PEH Data Platform typically follows these steps:</p>
 <ol type="1">
-<li>Data are prepared according to an agreed PEH template or codebook<br>
-</li>
-<li>Data are loaded into the platform for inspection<br>
-</li>
-<li>Structure, variables and value domains are reviewed<br>
-</li>
-<li>Outputs are used to support further data curation or reporting</li>
+<li>The data provider signs the Protocol</li>
+<li>A codebook is prepared together with the data platform manager</li>
+<li>The data platform build the project configuration in the PEH Data Platform</li>
+<li>The data provider receives a tailored data template to provide the data</li>
+<li>The data provider requests a user account to the PEH Data Platform</li>
+<li>The data provider runs services in the PEH Data Platform on the filled out data template:</li>
 </ol>
-<p>The platform supports the process, but does not replace expert judgement.</p>
+<ul>
+<li>data validation</li>
+<li>data enrichment</li>
+<li>summary statistics</li>
+</ul>
+<ol start="7" type="1">
+<li>The data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform</li>
+</ol>
 <hr>
 </section>
 <section id="inputs" class="level2">
 <h2 class="anchored" data-anchor-id="inputs">Inputs</h2>
-<p>Input data are expected to be:</p>
+<p>Input data are expected to:</p>
 <ul>
-<li>Structured in tabular form</li>
-<li>Aligned with predefined variable names</li>
-<li>Coded using specified allowed values where applicable</li>
+<li>Follow the provided template format</li>
+<li>Adhere to the codebook</li>
 </ul>
-<p>Deviation from the specification is reported, not automatically corrected.</p>
-<hr>
-</section>
-<section id="outputs" class="level2">
-<h2 class="anchored" data-anchor-id="outputs">Outputs</h2>
-<p>Depending on the configuration, the platform may provide:</p>
-<ul>
-<li>Structured overview tables</li>
-<li>Summaries of variables and value domains</li>
-<li>Diagnostic messages or warnings</li>
-</ul>
-<p>Outputs should always be reviewed in the context of the original data and documentation.</p>
+<p>Deviation from the specification is reported during data validation, but not automatically corrected by the PEH Data Platform.</p>
 <hr>
 </section>
 <section id="limitations-and-responsibilities" class="level2">
