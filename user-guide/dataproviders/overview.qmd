@@ -7,47 +7,41 @@ title: "Overview"
 This user guide describes how to use the **PEH Data Platform** in a correct and responsible way.
 
 It focuses on:
+
 - required input structures
-- supported checks and inspections
-- interpretation of outputs
+- data validation: supported checks and inspections
 - known limitations
 
 ---
 
 ## Conceptual workflow
 
-Use of the PEH Data Platform typically follows these steps:
+Providing data to the PEH Data Platform typically follows these steps:
 
-1. Data are prepared according to an agreed PEH template or codebook  
-2. Data are loaded into the platform for inspection  
-3. Structure, variables and value domains are reviewed  
-4. Outputs are used to support further data curation or reporting  
+1. The data provider signs the Protocol
+2. A codebook is prepared together with the data platform manager
+3. The data platform build the project configuration in the PEH Data Platform
+4. The data provider receives a tailored data template to provide the data
+5. The data provider requests a user account to the PEH Data Platform
+6. The data provider runs services in the PEH Data Platform on the filled out data template:
 
-The platform supports the process, but does not replace expert judgement.
+- data validation
+- data enrichment
+- summary statistics
+7. The data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform
+
 
 ---
 
 ## Inputs
 
-Input data are expected to be:
+Input data are expected to:
 
-- Structured in tabular form
-- Aligned with predefined variable names
-- Coded using specified allowed values where applicable
+- Follow the provided template format
+- Adhere to the codebook
 
-Deviation from the specification is reported, not automatically corrected.
+Deviation from the specification is reported during data validation, but not automatically corrected by the PEH Data Platform.
 
----
-
-## Outputs
-
-Depending on the configuration, the platform may provide:
-
-- Structured overview tables
-- Summaries of variables and value domains
-- Diagnostic messages or warnings
-
-Outputs should always be reviewed in the context of the original data and documentation.
 
 ---
 

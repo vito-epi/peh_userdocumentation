@@ -10,6 +10,7 @@ This user guide is intended for:
 - **Data Users** requesting and using PEH data
 
 Use the navigation on the left to access guidance relevant to your role.
+To browse the available studies and variables in the PEH Data Platform, visit the [PEH Data Explorer](https://vito-epi.shinyapps.io/peh_data/)
 
 
 ## What is the PEH Data Platform
@@ -20,10 +21,10 @@ in accordance with the terms and conditions of this Protocol and all applicable 
 The PEH Data Platform supports transparent data governance, ensures data protection and traceability, 
 and provides operational services for data harmonisation, data processing, quality control, and access management.
 
-https://peh.vito.be/
+[https://peh.vito.be/](https://peh.vito.be/)
 
 ## Contact the PEH Data Platform managers
-For questions: PEHDataPlatform@vito.be
+For questions: [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
 
 ## Citation
 

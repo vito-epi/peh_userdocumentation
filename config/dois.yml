@@ -3,5 +3,7 @@ dois:
     # codebooks
   
   - doi: 10.5281/zenodo.19682386
-    #  studies 
+    #  studies for data request
+  - doi: 10.5281/zenodo.19856114
+    # codebooks for data request
     

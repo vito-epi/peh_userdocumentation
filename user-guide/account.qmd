@@ -1,8 +1,8 @@
 ---
-title: "Account"
+title: "User account"
 ---
 
-# Register for an account
+# Register for a user account
 
 To apply for an account to the PEH Data Platform, go to [https://peh.vito.be/](https://peh.vito.be/) and follow the instructions.
 
