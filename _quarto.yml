@@ -53,6 +53,9 @@ format:
     toc-depth: 3
     number-sections: false
     code-copy: true
+    link-external-newwindow: true
+    link-external-icon: false
+
     # date-modified: true
     # include-after-body: _includes/last-updated.qmd
 
