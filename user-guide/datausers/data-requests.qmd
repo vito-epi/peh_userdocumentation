@@ -26,6 +26,7 @@ If multiple RDCs are involved in the same research project, and they require **d
 1. The RDC submits a **Data Access Request Form** 
 
   - Via [**Microsoft Forms**](https://forms.office.com/e/cvYykd6Q3S).
+      - To preprare for a form submission, you may consult the corresponding word version [here](https://doi.org/10.5281/zenodo.19330313).
   - Provides the required annexes as instructed in the form. 
       - Selection of [**studies**](downloads/10.5281_zenodo.19682386/):
       - Selection of [**variables**](downloads/10.5281_zenodo.19856114/): 
