@@ -81,7 +81,7 @@
     "href": "user-guide/dataproviders/data-requirements.html",
     "title": "Data requirements",
     "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform.",
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains:\n\nwhich data structures are expected\nthe role of templates and codebooks\n\nThis information is essential for correct and consistent use of the platform.",
     "crumbs": [
       "About",
       "Data Providers",
@@ -93,7 +93,7 @@
     "href": "user-guide/dataproviders/data-requirements.html#purpose-of-this-page",
     "title": "Data requirements",
     "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains: - which data structures are expected - the role of templates and codebooks - how deviations from the specification are handled\nThis information is essential for correct and consistent use of the platform.",
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains:\n\nwhich data structures are expected\nthe role of templates and codebooks\n\nThis information is essential for correct and consistent use of the platform.",
     "crumbs": [
       "About",
       "Data Providers",
@@ -105,7 +105,7 @@
     "href": "user-guide/dataproviders/data-requirements.html#requirements",
     "title": "Data requirements",
     "section": "Requirements",
-    "text": "Requirements\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined data templates (dowload link will follow)\nfollow agreed codebooks (click to download)\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.\n\nCodebooks\nCodebooks describe the meaning and coding of variables, including: - variable definitions - allowed values or value domains - units and categories where applicable\nThey form the reference against which input data are inspected during the data validation in the PEH Data Platform\n\n\nData Templates\n\n\nWhat is a template?\nA template defines:\nInput data should:",
+    "text": "Requirements\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined data templates (dowload link will follow)\nfollow agreed codebooks (click to download)\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.\n\nCodebooks\nCodebooks describe the meaning and coding of variables, including:\n\nvariable definitions\nallowed values or value domains\nunits and categories where applicable\n\nThey form the reference against which input data are inspected during the data validation in the PEH Data Platform\n\n\n\n\n\n\nNote\n\n\n\nThe PEH Data platform does not harmonise or recode values automatically.\n\n\n\n\nData Templates\n\n\nWhat is a template?\nA template defines:\nInput data should:",
     "crumbs": [
       "About",
       "Data Providers",
@@ -117,7 +117,7 @@
     "href": "user-guide/dataproviders/data-requirements.html#relationship-between-templates-and-codebooks",
     "title": "Data requirements",
     "section": "Relationship between templates and codebooks",
-    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.\n\n\n\n\n\n\n\nNote\n\n\n\nThe platform does not harmonise or recode values automatically.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for:\n\ncorrectness of their data\nalignment with project specifications\nethical and regulatory compliance\n\n\n\nThe platform is a supporting tool.",
+    "text": "Relationship between templates and codebooks\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.\n\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for:\n\ncorrectness of their data\nalignment with project specifications\nethical and regulatory compliance",
     "crumbs": [
       "About",
       "Data Providers",
