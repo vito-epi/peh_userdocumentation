@@ -7,9 +7,10 @@ title: "Data requirements"
 This page describes the **data requirements** for using the **PEH Data Platform**.
 
 It explains:
+
 - which data structures are expected
 - the role of templates and codebooks
-- how deviations from the specification are handled
+
 
 This information is essential for correct and consistent use of the platform.
 
@@ -29,11 +30,16 @@ The platform supports inspection and harmonisation through data validation servi
 ### Codebooks
 
 Codebooks describe the **meaning and coding** of variables, including:
+
 - variable definitions
 - allowed values or value domains
 - units and categories where applicable
 
 They form the reference against which input data are inspected during the data validation in the PEH Data Platform
+
+::: callout-note
+The PEH Data platform does not harmonise or recode values automatically.
+:::
 
 ### Data Templates
 
@@ -58,11 +64,6 @@ Correct use of the PEH Data Platform requires alignment with both.
 
 ---
 
-::: callout-note
-The platform does not harmonise or recode values automatically.
-:::
-
-
 ::: callout-important
 Use of the PEH Data Platform does not shift responsibility for data quality.
 
@@ -73,5 +74,5 @@ Data providers remain responsible for:
 - ethical and regulatory compliance
 :::
 
-The platform is a **supporting tool**.
+
 
