@@ -9,6 +9,14 @@ website:
   repo-url: https://github.com/vito-epi/peh_userdocumentation
   # repo-actions: [edit, issue]
   page-navigation: false
+  announcement:
+    icon: info-circle
+    dismissable: true
+    type: warning
+    position: below-navbar
+    content: |
+      **Disclaimer** — This website is under continuous development.
+      Content may change and should be considered provisional.
 
 
   navbar:
