@@ -72,7 +72,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -129,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
   <div id="quarto-announcement" data-announcement-id="d86f4ec49f59fb415f3462bce0d05f6b" class="alert alert-warning hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Disclaimer</strong> — This website is under continuous development. Content may change and should be considered provisional.</p>
-</div></div>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -239,31 +238,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#contact-the-peh-data-platform-managers" id="toc-contact-the-peh-data-platform-managers" class="nav-link" data-scroll-target="#contact-the-peh-data-platform-managers">Contact the PEH Data Platform managers</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<div class="callout callout-warning">
-  <div class="callout-header">
-    <div class="callout-icon-container">
-      <i class="callout-icon"></i>
-    </div>
-    <div class="callout-title-container">
-      Disclaimer
-    </div>
-  </div>
-
-  <div class="callout-body">
-    <p>
-      This website is under continuous development.
-      Content may be incomplete or subject to change.
-    </p>
-    <p>
-      The PEH Data Platform User Guidance is provided for informational purposes only
-      and does not constitute legal or regulatory advice.
-    </p>
-  </div>
-</div>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -412,7 +390,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/vito-epi\.github\.io\/peh_userdocumentation\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
