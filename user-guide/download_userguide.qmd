@@ -1,0 +1,16 @@
+---
+title: "Download User Guide"
+---
+
+## Download the User Guide (PDF)
+
+A printable PDF version of the complete **PEH Data Platform – User Guide** is available for download.
+
+👉 📄 [Download the User Guide (PDF)](/user-guide-pdf.pdf)
+
+### About this document
+- This PDF contains the full User Guide, including guidance for:
+  - Data Providers
+  - Data Users
+- The PDF is generated automatically from the online documentation.
+- Content may be updated over time; always refer to the online version for the most recent information.

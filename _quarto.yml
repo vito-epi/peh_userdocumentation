@@ -38,6 +38,8 @@ website:
   sidebar:
     contents:
       - user-guide/index.qmd
+      - text: "Download User Guide (PDF)"
+        href: user-guide/download_userguide.qmd
       - user-guide/protocol.qmd
       - user-guide/account.qmd
       - section: "Data Providers"
