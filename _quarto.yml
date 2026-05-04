@@ -11,10 +11,9 @@ website:
   page-navigation: false
   announcement:
     icon: info-circle
-    dismissable: true
+    dismissable: false
     type: warning
     position: below-navbar
-    dismissable: false
     content: |
       **Disclaimer** — This website is under continuous development.
       Content may change and should be considered provisional.
