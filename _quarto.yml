@@ -14,6 +14,7 @@ website:
     dismissable: true
     type: warning
     position: below-navbar
+    dismissable: false
     content: |
       **Disclaimer** — This website is under continuous development.
       Content may change and should be considered provisional.
@@ -27,6 +28,7 @@ website:
       #  text: Getting started
       - href: user-guide/index.qmd
         text: User guide
+        class: user-guide-nav
       - href: pehdata_shiny.qmd
         text: PEH Data Explorer
     right:
@@ -63,6 +65,7 @@ format:
     code-copy: true
     link-external-newwindow: true
     link-external-icon: false
+    css: styles.css
     include-before-body: _includes/disclaimer.html
   pdf:
     include-before-body: _includes/disclaimer.html
