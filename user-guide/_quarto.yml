@@ -2,6 +2,19 @@ project:
   type: book
   output-dir: ../_site/user-guide
 
+website:
+  navbar:
+    left:
+      - href: ../index.html
+        text: About
+      - href: ../user-guide/index.html
+        text: User guide
+      - href: ../pehdata_shiny.html
+        text: PEH Data Explorer
+    right:
+      - icon: github
+        href: https://github.com/vito-epi/peh_userdocumentation
+
 book:
   title: "PEH Data Platform – User Guide"
 
