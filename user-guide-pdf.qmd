@@ -3,8 +3,8 @@ title: "PEH Data Platform – User Guide"
 format:
   pdf:
     toc: true
-    number-sections: true
-    include-before-body: _includes/disclaimer-pdf.qmd
+    number-sections: false
+
 ---
 
 ```{=markdown}
