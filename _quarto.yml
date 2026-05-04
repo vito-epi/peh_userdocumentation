@@ -63,6 +63,10 @@ format:
     code-copy: true
     link-external-newwindow: true
     link-external-icon: false
+    include-before-body: _includes/disclaimer.qmd
+  pdf:
+    include-before-body: _includes/disclaimer.qmd
+
 
     # date-modified: true
     # include-after-body: _includes/last-updated.qmd
