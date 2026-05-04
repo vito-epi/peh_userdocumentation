@@ -1,5 +1,8 @@
 ---
 title: "Publications"
+format:
+  html: default
+  pdf: false
 ---
 
 ## Overview of publications based on data available through the PEH platform

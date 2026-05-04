@@ -1,5 +1,8 @@
 ---
 title: "Approved Requests"
+format:
+  html: default
+  pdf: false
 ---
 
 
