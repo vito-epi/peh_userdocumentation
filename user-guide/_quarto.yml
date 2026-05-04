@@ -30,6 +30,7 @@ format:
   html:
     theme: cosmo
     toc: true
+    format-links: [pdf]
   pdf:
     toc: true
     number-sections: true

@@ -47,11 +47,18 @@ jobs:
         run: |
           quarto install tinytex
 
-
+      - name: Render User Guide PDF
+        run: |
+          cd user-guide
+          quarto render --to pdf
+          
       - name: Publish to GitHub Pages (gh-pages)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
 
