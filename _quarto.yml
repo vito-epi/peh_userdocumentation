@@ -37,23 +37,32 @@ website:
 
   sidebar:
     contents:
-      - user-guide/index.qmd
+      - text: "User Guide"
+        href: user-guide/index.qmd
       - text: "Download User Guide (PDF)"
         href: user-guide/download_userguide.qmd
-      - user-guide/protocol.qmd
-      - user-guide/account.qmd
+      - text: "Protocol" 
+        href: user-guide/protocol.qmd
+      - text: "User account"
+        href: user-guide/account.qmd
       - section: "Data Providers"
         contents:
-          - user-guide/dataproviders/overview.qmd
-          - user-guide/dataproviders/data-requirements.qmd
+          - text: "Overview"
+            href: user-guide/dataproviders/overview.qmd
+          - text: "Data Requirements"  
+            href: user-guide/dataproviders/data-requirements.qmd
       - section: "Data Users"
         contents:
-          - user-guide/datausers/overview.qmd
-          - user-guide/datausers/data-requests.qmd
+          - text: "Overview"
+            href: user-guide/datausers/overview.qmd
+          - text: "Data Requests"
+            href: user-guide/datausers/data-requests.qmd
       - section: "Publications"
         contents:
-          - user-guide/publications/approved.qmd   
-          - user-guide/publications/publications.qmd   
+          - text: "Approved Data Requests"
+            href: user-guide/publications/approved.qmd   
+          - text: "Publications"
+            href: user-guide/publications/publications.qmd   
 
 
 

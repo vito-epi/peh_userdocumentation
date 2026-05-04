@@ -1,8 +1,4 @@
----
-title: "Data requirements"
----
-
-## Purpose of this page
+# Data requirements
 
 This page describes the **data requirements** for using the **PEH Data Platform**.
 

@@ -1,8 +1,4 @@
----
-title: "Overview"
----
-
-## Purpose 
+# Overview 
 
 This section describes how to get access to data from the **PEH Data Platform**.
 

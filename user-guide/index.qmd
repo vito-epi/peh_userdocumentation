@@ -1,7 +1,3 @@
-# ---
-# title: "User Guide"
-# ---
-
 # User Guide
 
 This user guide describes how to use the PEH Data Platform in a correct and responsible way.
