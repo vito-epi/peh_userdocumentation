@@ -1,11 +1,9 @@
-
 project:
   type: book
   output-dir: ../_site/user-guide
 
 book:
   title: "PEH Data Platform – User Guide"
-  number-sections: false
   downloads: [pdf]
 
   navbar:
@@ -35,18 +33,17 @@ book:
         - datausers/overview.qmd
         - datausers/data-requests.qmd
 
-    # - part: "Publications"
-    #   chapters:
-    #     - publications/approved.qmd
-    #     - publications/publications.qmd
+    - part: "Publications"
+      chapters:
+        - publications/approved.qmd
+        - publications/publications.qmd
 
 format:
   html:
     theme: cosmo
-    number-sections: false
     toc: true
+    number-sections: false    # ✅ geen nummering op website
     format-links: [pdf]
   pdf:
     toc: true
-    number-sections: true
-
+    number-sections: false    # ✅ geen nummering in PDF
