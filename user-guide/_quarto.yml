@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "PEH Data Platform – User Guide"
+
+  chapters:
+    - index.qmd
+    - protocol.qmd
+    - account.qmd
+
+    - part: "Data Providers"
+      chapters:
+        - dataproviders/overview.qmd
+        - dataproviders/data-requirements.qmd
+
+    - part: "Data Users"
+      chapters:
+        - datausers/overview.qmd
+        - datausers/data-requests.qmd
+
+    - part: "Publications"
+      chapters:
+        - publications/approved.qmd
+        - publications/publications.qmd
+
+  downloads: [pdf]
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    toc: true
+    number-sections: true
