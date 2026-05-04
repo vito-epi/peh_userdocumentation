@@ -51,12 +51,11 @@ jobs:
       #   run: |
       #     cd user-guide
       #     quarto render --to pdf
-
       - name: Render Quarto site and User Guide PDF
         run: |
           quarto render
-          cd user-guide
-          quarto render --to pdf
+          quarto render user-guide
+
 
       - name: Publish to GitHub Pages (gh-pages)
         uses: quarto-dev/quarto-actions/publish@v2

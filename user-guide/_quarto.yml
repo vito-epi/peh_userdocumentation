@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: ../_site/user-guide
 
 book:
   title: "PEH Data Platform – User Guide"
