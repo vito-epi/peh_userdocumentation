@@ -3,3 +3,13 @@
   top: 0;
   z-index: 1030;
 }
+
+/* Subtitle disclaimer under User guide nav item */
+.user-guide-nav > a::after {
+  content: "Under development";
+  display: block;
+  font-size: 0.7em;
+  line-height: 1.1;
+  color: #d57c00;           /* warning-like */
+  font-weight: normal;
+}
