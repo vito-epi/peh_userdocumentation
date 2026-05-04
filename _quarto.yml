@@ -11,7 +11,7 @@ website:
   page-navigation: false
   announcement:
     icon: info-circle
-    dismissable: false
+    dismissable: true
     type: warning
     position: below-navbar
     content: |
@@ -63,11 +63,6 @@ format:
     code-copy: true
     link-external-newwindow: true
     link-external-icon: false
-    css: styles.css
-    include-before-body: _includes/disclaimer.html
-  pdf:
-    include-before-body: _includes/disclaimer.html
-
 
     # date-modified: true
     # include-after-body: _includes/last-updated.qmd
