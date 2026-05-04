@@ -2,6 +2,7 @@ project:
   type: website
   resources:
   - downloads/**
+  - user-guide-pdf.pdf
 
 website:
   title: "PEH Data Platform – User Guidance"

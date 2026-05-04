@@ -1,0 +1,19 @@
+---
+title: "PEH Data Platform – User Guide"
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    include-before-body: _includes/disclaimer-pdf.qmd
+---
+
+```{=markdown}
+{{< include user-guide/index.qmd >}}
+{{< include user-guide/protocol.qmd >}}
+{{< include user-guide/account.qmd >}}
+{{< include user-guide/dataproviders/overview.qmd >}}
+{{< include user-guide/dataproviders/data-requirements.qmd >}}
+{{< include user-guide/datausers/overview.qmd >}}
+{{< include user-guide/datausers/data-requests.qmd >}}
+```
+
