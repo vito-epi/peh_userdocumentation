@@ -39,7 +39,7 @@
     "href": "pehdata_shiny.html",
     "title": "PEH Data Platform – User Guidance",
     "section": "",
-    "text": "Open PEH Data Explorer in a new tab"
+    "text": "::: {.callout-warning title=\"Disclaimer\"}\nThis website is under continuous development.  \nContent may be incomplete or subject to change.\n:::\n\n\n\n\nOpen PEH Data Explorer in a new tab"
   },
   {
     "objectID": "user-guide/publications/approved.html",
@@ -70,7 +70,7 @@
     "href": "user-guide/index.html",
     "title": "User Guide",
     "section": "",
-    "text": "Tip\n\n\n\n📄 Download the full User Guide as PDF\n⬇ Download PDF\n\n\nThis user guide describes how to use the PEH Data Platform in a correct and responsible way.\nYou can navigate to detailed guidance for:\nData Providers - Supplying Data Controllers\nData Users - Receiving Data Controllers",
+    "text": "::: {.callout-warning title=\"Disclaimer\"}\nThis website is under continuous development.  \nContent may be incomplete or subject to change.\n:::\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\n📄 Download the full User Guide as PDF\n⬇ Download PDF\n\n\nThis user guide describes how to use the PEH Data Platform in a correct and responsible way.\nYou can navigate to detailed guidance for:\nData Providers - Supplying Data Controllers\nData Users - Receiving Data Controllers",
     "crumbs": [
       "About",
       "User Guide"
