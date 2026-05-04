@@ -27,7 +27,6 @@ website:
       #  text: Getting started
       - href: user-guide/index.qmd
         text: User guide
-        class: user-guide-nav
       - href: pehdata_shiny.qmd
         text: PEH Data Explorer
     right:
