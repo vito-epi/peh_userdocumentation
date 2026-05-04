@@ -2,13 +2,13 @@
 title: "Publications"
 ---
 
-# Overview of publications based on data available through the PEH platform
+## Overview of publications based on data available through the PEH platform
 
 
 This page provides an overview of peer-reviewed publications that made use of data
 available through the PEH Data Platform.
 
-## HBM4EU AS studies
+### HBM4EU AS studies
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -28,7 +28,7 @@ publ_hbm4eu_as |>
   knitr::kable()
 ```
 
-## HBM4EU MOM-study
+### HBM4EU MOM-study
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(readxl)

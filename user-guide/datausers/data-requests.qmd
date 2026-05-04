@@ -2,7 +2,7 @@
 title: "Data requests"
 ---
 
-# Data access request
+## Data access request
 
 Access to **individual-level data** stored in the **Personal Exposure and Health (PEH) Data Platform** is granted on request and subject to approval.
 

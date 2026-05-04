@@ -1,8 +1,12 @@
+
 project:
   type: book
   output-dir: ../_site/user-guide
 
-website:
+book:
+  title: "PEH Data Platform – User Guide"
+  downloads: [pdf]
+
   navbar:
     left:
       - href: ../index.html
@@ -14,9 +18,6 @@ website:
     right:
       - icon: github
         href: https://github.com/vito-epi/peh_userdocumentation
-
-book:
-  title: "PEH Data Platform – User Guide"
 
   chapters:
     - index.qmd
@@ -38,8 +39,6 @@ book:
         - publications/approved.qmd
         - publications/publications.qmd
 
-  downloads: [pdf]
-
 format:
   html:
     theme: cosmo
@@ -48,3 +47,4 @@ format:
   pdf:
     toc: true
     number-sections: true
+
