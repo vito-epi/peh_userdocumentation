@@ -343,12 +343,12 @@
   {
     "objectID": "user-guide/index.html",
     "href": "user-guide/index.html",
-    "title": "User Guide",
+    "title": "—",
     "section": "",
-    "text": "Tip\n\n\n\n📄 Download the full User Guide as PDF\n⬇ Download PDF\n\n\nThis user guide describes how to use the PEH Data Platform in a correct and responsible way.\nYou can navigate to detailed guidance for:\nData Providers - Supplying Data Controllers\nData Users - Receiving Data Controllers",
+    "text": "—\n\n\ntitle: “User Guide”\n\n\n—\n\n\nUser Guide\nThis user guide describes how to use the PEH Data Platform in a correct and responsible way.\nYou can navigate to detailed guidance for:\nData Providers - Supplying Data Controllers\nData Users - Receiving Data Controllers",
     "crumbs": [
       "About",
-      "User Guide"
+      "---"
     ]
   },
   {
