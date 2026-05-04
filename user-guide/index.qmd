@@ -5,7 +5,7 @@ title: "User Guide"
 ::: {.callout-tip}
 📄 **Download the full User Guide as PDF**
 
-[⬇ Download PDF](user-guide.pdf){.btn .btn-primary .btn-lg}
+[⬇ Download PDF](PEH-Data-Platform-–-User-Guide.pdf){.btn .btn-primary .btn-lg}
 :::
 
 This user guide describes how to use the PEH Data Platform in a correct and responsible way.
