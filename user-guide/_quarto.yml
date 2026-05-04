@@ -33,10 +33,10 @@ book:
         - datausers/overview.qmd
         - datausers/data-requests.qmd
 
-    - part: "Publications"
-      chapters:
-        - publications/approved.qmd
-        - publications/publications.qmd
+    # - part: "Publications"
+    #   chapters:
+    #     - publications/approved.qmd
+    #     - publications/publications.qmd
 
 format:
   html:
