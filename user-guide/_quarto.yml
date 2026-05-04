@@ -33,18 +33,22 @@ book:
         - datausers/overview.qmd
         - datausers/data-requests.qmd
 
-    # - part: "Publications"
-    #   chapters:
-    #     - publications/approved.qmd
-    #     - publications/publications.qmd
+    - part: "Publications"
+      chapters:
+        - publications/approved.qmd
+        - publications/publications.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
-    include-before-body: ../_includes/disclaimer.html
-    number-sections: false    # ✅ geen nummering op website
+    number-sections: false
     format-links: [pdf]
+    body-header: |
+      ::: {.callout-warning}
+      **Disclaimer** — This website is under continuous development.  
+      Content may change and should be considered provisional.
+      :::
   pdf:
     toc: true
-    number-sections: false    # ✅ geen nummering in PDF
+    number-sections: false
