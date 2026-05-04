@@ -43,28 +43,10 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install TinyTeX
-        run: |
-          quarto install tinytex
-
-      # - name: Render User Guide PDF
-      #   run: |
-      #     cd user-guide
-      #     quarto render --to pdf
-      - name: Render Quarto site and User Guide PDF
-        run: |
-          quarto render
-          quarto render user-guide
-
-
       - name: Publish to GitHub Pages (gh-pages)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          render: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
 

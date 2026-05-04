@@ -1,4 +1,0 @@
-::: {.callout-warning title="Disclaimer"}
-This website is under continuous development.  
-Content may be incomplete or subject to change.
-:::
