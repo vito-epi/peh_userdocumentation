@@ -63,9 +63,9 @@ format:
     code-copy: true
     link-external-newwindow: true
     link-external-icon: false
-    include-before-body: _includes/disclaimer.qmd
+    include-before-body: _includes/disclaimer.html
   pdf:
-    include-before-body: _includes/disclaimer.qmd
+    include-before-body: _includes/disclaimer.html
 
 
     # date-modified: true
