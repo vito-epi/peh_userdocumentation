@@ -165,7 +165,7 @@ write_workbook_for_df_list <- function(df_list, out_file, sheet_names) {
     addWorksheet(wb, sh)                           # [3](https://rdrr.io/cran/openxlsx/man/addWorksheet.html)
     writeDataTable(wb, sh, df, withFilter = TRUE)  # [4](https://joshuasturm.github.io/openxlsx/reference/writeDataTable.html)
     freezePane(wb, sh, firstRow = TRUE)
-    if (ncol(df) > 0) setColWidths(wb, sh, cols = 1:ncol(df), widths = "auto")
+    # if (ncol(df) > 0) setColWidths(wb, sh, cols = 1:ncol(df), widths = "auto")
   }
   
   saveWorkbook(wb, out_file, overwrite = TRUE)      # [2](https://www.rdocumentation.org/packages/openxlsx/versions/4.2.8.1/topics/saveWorkbook)
