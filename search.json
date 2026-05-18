@@ -1,38 +1,127 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PEH Data Platform – User Guidance",
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting started",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role. To browse the available studies and variables in the PEH Data Platform, visit the PEH Data Explorer"
+    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
   },
   {
-    "objectID": "index.html#who-is-this-guidance-for",
-    "href": "index.html#who-is-this-guidance-for",
-    "title": "PEH Data Platform – User Guidance",
+    "objectID": "getting-started.html#purpose-of-this-page",
+    "href": "getting-started.html#purpose-of-this-page",
+    "title": "Getting started",
     "section": "",
-    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role. To browse the available studies and variables in the PEH Data Platform, visit the PEH Data Explorer"
+    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
   },
   {
-    "objectID": "index.html#what-is-the-peh-data-platform",
-    "href": "index.html#what-is-the-peh-data-platform",
-    "title": "PEH Data Platform – User Guidance",
-    "section": "What is the PEH Data Platform",
-    "text": "What is the PEH Data Platform\nThe Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nhttps://peh.vito.be/"
+    "objectID": "getting-started.html#before-you-begin",
+    "href": "getting-started.html#before-you-begin",
+    "title": "Getting started",
+    "section": "Before you begin",
+    "text": "Before you begin\nTo use the PEH Data Platform, you typically need:\n\nAccess to the platform (web-based or local deployment)\nInput data structured according to the relevant PEH specifications\nThe corresponding codebook or metadata template\n\nNo installation or programming is required."
   },
   {
-    "objectID": "index.html#contact-the-peh-data-platform-managers",
-    "href": "index.html#contact-the-peh-data-platform-managers",
-    "title": "PEH Data Platform – User Guidance",
-    "section": "Contact the PEH Data Platform managers",
-    "text": "Contact the PEH Data Platform managers\nFor questions: PEHDataPlatform@vito.be"
+    "objectID": "getting-started.html#typical-use",
+    "href": "getting-started.html#typical-use",
+    "title": "Getting started",
+    "section": "Typical use",
+    "text": "Typical use\nIn most cases, users will:\n\nPrepare their data following the agreed template\n\nLoad the data into the PEH Data Platform\n\nInspect structure, variables and value domains\n\nExport results or reports for further review\n\nEach of these steps is explained in more detail in the User guide."
   },
   {
-    "objectID": "index.html#citation",
-    "href": "index.html#citation",
-    "title": "PEH Data Platform – User Guidance",
-    "section": "Citation",
-    "text": "Citation\nIf you use the PEH Data Platform in your work, please cite:"
+    "objectID": "getting-started.html#important-boundaries",
+    "href": "getting-started.html#important-boundaries",
+    "title": "Getting started",
+    "section": "Important boundaries",
+    "text": "Important boundaries\n\n\n\n\n\n\nWarning\n\n\n\nThe PEH Data Platform: - does not correct or impute data - does not replace study-specific validation procedures - does not assess scientific validity of the data\n\n\nUsers remain responsible for the correctness and interpretation of their data."
+  },
+  {
+    "objectID": "getting-started.html#next-steps",
+    "href": "getting-started.html#next-steps",
+    "title": "Getting started",
+    "section": "Next steps",
+    "text": "Next steps\nContinue with the User guide for a detailed explanation of inputs, outputs and limitations."
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html",
+    "href": "user-guide/datausers/overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This section describes how to get access to data from the PEH Data Platform.\nIt focuses on:\n\nSubmission of a data request\nData extract codebook and format\n\n\n\n\nRequests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/datausers/overview.html#legal-and-ethical-framework",
+    "href": "user-guide/datausers/overview.html#legal-and-ethical-framework",
+    "title": "Overview",
+    "section": "",
+    "text": "Requests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226",
+    "crumbs": [
+      "About",
+      "Data Users",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html",
+    "href": "user-guide/dataproviders/overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This section describes how to provide data to the PEH Data Platform.\nIt focuses on:\n\nrequired input structures\ndata validation: supported checks and inspections\nknown limitations\n\n\n\n\nProviding data to the PEH Data Platform typically follows these steps:\n\nThe data provider signs the Protocol\nA codebook is prepared together with the data platform manager\nThe data platform build the project configuration in the PEH Data Platform\nThe data provider receives a tailored data template to provide the data\nThe data provider requests a user account to the PEH Data Platform\nThe data provider runs services in the PEH Data Platform on the filled out data template:\n\n\ndata validation\ndata enrichment\nsummary statistics\n\n\nThe data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#conceptual-workflow",
+    "href": "user-guide/dataproviders/overview.html#conceptual-workflow",
+    "title": "Overview",
+    "section": "",
+    "text": "Providing data to the PEH Data Platform typically follows these steps:\n\nThe data provider signs the Protocol\nA codebook is prepared together with the data platform manager\nThe data platform build the project configuration in the PEH Data Platform\nThe data provider receives a tailored data template to provide the data\nThe data provider requests a user account to the PEH Data Platform\nThe data provider runs services in the PEH Data Platform on the filled out data template:\n\n\ndata validation\ndata enrichment\nsummary statistics\n\n\nThe data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
+    "href": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
+    "title": "Overview",
+    "section": "",
+    "text": "Important\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "crumbs": [
+      "About",
+      "Data Providers",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/account.html",
+    "href": "user-guide/account.html",
+    "title": "Register for a user account",
+    "section": "",
+    "text": "Register for a user account\nTo apply for an account to the PEH Data Platform, go to https://peh.vito.be/ and follow the instructions.\nImportant note:\nProviding data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signature of the Protocol On the management and use of the Personal Exposure and Health Data Platform",
+    "crumbs": [
+      "About",
+      "User account"
+    ]
+  },
+  {
+    "objectID": "user-guide/index.html",
+    "href": "user-guide/index.html",
+    "title": "User Guide",
+    "section": "",
+    "text": "User Guide\nThis user guide describes how to use the PEH Data Platform in a correct and responsible way.\nYou can navigate to detailed guidance for:\nData Providers - Supplying Data Controllers\nData Users - Receiving Data Controllers\nTo get in touch with the PEH Data Platform Helpdesk - Fill out this form",
+    "crumbs": [
+      "About",
+      "User Guide"
+    ]
   },
   {
     "objectID": "user-guide/publications/publications.html",
@@ -71,6 +160,40 @@
     ]
   },
   {
+    "objectID": "user-guide/download_userguide.html",
+    "href": "user-guide/download_userguide.html",
+    "title": "Download User Guide",
+    "section": "",
+    "text": "A printable PDF version of the complete PEH Data Platform – User Guide is available for download.\n👉 📄 Download the User Guide (PDF)\n\n\n\nThis PDF contains the full User Guide, including guidance for:\n\nData Providers\nData Users\n\nThe PDF is generated automatically from the online documentation.\nContent may be updated over time; always refer to the online version for the most recent information.",
+    "crumbs": [
+      "About",
+      "Download User Guide (PDF)"
+    ]
+  },
+  {
+    "objectID": "user-guide/download_userguide.html#download-the-user-guide-pdf",
+    "href": "user-guide/download_userguide.html#download-the-user-guide-pdf",
+    "title": "Download User Guide",
+    "section": "",
+    "text": "A printable PDF version of the complete PEH Data Platform – User Guide is available for download.\n👉 📄 Download the User Guide (PDF)\n\n\n\nThis PDF contains the full User Guide, including guidance for:\n\nData Providers\nData Users\n\nThe PDF is generated automatically from the online documentation.\nContent may be updated over time; always refer to the online version for the most recent information.",
+    "crumbs": [
+      "About",
+      "Download User Guide (PDF)"
+    ]
+  },
+  {
+    "objectID": "user-guide/publications/approved.html",
+    "href": "user-guide/publications/approved.html",
+    "title": "Approved Data Access Requests",
+    "section": "",
+    "text": "Approved Data Access Requests\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRequest number\nTitle of request\nInstitution of submitter\nCountry of submitter\nResulting publication title\nDate\nResulting publication doi\n\n\n\n\nPEH_2023_01\nAssociation between PFAS, phthalates/DINCH with Metabolic hormones, kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_02\nAssociation between Arsenic, Metabolic hormones & kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_03\nAssociation between exposure to acrylamide and the neurological biomarker BDNF\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_04\nAssociation between exposure to acrylamide and metabolism\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_05\nAssociation between UV filters, acrylamide and non-persistent pesticides and body mass index among adult population\nINRAE\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_06\nAssociation between pesticide exposure and asthma and allergies in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_07\nAssociation between pesticide exposure and body mass index (BMI) in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_08\nAssociation between arsenic exposure and reproductive hormones and sexual maturation\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_09\nAssociation between Cadmium with metabolism focusing on BMI in young adults\nAU-PH\nDenmark\nNA\nNA\nNA\n\n\nPEH_2023_10\nAssociations of PAHs with BMI\nAUTH\nGreece\nNA\nNA\nNA\n\n\nPEH_2023_11\nAssociations between mycotoxins exposure (DON) and body mass index in adults\nSpF\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_13\nMaster’s Thesis: Applying robust regression to assess exposure to bisphenols in the European population\nINSA\nPortugal\nNA\nNA\nNA\n\n\nPEH_2023_14\nAssociation between UV filters, with metabolic and asthma/allergy alterations in teenagers\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_15\nAssociation between Bisphenols and BMI in adults from HBM4EU Aligned studies\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_16\nEpigenetic changes in relation to PFAS, phthalates, DINCH, and arsenic in the association between exposure and cardiovascular and endocrine effects\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_17\nAssociation of Arsenic, PFAS, Phthalates, and UV-filters on the neurological pathway: serum BDNF and thyroid hormones\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_18\nAssociation of UV-filters on kisspeptin and reproductive markers\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_19\nDerivation of European exposure values of internal exposure to environmental pollutants using human biomonitoring data – Method development\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2024_01\nCase study 7.3.2 Assessment of uncertainty in PBK models of PFAS exposure in humans and reverse dosimetry\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_02\nSpatial determinants of PAHs exposure in European population\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_03\nSpatial determinants of pesticide exposure\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_04\nFeasibility study to evaluate occupational exposure in general surveys\nTTL\nFinland\nNA\nNA\nNA\n\n\nPEH_2025_01\nPARC activity T4.1.4.1 on data management of HBM data\nVITO\nBelgium\nNA\nNA\nNA",
+    "crumbs": [
+      "About",
+      "Publications",
+      "Approved Data Requests"
+    ]
+  },
+  {
     "objectID": "user-guide/protocol.html",
     "href": "user-guide/protocol.html",
     "title": "Protocol On the management and use of the Personal Exposure and Health Data Platform",
@@ -82,39 +205,39 @@
     ]
   },
   {
-    "objectID": "user-guide/dataproviders/overview.html",
-    "href": "user-guide/dataproviders/overview.html",
-    "title": "Overview",
+    "objectID": "user-guide/dataproviders/data-requirements.html",
+    "href": "user-guide/dataproviders/data-requirements.html",
+    "title": "Data requirements",
     "section": "",
-    "text": "This section describes how to provide data to the PEH Data Platform.\nIt focuses on:\n\nrequired input structures\ndata validation: supported checks and inspections\nknown limitations\n\n\n\n\nProviding data to the PEH Data Platform typically follows these steps:\n\nThe data provider signs the Protocol\nA codebook is prepared together with the data platform manager\nThe data platform build the project configuration in the PEH Data Platform\nThe data provider receives a tailored data template to provide the data\nThe data provider requests a user account to the PEH Data Platform\nThe data provider runs services in the PEH Data Platform on the filled out data template:\n\n\ndata validation\ndata enrichment\nsummary statistics\n\n\nThe data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains:\n\nwhich data structures are expected\nthe role of templates and codebooks\n\nThis information is essential for correct and consistent use of the platform.\n\n\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined data templates (dowload link will follow)\nfollow agreed codebooks (click to download)\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.\n\n\nCodebooks describe the meaning and coding of variables, including:\n\nvariable definitions\nallowed values or value domains\nunits and categories where applicable\n\nThey form the reference against which input data are inspected during the data validation in the PEH Data Platform\n\n\n\n\n\n\nNote\n\n\n\nThe PEH Data platform does not harmonise or recode values automatically.\n\n\n\n\n\n\n\n\nA template defines:\nInput data should:\n\n\n\n\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.\n\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for:\n\ncorrectness of their data\nalignment with project specifications\nethical and regulatory compliance",
     "crumbs": [
       "About",
       "Data Providers",
-      "Overview"
+      "Data Requirements"
     ]
   },
   {
-    "objectID": "user-guide/dataproviders/overview.html#conceptual-workflow",
-    "href": "user-guide/dataproviders/overview.html#conceptual-workflow",
-    "title": "Overview",
+    "objectID": "user-guide/dataproviders/data-requirements.html#requirements",
+    "href": "user-guide/dataproviders/data-requirements.html#requirements",
+    "title": "Data requirements",
     "section": "",
-    "text": "Providing data to the PEH Data Platform typically follows these steps:\n\nThe data provider signs the Protocol\nA codebook is prepared together with the data platform manager\nThe data platform build the project configuration in the PEH Data Platform\nThe data provider receives a tailored data template to provide the data\nThe data provider requests a user account to the PEH Data Platform\nThe data provider runs services in the PEH Data Platform on the filled out data template:\n\n\ndata validation\ndata enrichment\nsummary statistics\n\n\nThe data provider inspects the outputs and upon approval, proceeds to data upload to the PEH Data Platform",
+    "text": "The PEH Data Platform assumes that data providers:\n\nwork with predefined data templates (dowload link will follow)\nfollow agreed codebooks (click to download)\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.\n\n\nCodebooks describe the meaning and coding of variables, including:\n\nvariable definitions\nallowed values or value domains\nunits and categories where applicable\n\nThey form the reference against which input data are inspected during the data validation in the PEH Data Platform\n\n\n\n\n\n\nNote\n\n\n\nThe PEH Data platform does not harmonise or recode values automatically.\n\n\n\n\n\n\n\n\nA template defines:\nInput data should:",
     "crumbs": [
       "About",
       "Data Providers",
-      "Overview"
+      "Data Requirements"
     ]
   },
   {
-    "objectID": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
-    "href": "user-guide/dataproviders/overview.html#limitations-and-responsibilities",
-    "title": "Overview",
+    "objectID": "user-guide/dataproviders/data-requirements.html#relationship-between-templates-and-codebooks",
+    "href": "user-guide/dataproviders/data-requirements.html#relationship-between-templates-and-codebooks",
+    "title": "Data requirements",
     "section": "",
-    "text": "Important\n\n\n\nThe PEH Data Platform is a supporting tool.\nIt does not: - guarantee regulatory or ethical compliance - detect conceptual errors in study design - replace formal data submission checks\n\n\nResponsibility for data quality remains with the data provider.",
+    "text": "Templates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.\n\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for:\n\ncorrectness of their data\nalignment with project specifications\nethical and regulatory compliance",
     "crumbs": [
       "About",
       "Data Providers",
-      "Overview"
+      "Data Requirements"
     ]
   },
   {
@@ -190,120 +313,39 @@
     ]
   },
   {
-    "objectID": "user-guide/account.html",
-    "href": "user-guide/account.html",
-    "title": "Register for a user account",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PEH Data Platform – User Guidance",
     "section": "",
-    "text": "Register for a user account\nTo apply for an account to the PEH Data Platform, go to https://peh.vito.be/ and follow the instructions.\nImportant note:\nProviding data to the PEH Data Platform and getting access to data from the PEH Data Platform is only possible upon signature of the Protocol On the management and use of the Personal Exposure and Health Data Platform",
-    "crumbs": [
-      "About",
-      "User account"
-    ]
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role. To browse the available studies and variables in the PEH Data Platform, visit the PEH Data Explorer"
   },
   {
-    "objectID": "user-guide/download_userguide.html",
-    "href": "user-guide/download_userguide.html",
-    "title": "Download User Guide",
+    "objectID": "index.html#who-is-this-guidance-for",
+    "href": "index.html#who-is-this-guidance-for",
+    "title": "PEH Data Platform – User Guidance",
     "section": "",
-    "text": "A printable PDF version of the complete PEH Data Platform – User Guide is available for download.\n👉 📄 Download the User Guide (PDF)\n\n\n\nThis PDF contains the full User Guide, including guidance for:\n\nData Providers\nData Users\n\nThe PDF is generated automatically from the online documentation.\nContent may be updated over time; always refer to the online version for the most recent information.",
-    "crumbs": [
-      "About",
-      "Download User Guide (PDF)"
-    ]
+    "text": "This user guide is intended for:\n\nData Providers contributing data to the PEH Data Platform\nData Users requesting and using PEH data\n\nUse the navigation on the left to access guidance relevant to your role. To browse the available studies and variables in the PEH Data Platform, visit the PEH Data Explorer"
   },
   {
-    "objectID": "user-guide/download_userguide.html#download-the-user-guide-pdf",
-    "href": "user-guide/download_userguide.html#download-the-user-guide-pdf",
-    "title": "Download User Guide",
-    "section": "",
-    "text": "A printable PDF version of the complete PEH Data Platform – User Guide is available for download.\n👉 📄 Download the User Guide (PDF)\n\n\n\nThis PDF contains the full User Guide, including guidance for:\n\nData Providers\nData Users\n\nThe PDF is generated automatically from the online documentation.\nContent may be updated over time; always refer to the online version for the most recent information.",
-    "crumbs": [
-      "About",
-      "Download User Guide (PDF)"
-    ]
+    "objectID": "index.html#what-is-the-peh-data-platform",
+    "href": "index.html#what-is-the-peh-data-platform",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "What is the PEH Data Platform",
+    "text": "What is the PEH Data Platform\nThe Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nhttps://peh.vito.be/"
   },
   {
-    "objectID": "user-guide/datausers/overview.html",
-    "href": "user-guide/datausers/overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "This section describes how to get access to data from the PEH Data Platform.\nIt focuses on:\n\nSubmission of a data request\nData extract codebook and format\n\n\n\n\nRequests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Overview"
-    ]
+    "objectID": "index.html#contact-the-peh-data-platform-managers",
+    "href": "index.html#contact-the-peh-data-platform-managers",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "Contact the PEH Data Platform managers",
+    "text": "Contact the PEH Data Platform managers\nTo get in touch with the PEH Data Platform Helpdesk - Fill out this form\nFor any other questions, contact: PEHDataPlatform@vito.be"
   },
   {
-    "objectID": "user-guide/datausers/overview.html#legal-and-ethical-framework",
-    "href": "user-guide/datausers/overview.html#legal-and-ethical-framework",
-    "title": "Overview",
-    "section": "",
-    "text": "Requests may involve sensitive personal data, including health data.\nAll processing must comply with applicable national and EU legal and ethical requirements.\nAll data requests are subject to the\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nReference\nProtocol on the management and use of the Personal Exposure and Health Data Platform.\nZenodo. https://doi.org/10.5281/zenodo.19232226",
-    "crumbs": [
-      "About",
-      "Data Users",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/data-requirements.html",
-    "href": "user-guide/dataproviders/data-requirements.html",
-    "title": "Data requirements",
-    "section": "",
-    "text": "This page describes the data requirements for using the PEH Data Platform.\nIt explains:\n\nwhich data structures are expected\nthe role of templates and codebooks\n\nThis information is essential for correct and consistent use of the platform.\n\n\nThe PEH Data Platform assumes that data providers:\n\nwork with predefined data templates (dowload link will follow)\nfollow agreed codebooks (click to download)\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.\n\n\nCodebooks describe the meaning and coding of variables, including:\n\nvariable definitions\nallowed values or value domains\nunits and categories where applicable\n\nThey form the reference against which input data are inspected during the data validation in the PEH Data Platform\n\n\n\n\n\n\nNote\n\n\n\nThe PEH Data platform does not harmonise or recode values automatically.\n\n\n\n\n\n\n\n\nA template defines:\nInput data should:\n\n\n\n\nTemplates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.\n\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for:\n\ncorrectness of their data\nalignment with project specifications\nethical and regulatory compliance",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Data Requirements"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/data-requirements.html#requirements",
-    "href": "user-guide/dataproviders/data-requirements.html#requirements",
-    "title": "Data requirements",
-    "section": "",
-    "text": "The PEH Data Platform assumes that data providers:\n\nwork with predefined data templates (dowload link will follow)\nfollow agreed codebooks (click to download)\ntake responsibility for data correctness and completeness\n\nThe platform supports inspection and harmonisation through data validation services, but does not enforce or modify data.\n\n\nCodebooks describe the meaning and coding of variables, including:\n\nvariable definitions\nallowed values or value domains\nunits and categories where applicable\n\nThey form the reference against which input data are inspected during the data validation in the PEH Data Platform\n\n\n\n\n\n\nNote\n\n\n\nThe PEH Data platform does not harmonise or recode values automatically.\n\n\n\n\n\n\n\n\nA template defines:\nInput data should:",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Data Requirements"
-    ]
-  },
-  {
-    "objectID": "user-guide/dataproviders/data-requirements.html#relationship-between-templates-and-codebooks",
-    "href": "user-guide/dataproviders/data-requirements.html#relationship-between-templates-and-codebooks",
-    "title": "Data requirements",
-    "section": "",
-    "text": "Templates and codebooks are complementary:\n\nTemplates define structure\nCodebooks define semantics\n\nCorrect use of the PEH Data Platform requires alignment with both.\n\n\n\n\n\n\n\nImportant\n\n\n\nUse of the PEH Data Platform does not shift responsibility for data quality.\nData providers remain responsible for:\n\ncorrectness of their data\nalignment with project specifications\nethical and regulatory compliance",
-    "crumbs": [
-      "About",
-      "Data Providers",
-      "Data Requirements"
-    ]
-  },
-  {
-    "objectID": "user-guide/index.html",
-    "href": "user-guide/index.html",
-    "title": "User Guide",
-    "section": "",
-    "text": "User Guide\nThis user guide describes how to use the PEH Data Platform in a correct and responsible way.\nYou can navigate to detailed guidance for:\nData Providers - Supplying Data Controllers\nData Users - Receiving Data Controllers",
-    "crumbs": [
-      "About",
-      "User Guide"
-    ]
-  },
-  {
-    "objectID": "user-guide/publications/approved.html",
-    "href": "user-guide/publications/approved.html",
-    "title": "Approved Data Access Requests",
-    "section": "",
-    "text": "Approved Data Access Requests\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRequest number\nTitle of request\nInstitution of submitter\nCountry of submitter\nResulting publication title\nDate\nResulting publication doi\n\n\n\n\nPEH_2023_01\nAssociation between PFAS, phthalates/DINCH with Metabolic hormones, kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_02\nAssociation between Arsenic, Metabolic hormones & kisspeptin, and metabolic health outcomes\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_03\nAssociation between exposure to acrylamide and the neurological biomarker BDNF\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_04\nAssociation between exposure to acrylamide and metabolism\nNIPH\nNorway\nNA\nNA\nNA\n\n\nPEH_2023_05\nAssociation between UV filters, acrylamide and non-persistent pesticides and body mass index among adult population\nINRAE\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_06\nAssociation between pesticide exposure and asthma and allergies in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_07\nAssociation between pesticide exposure and body mass index (BMI) in children\nEASP\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_08\nAssociation between arsenic exposure and reproductive hormones and sexual maturation\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_09\nAssociation between Cadmium with metabolism focusing on BMI in young adults\nAU-PH\nDenmark\nNA\nNA\nNA\n\n\nPEH_2023_10\nAssociations of PAHs with BMI\nAUTH\nGreece\nNA\nNA\nNA\n\n\nPEH_2023_11\nAssociations between mycotoxins exposure (DON) and body mass index in adults\nSpF\nFrance\nNA\nNA\nNA\n\n\nPEH_2023_13\nMaster’s Thesis: Applying robust regression to assess exposure to bisphenols in the European population\nINSA\nPortugal\nNA\nNA\nNA\n\n\nPEH_2023_14\nAssociation between UV filters, with metabolic and asthma/allergy alterations in teenagers\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_15\nAssociation between Bisphenols and BMI in adults from HBM4EU Aligned studies\nUGR\nSpain\nNA\nNA\nNA\n\n\nPEH_2023_16\nEpigenetic changes in relation to PFAS, phthalates, DINCH, and arsenic in the association between exposure and cardiovascular and endocrine effects\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_17\nAssociation of Arsenic, PFAS, Phthalates, and UV-filters on the neurological pathway: serum BDNF and thyroid hormones\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_18\nAssociation of UV-filters on kisspeptin and reproductive markers\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2023_19\nDerivation of European exposure values of internal exposure to environmental pollutants using human biomonitoring data – Method development\nVITO\nBelgium\nNA\nNA\nNA\n\n\nPEH_2024_01\nCase study 7.3.2 Assessment of uncertainty in PBK models of PFAS exposure in humans and reverse dosimetry\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_02\nSpatial determinants of PAHs exposure in European population\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_03\nSpatial determinants of pesticide exposure\nMU\nCzech Republic\nNA\nNA\nNA\n\n\nPEH_2024_04\nFeasibility study to evaluate occupational exposure in general surveys\nTTL\nFinland\nNA\nNA\nNA\n\n\nPEH_2025_01\nPARC activity T4.1.4.1 on data management of HBM data\nVITO\nBelgium\nNA\nNA\nNA",
-    "crumbs": [
-      "About",
-      "Publications",
-      "Approved Data Requests"
-    ]
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "PEH Data Platform – User Guidance",
+    "section": "Citation",
+    "text": "Citation\nIf you use the PEH Data Platform in your work, please cite:"
   },
   {
     "objectID": "pehdata_shiny.html",
@@ -311,47 +353,5 @@
     "title": "PEH Data Platform – User Guidance",
     "section": "",
     "text": "Open PEH Data Explorer in a new tab"
-  },
-  {
-    "objectID": "getting-started.html",
-    "href": "getting-started.html",
-    "title": "Getting started",
-    "section": "",
-    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
-  },
-  {
-    "objectID": "getting-started.html#purpose-of-this-page",
-    "href": "getting-started.html#purpose-of-this-page",
-    "title": "Getting started",
-    "section": "",
-    "text": "This page explains what you need in order to start using the PEH Data Platform and what the platform is (and is not) intended to do."
-  },
-  {
-    "objectID": "getting-started.html#before-you-begin",
-    "href": "getting-started.html#before-you-begin",
-    "title": "Getting started",
-    "section": "Before you begin",
-    "text": "Before you begin\nTo use the PEH Data Platform, you typically need:\n\nAccess to the platform (web-based or local deployment)\nInput data structured according to the relevant PEH specifications\nThe corresponding codebook or metadata template\n\nNo installation or programming is required."
-  },
-  {
-    "objectID": "getting-started.html#typical-use",
-    "href": "getting-started.html#typical-use",
-    "title": "Getting started",
-    "section": "Typical use",
-    "text": "Typical use\nIn most cases, users will:\n\nPrepare their data following the agreed template\n\nLoad the data into the PEH Data Platform\n\nInspect structure, variables and value domains\n\nExport results or reports for further review\n\nEach of these steps is explained in more detail in the User guide."
-  },
-  {
-    "objectID": "getting-started.html#important-boundaries",
-    "href": "getting-started.html#important-boundaries",
-    "title": "Getting started",
-    "section": "Important boundaries",
-    "text": "Important boundaries\n\n\n\n\n\n\nWarning\n\n\n\nThe PEH Data Platform: - does not correct or impute data - does not replace study-specific validation procedures - does not assess scientific validity of the data\n\n\nUsers remain responsible for the correctness and interpretation of their data."
-  },
-  {
-    "objectID": "getting-started.html#next-steps",
-    "href": "getting-started.html#next-steps",
-    "title": "Getting started",
-    "section": "Next steps",
-    "text": "Next steps\nContinue with the User guide for a detailed explanation of inputs, outputs and limitations."
   }
 ]
