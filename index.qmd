@@ -24,7 +24,9 @@ and provides operational services for data harmonisation, data processing, quali
 [https://peh.vito.be/](https://peh.vito.be/)
 
 ## Contact the PEH Data Platform managers
-For questions: [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
+To get in touch with the PEH Data Platform **Helpdesk** - Fill out this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=7XcnnjeCuUqSeCwUTW9tow88rLVQv5BJvS2rDgi63xtUQjVWWkFBR09VTFdWVjNDQ081REZEQ0EzSyQlQCN0PWcu)
+
+For any other questions, contact: [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
 
 ## Citation
 
