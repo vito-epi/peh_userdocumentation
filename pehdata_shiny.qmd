@@ -4,7 +4,7 @@ sidebar: false
 page-layout: full
 ---
 
-[Open PEH Data Explorer in a new tab](https://vito-epi.shinyapps.io/peh_data/){target="_blank" rel="noopener noreferrer" .btn .btn-outline-primary}
+[Open PEH Data Explorer in a new tab](https://vito-epi-peh-data.share.connect.posit.cloud/){target="_blank" rel="noopener noreferrer" .btn .btn-outline-primary}
 
 <!-- ```{=html} -->
 <!-- <div class="peh-embed-wrap"> -->
